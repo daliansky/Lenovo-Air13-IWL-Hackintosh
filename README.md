@@ -21,14 +21,14 @@
 
 ## 完善驱动
 
-1. 声卡：型号为ALC236，注入ID：2，使用AppleALC仿冒，顺利加载；修正HDMI Audio输出信息；安装完系统后请安装[ALCPlugFix_for_ALC_node12_19](https://github.com/daliansky/Lenovo-Air13-IWL/tree/master/ALCPlugFix_for_ALC_node12_19)` 声卡守护进程，耳麦工作正常；
-2. 网卡：REALTEK 10EC:B822的无线网卡截止到目前还是无解，更换为DW1560/DW1830；
-3. 显卡：Intel HD Graphics 500，Whiskey Lake平台目前还没有驱动程序，使用Coffee Lake仿冒驱动，Platform-id为：0x3e9b0009，添加DVMT补丁；采用Devices-Properties方法注入；核显版外接HDMI显示器工作正常；睡眠唤醒正常；
+1. 声卡：型号为ALC236，注入ID：2，使用AppleALC仿冒，顺利加载；修正HDMI Audio输出信息；安装完系统后请安装[ALCPlugFix_for_ALC_node12_19](https://github.com/daliansky/Lenovo-Air13-IWL/tree/master/ALCPlugFix_for_ALC_node12_19)声卡守护进程，耳麦工作正常；
+2. 网卡：REALTEK `10EC:B822`的无线网卡截止到目前还是无解，更换为DW1560/DW1830；
+3. 显卡：Intel HD Graphics 500，Whiskey Lake平台目前还没有驱动程序，使用Coffee Lake仿冒驱动，Platform-id为：`0x3e9b0009`，添加DVMT补丁；采用Devices-Properties方法注入；核显版外接HDMI显示器工作正常；睡眠唤醒正常；
 4. 蓝牙工作正常；睡眠唤醒工作正常；
 5. 电池信息正常；
 6. 触摸板：使用`VoodooI2C`驱动，多手势全功能正常工作；
 7. 显示器亮度调节正常；亮度调节快捷键：`F11`和`F12`
-8. USB端口采用SSDT-UIAC.aml进行修改；摄像头、读卡器已内建，避免睡眠问题；
+8. USB端口识别，未进行端口订制；摄像头、无线网卡已内建，避免睡眠问题；
 
 ## 系统截图
 
