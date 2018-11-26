@@ -1,12 +1,12 @@
-# Lenovo-Air13-IWL
-联想小新Air 13 IWL笔记本EFI
+# Lenovo-Air13-IWL黑苹果全套hotpatch施工，EFI适配10.13/10.14
+
 
 ## 电脑配置
 
 | 规格     | 详细信息                                                     |
 | -------- | ------------------------------------------------------------ |
 | 电脑型号 | 联想Lenovo Air 13 IWL笔记本电脑                              |
-| 操作系统 | macOS Mojave 18A389/macOS High Sierra 10.13.6 17G2208        |
+| 操作系统 | macOS Mojave 10.14.1 18B75/macOS High Sierra 10.13.6 17G2208 |
 | 处理器   | Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz                     |
 | 内存     | 16 GB  1867MHz                                               |
 | 硬盘     | Crucial_CT500MX200SSD1 (500G固态)                            |
@@ -105,12 +105,11 @@ Https://github.com/daliansky/Lenovo-Air13-IWL
 
 ## QQ群:
 
-331686786 [一起吃苹果](http://shang.qq.com/wpa/qunwpa?idkey=db511a29e856f37cbb871108ffa77a6e79dde47e491b8f2c8d8fe4d3c310de91)[群已满,请加下面群]
+331686786 [一起吃苹果](http://shang.qq.com/wpa/qunwpa?idkey=db511a29e856f37cbb871108ffa77a6e79dde47e491b8f2c8d8fe4d3c310de91)
 
 688324116[一起黑苹果](https://shang.qq.com/wpa/qunwpa?idkey=6bf69a6f4b983dce94ab42e439f02195dfd19a1601522c10ad41f4df97e0da82)
 
 128630866[ThinkPad黑苹果交流群](https://jq.qq.com/?_wv=1027&k=5aKxc6n)
-
 
 
 
