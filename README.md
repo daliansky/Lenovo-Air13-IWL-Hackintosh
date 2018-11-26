@@ -1,6 +1,5 @@
 # Lenovo-Air13-IWL黑苹果全套hotpatch施工，EFI适配10.13/10.14
 
-
 ## 电脑配置
 
 | 规格     | 详细信息                                                     |
@@ -56,11 +55,15 @@
 
 ![2AppleHDA](ScreenShot/2AppleHDA.png)
 
-![6Light](ScreenShot/0Clover.png)
+![6Light](ScreenShot/6Light.png)
+
+![6Volume](ScreenShot/6Volume.png)
+
+![8Ext](ScreenShot/8Ext.png)
 
 ![9Mojave18B75](ScreenShot/9Mojave18B75.png)
 
-![6Volume](ScreenShot/6Volume.png)
+![0Clover](ScreenShot/0Clover.png)
 
 
 ## 更新日志：
