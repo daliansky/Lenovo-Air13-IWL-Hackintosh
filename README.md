@@ -21,7 +21,7 @@
 
 ## 完善驱动
 
-1. 声卡：型号为ALC236，注入ID：2，使用AppleALC仿冒，顺利加载；修正HDMI Audio输出信息；
+1. 声卡：型号为ALC236，注入ID：2，使用AppleALC仿冒，顺利加载；修正HDMI Audio输出信息；安装完系统后请安装[ALCPlugFix_for_ALC_node12_19](https://github.com/daliansky/Lenovo-Air13-IWL/tree/master/ALCPlugFix_for_ALC_node12_19)` 声卡守护进程，耳麦工作正常；
 2. 网卡：REALTEK 10EC:B822的无线网卡截止到目前还是无解，更换为DW1560/DW1830；
 3. 显卡：Intel HD Graphics 500，Whiskey Lake平台目前还没有驱动程序，使用Coffee Lake仿冒驱动，Platform-id为：0x3e9b0009，添加DVMT补丁；采用Devices-Properties方法注入；核显版外接HDMI显示器工作正常；睡眠唤醒正常；
 4. 蓝牙工作正常；睡眠唤醒工作正常；
