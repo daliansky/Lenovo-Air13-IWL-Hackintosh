@@ -389,9 +389,13 @@
 				<data>
 				AQAAAA==
 				</data>
-				<key>enable-hdmi20</key>
+				<key>framebuffer-con0-enable</key>
 				<data>
 				AQAAAA==
+				</data>
+				<key>framebuffer-con0-flags</key>
+				<data>
+				mAAAAA==
 				</data>
 				<key>framebuffer-fbmem</key>
 				<data>
