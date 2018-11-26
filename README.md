@@ -32,37 +32,36 @@
 
 ## 系统截图
 
-![1About](ScreenShot/1About.png)
+![0About](ScreenShot/0About.png)
 
-![1Disk](ScreenShot/1Disk.png)
+![0Disk](ScreenShot/0Disk.png)
 
-![1Display](ScreenShot/1Display.png)
+![0Display](ScreenShot/0Display.png)
 
-![1SMBIOS](ScreenShot/1SMBIOS.png)
+![0Hardware](ScreenShot/0Hardware.png)
 
-![2Camera](ScreenShot/2Camera.png)
+![0Monitor](ScreenShot/0Monitor.png)
 
-![2FB](ScreenShot/2FB.png)
+![1Memory](ScreenShot/1Memory.png)
 
-![2Memory](ScreenShot/2Memory.png)
+![1NVMe](ScreenShot/1NVMe.png)
 
-![2USB](ScreenShot/2USB.png)
+![1USB-Port](ScreenShot/1USB-Port.png)
 
-![3AppleALC](ScreenShot/3AppleALC.png)
+![1USB-Wifi_and_Other](ScreenShot/1USB-Wifi_and_Other.png)
 
-![3Battery](ScreenShot/3Battery.png)
+![1USB](ScreenShot/1USB.png)
 
-![4HiDPI](ScreenShot/6Layoutid.png)
+![2AppleALC236](ScreenShot/2AppleALC236.png)
 
-![6Light](ScreenShot/6Light.png)
+![2AppleHDA](ScreenShot/2AppleHDA.png)
+
+![6Light](ScreenShot/0Clover.png)
+
+![9Mojave18B75](ScreenShot/9Mojave18B75.png)
 
 ![6Volume](ScreenShot/6Volume.png)
 
-![5PowerSave](ScreenShot/5PowerSave.png)
-
-![9Extension](ScreenShot/9Extension.png)
-
-![0Clover](ScreenShot/0Clover.png)
 
 ## 更新日志：
 
