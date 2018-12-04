@@ -370,9 +370,13 @@
 		<dict>
 			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
 			<dict>
+				<key>#声卡注入ID:ALC236 id:99</key>
+				<data>
+				YwAAAA==
+				</data>
 				<key>layout-id</key>
 				<data>
-				AgAAAA==
+				YwAAAA==
 				</data>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
