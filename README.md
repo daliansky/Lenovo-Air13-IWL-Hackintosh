@@ -51,7 +51,7 @@
 
 ![1USB](ScreenShot/1USB.png)
 
-![2AppleALC236](ScreenShot/2AppleALC236.png)
+![2AppleALC236](ScreenShot/ALC236_ID99.png)
 
 ![2AppleHDA](ScreenShot/2AppleHDA.png)
 
