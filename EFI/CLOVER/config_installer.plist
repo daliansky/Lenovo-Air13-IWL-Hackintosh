@@ -330,23 +330,21 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>-v keepsyms=1 igfxcflbklt=1</string>
+		<string>-alcbeta -v -lilubetaall keepsyms=1 debug=0x100 -disablegfxfirmware igfxcflbklt=1</string>
 		<key>CustomLogo</key>
 		<string>Theme</string>
 		<key>Debug</key>
 		<false/>
-		<key>DefaultLoader</key>
-		<string>macOS Mojave</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>Legacy</key>
-		<string>PBR</string>
+		<string>LegacyBiosDefault</string>
 		<key>NoEarlyProgress</key>
 		<true/>
 		<key>Secure</key>
 		<false/>
 		<key>Timeout</key>
-		<integer>-1</integer>
+		<integer>2</integer>
 		<key>XMPDetection</key>
 		<false/>
 	</dict>
@@ -370,9 +368,9 @@
 		<dict>
 			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
 			<dict>
-				<key>alc-layout-id</key>
+				<key>device-id</key>
 				<data>
-				YwAAAA==
+				cJ0AAA==
 				</data>
 				<key>layout-id</key>
 				<data>
@@ -472,12 +470,16 @@
 			<key>ATI</key>
 			<false/>
 			<key>Intel</key>
-			<false/>
+			<true/>
 			<key>NVidia</key>
 			<false/>
 		</dict>
 		<key>NvidiaSingle</key>
 		<false/>
+		<key>PatchVBios</key>
+		<false/>
+		<key>ig-platform-id</key>
+		<string>0x00000099</string>
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
