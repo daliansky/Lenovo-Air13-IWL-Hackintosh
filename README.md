@@ -68,6 +68,10 @@
 
 ## 更新日志：
 
+- 12-17-2018
+  - 修改了声卡的驱动方式，移除`FakePCIID`+`FakePCIID_Intel_HDMI_Audio`
+  - VirtualSMC更新到v1.0.2，包括传感器插件
+  - SSDT更新，触摸板可通过连续按5次`F6`或者`WIN`键关闭或者开启
 - 12-4-2018
   - 更新`AppleALC` v1.3.4，已提交到`vit9696`合并完毕
   - 全新仿冒了小新AIR的声卡id：99
