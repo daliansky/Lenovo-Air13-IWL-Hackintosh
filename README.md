@@ -68,6 +68,9 @@
 
 ## 更新日志：
 
+- 5-16-2019
+  - 更新`CLOVER`版本到4928
+  - 其它的常规更新
 - 12-17-2018
   - 修改了声卡的驱动方式，移除`FakePCIID`+`FakePCIID_Intel_HDMI_Audio`
   - VirtualSMC更新到v1.0.2，包括传感器插件

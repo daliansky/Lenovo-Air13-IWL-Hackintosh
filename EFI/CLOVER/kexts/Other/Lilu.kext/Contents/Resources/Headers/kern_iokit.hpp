@@ -18,7 +18,7 @@
 namespace WIOKit {
 
 	/**
-	 *  AppleHDAEngine::getLocation teaches us to use while(1) when talking to IOReg
+	 *  AppleHDAEngine::getLocation teaches us to use loop infinitely when talking to IOReg
 	 *  This feels mad and insane, since it may prevent the system from booting.
 	 *  Although this had never happened, we will use a far bigger fail-safe stop value.
 	 */
@@ -138,8 +138,10 @@ namespace WIOKit {
 	struct VendorID {
 		enum : uint16_t {
 			ATIAMD = 0x1002,
-			NVIDIA = 0x10de,
-			Intel = 0x8086
+			AMDZEN = 0x1022,
+			NVIDIA = 0x10DE,
+			Intel  = 0x8086,
+			VMware = 0x15AD
 		};
 	};
 
@@ -155,6 +157,8 @@ namespace WIOKit {
 			Ex3DController    = 0x030200,
 			DisplayController = 0x038000,
 			PCIBridge         = 0x060400,
+			// HDA device on some laptops liek Acer Aspire VN7-592G (INSYDE)
+			HDAMmDevice       = 0x040100,
 			// Watch out for PCISubclassMask, 0x040380 is common on laptops.
 			HDADevice         = 0x040300,
 			// This does not seem to be documented. It works on Haswell at least.
