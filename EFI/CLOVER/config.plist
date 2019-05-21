@@ -20,6 +20,8 @@
 				<true/>
 				<key>AddPNLF</key>
 				<false/>
+				<key>FixAirport</key>
+				<true/>
 				<key>FixHPET</key>
 				<false/>
 				<key>FixIPIC</key>
@@ -212,7 +214,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>-v keepsyms=1 igfxcflbklt=1 enable-cfl-backlight-fix</string>
+		<string>-v keepsyms=1 igfxcflbklt=1 enable-cfl-backlight-fix brcmfx-driver=1 -brcmfxdbg -brcmfxbeta</string>
 		<key>Debug</key>
 		<false/>
 		<key>NeverHibernate</key>
@@ -246,6 +248,19 @@
 		</dict>
 		<key>Properties</key>
 		<dict>
+			<key>PciRoot(0x0)/Pci(0x1c,0x7)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>WLAN</string>
+				<key>compatible</key>
+				<string>pci14e4,4353</string>
+				<key>device_type</key>
+				<string>Airport Extreme</string>
+				<key>model</key>
+				<string>DW1820A (BCM4350) 802.11ac Wireless</string>
+				<key>name</key>
+				<string>Airport</string>
+			</dict>
 			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
 			<dict>
 				<key>#no-controller-patch</key>
