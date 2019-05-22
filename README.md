@@ -12,7 +12,7 @@
 | 显卡     | 英特尔 HD Graphics 500 8086:3EA0(Whiskey Lake) (显卡仿冒：注入platform-id:0x3e9b0009) |
 | 显示器   | FHD 1920x1080 (13.3 英寸)                                    |
 | 声卡     | ALC236 (layout-id:99)                                        |
-| 网卡     | REALTEK 10EC:B822 已更换为Bcm94352z(14E4:43B1)               |
+| 网卡     | REALTEK 10EC:B822 已更换为`DW1820A`(14E4:43A3)               |
 
 ## 安装镜像
 
@@ -21,7 +21,7 @@
 ## 完善驱动
 
 1. 声卡：型号为ALC236，注入ID：99，使用AppleALC仿冒，顺利加载；修正HDMI Audio输出信息；安装完系统后请安装[ALCPlugFix_for_ALC_node12_19](https://github.com/daliansky/Lenovo-Air13-IWL/tree/master/ALCPlugFix_for_ALC_node12_19)声卡守护进程，耳麦工作正常；
-2. 网卡：REALTEK `10EC:B822`的无线网卡截止到目前还是无解，更换为DW1560/DW1830；
+2. 网卡：REALTEK `10EC:B822`的无线网卡截止到目前还是无解，可更换为`DW1820A`；
 3. 显卡：Intel HD Graphics 500，Whiskey Lake平台目前还没有驱动程序，使用Coffee Lake仿冒驱动，Platform-id为：`0x3e9b0009`，添加DVMT补丁；采用Devices-Properties方法注入；核显版外接HDMI显示器工作正常；睡眠唤醒正常；
 4. 蓝牙工作正常；睡眠唤醒工作正常；
 5. 电池信息正常；
@@ -65,9 +65,43 @@
 
 ![0Clover](ScreenShot/0Clover.png)
 
+## DW1820A截图及系统信息
+
+![0DW1820A_0VW3T3](./ScreenShot/0DW1820A_0VW3T3.png)
+
+![1DW1820A_Air13IWL](./ScreenShot/1DW1820A_Air13IWL.png)
+
+![2DW1820A_Air13IWL2](./ScreenShot/2DW1820A_Air13IWL2.png)
+
+![2DW1820A_Air13IWL3](./ScreenShot/2DW1820A_Air13IWL3.png)
+
+![2DW1820A_Air13IWL4](./ScreenShot/2DW1820A_Air13IWL4.png)
+
+![DW1820A_bluetooth1](./ScreenShot/DW1820A_bluetooth1.png)
+
+![DW1820A_bluetooth2](./ScreenShot/DW1820A_bluetooth2.png)
+
+![DW1820A_bluetooth3](./ScreenShot/DW1820A_bluetooth3.png)
+
+![DW1820A_bluetooth4](./ScreenShot/DW1820A_bluetooth4.png)
+
+![DW1820A_DELL7000](./ScreenShot/DW1820A_DELL7000.png)
+
+![DW1820A_Ext](./ScreenShot/DW1820A_Ext.png)
+
+![DW1820A_WIFI](./ScreenShot/DW1820A_WIFI.png)
+
+![DW1820A_WIFI1](./ScreenShot/DW1820A_WIFI1.png)
+
+![DW1820A_WIFI2](./ScreenShot/DW1820A_WIFI2.png)
+
+
 
 ## 更新日志：
 
+- 5-22-2019
+  - **添加对`DW1820A`无线网卡的支持**
+  - 测试环境：macOS Mojave 10.14.5 18F132，截屏见上方
 - 5-16-2019
   - 更新`CLOVER`版本到4928
   - 其它的常规更新
