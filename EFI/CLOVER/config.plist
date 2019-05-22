@@ -21,7 +21,7 @@
 				<key>AddPNLF</key>
 				<false/>
 				<key>FixAirport</key>
-				<true/>
+				<false/>
 				<key>FixHPET</key>
 				<false/>
 				<key>FixIPIC</key>
@@ -214,9 +214,11 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>-v keepsyms=1 igfxcflbklt=1 enable-cfl-backlight-fix brcmfx-driver=1 -brcmfxdbg -brcmfxbeta</string>
+		<string>igfxcflbklt=1 keepsyms=1 enable-cfl-backlight-fix brcmfx-driver=1 brcmfx-country=#a</string>
 		<key>Debug</key>
 		<false/>
+		<key>DefaultVolume</key>
+		<string>macOS</string>
 		<key>NeverHibernate</key>
 		<true/>
 		<key>NoEarlyProgress</key>
@@ -224,7 +226,7 @@
 		<key>Secure</key>
 		<false/>
 		<key>Timeout</key>
-		<integer>-1</integer>
+		<integer>3</integer>
 		<key>XMPDetection</key>
 		<false/>
 	</dict>
@@ -248,7 +250,7 @@
 		</dict>
 		<key>Properties</key>
 		<dict>
-			<key>PciRoot(0x0)/Pci(0x1c,0x7)/Pci(0x0,0x0)</key>
+			<key>PciRoot(0x0)/Pci(0x1c,0x0)/Pci(0x0,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
 				<string>WLAN</string>
