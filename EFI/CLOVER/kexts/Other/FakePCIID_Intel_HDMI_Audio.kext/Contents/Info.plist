@@ -96,7 +96,7 @@
 			<key>IOProviderClass</key>
 			<string>IOPCIDevice</string>
 		</dict>
-		<key>Intel HDMI Audio - 300-series 0xa348 0x9dc8</key>
+		<key>Intel HDMI Audio - 300-series 0xa348 0x9dc8 0xa1f0</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>org.rehabman.driver.FakePCIID</string>
@@ -112,7 +112,7 @@
 			<key>IOMatchCategory</key>
 			<string>FakePCIID</string>
 			<key>IOPCIPrimaryMatch</key>
-			<string>0xa3488086 0x9dc88086</string>
+			<string>0xa3488086 0x9dc88086 0xa1f08086</string>
 			<key>IOProviderClass</key>
 			<string>IOPCIDevice</string>
 		</dict>
