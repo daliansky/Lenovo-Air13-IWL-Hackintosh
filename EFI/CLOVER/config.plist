@@ -214,7 +214,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>igfxcflbklt=1 keepsyms=1 enable-cfl-backlight-fix</string>
+		<string>igfxcflbklt=1 keepsyms=1 enable-cfl-backlight-fix brcmfx-country=#a brcmfx-driver=1</string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultVolume</key>
@@ -250,12 +250,12 @@
 		</dict>
 		<key>Properties</key>
 		<dict>
-			<key>#PciRoot(0x0)/Pci(0x1c,0x0)/Pci(0x0,0x0)</key>
+			<key>PciRoot(0x0)/Pci(0x1c,0x0)/Pci(0x0,0x0)</key>
 			<dict>
+				<key>#compatible</key>
+				<string>pci14e4,4353</string>
 				<key>AAPL,slot-name</key>
 				<string>WLAN</string>
-				<key>compatible</key>
-				<string>pci14e4,4353</string>
 				<key>device_type</key>
 				<string>Airport Extreme</string>
 				<key>model</key>
