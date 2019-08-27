@@ -14,14 +14,6 @@
 				<key>Path</key>
 				<string>SSDT-AIR13IWL.aml</string>
 			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>RMCFMap</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-RMCFMap.aml</string>
-			</dict>
 		</array>
 		<key>Block</key>
 		<array/>
@@ -106,11 +98,11 @@
 			<dict>
 				<key>AAPL,ig-platform-id</key>
 				<data>
-				BQCmPg==
+				AACbPg==
 				</data>
 				<key>device-id</key>
 				<data>
-				pj4AAA==
+				mz4AAA==
 				</data>
 				<key>enable-hdmi-dividers-fix</key>
 				<data>
@@ -330,16 +322,6 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/VoodooI2CHID</string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>BundlePath</key>
-				<string>CodecCommander.kext</string>
-				<key>Enabled</key>
-				<false/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/CodecCommander</string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
@@ -573,7 +555,7 @@
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemProductName</key>
-			<string>MacBookPro15,4</string>
+			<string>MacBookPro15,2</string>
 			<key>SystemSerialNumber</key>
 			<string></string>
 			<key>SystemUUID</key>
