@@ -9,7 +9,7 @@
 | 处理器   | Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz                     |
 | 内存     | 16 GB  1867MHz                                               |
 | 硬盘     | Crucial_CT500MX200SSD1 (500G固态)                            |
-| 显卡     | 英特尔 HD Graphics 500 8086:3EA0(Whiskey Lake) (显卡仿冒：注入platform-id:0x3e9b0009) |
+| 显卡     | Intel UHD Graphics 620 Whiskey Lake-U GT2 (显卡仿冒：注入platform-id:0x3e9b0000) |
 | 显示器   | FHD 1920x1080 (13.3 英寸)                                    |
 | 声卡     | ALC236 (layout-id:99)                                        |
 | 网卡     | REALTEK 10EC:B822 已更换为`DW1820A`(14E4:43A3)               |
