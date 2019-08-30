@@ -1,35 +1,7 @@
-## Lenovo 小新 Air13IWL 配置说明 `(xlivans)`
-### 感谢 宪武 小兵 各位群友 大佬们 为此机型的辛苦付出
-
-##### EFI和安装教程请访问 :https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh
-
-##### 配置说明 : https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/blob/master/ReadMe/ReadMe.md
-
-##### 微云 : https://share.weiyun.com/5yMO9jB
-
-----
-
-| 系统   | macOS Mojave 10.14.5                            | 18F132    |
-| ------ | ----------------------------------------------- | --------- |
-| CPU    | Intel(R) Core(TM) i5-8265U 1.60GHz Turbo 3.9Ghz | 4C8T      |
-| 内存   | Samsung 4GB x 2  Dual Channel 1867MHz~2133MHz   | LPDDR3    |
-| 硬盘   | HFS256GD9TNG-62A0A 250G Nvme SSD                | 1C5C:1527 |
-| 显卡   | Intel UHD Graphics 620 Whiskey Lake-U GT2       | 8086:3EA0 |
-| 声卡   | Realtek ALC236                                  | 8086:9DC8 |
-| 网卡   | 更换Dell DW1820A BCM4350                        | 14E4:43A3 |
-| 蓝牙   | 更换Dell DW1820A BCM2045A0                      | 0A5C:6412 |
-| 键盘   | PS/2 标准键盘                                   | MSFT0001  |
-| 触控板 | Intel I2C HID                                   | INT34BB   |
-| 显示器 | AU Optronics B133HAN05.A 13.3 FHD 1920x1080     | 6AF:5A2D  |
-| 摄像头 | Integrated Camera                               | 04F2:B61E |
-
-------
-
-
-
+## Lenovo 小新 Air13IWL 进阶配置说明 `(xlivans)`
 ### 联想小新Air13IWL隐藏BIOS推荐设置
 
-+ 电源键开机 - F2进入正常BIOS - 电源键关机 - 然后按下图按下红线划过的所有键-电源键开机 - F2进入隐藏BIOS , 实测插不插电源都一样，不成功请加快手速再次尝试
++ 电源键开机 - F2进入正常BIOS - 电源键关机 - 然后按下图按下红线划过的所有键-电源键开机 - F2进入隐藏BIOS , 实测插不插电源都一样，如不成功请加快手速再次尝试
 
 ![Key](Pictures/Key.jpg)
 
