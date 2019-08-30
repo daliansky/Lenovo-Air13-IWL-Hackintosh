@@ -23,8 +23,8 @@
 + EFI下载
   - [Clover 、OC](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh)
 + 更新日志
-  + [Clover更新日志]()
-  + [OpenCore更新日志]()
+  + [Clover更新日志](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/EFI_Clover/ReadMe.md)
+  + [OpenCore更新日志](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/EFI_OC/ReadMe.md)
 
 
 
