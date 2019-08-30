@@ -3,7 +3,7 @@
 
 ##### EFI和安装教程请访问 :https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh
 
-##### 配置说明 : https://github.com/xlivans/Air13IWL
+##### 配置说明 : https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/blob/master/ReadMe/ReadMe.md
 
 ##### 微云 : https://share.weiyun.com/5yMO9jB
 
