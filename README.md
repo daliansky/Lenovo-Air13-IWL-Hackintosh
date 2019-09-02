@@ -28,11 +28,10 @@
 
 ## 哪些可以工作得更好
 
-- 使用[ALCPlugFix](ALCPlugFix)来修复
-- 使用[One_Key_Hidpi](One_Key_Hidpi)来提升系统UI质量
-- 使用[One_Key_CPUFriend](One_Key_CPUFriend)来提升CPU性能
+- 使用[ALCPlugFix](ALCPlugFix)来修复3.5mm耳麦切换异常问题
+- 使用[HIDPI](HIDPI)来提升系统UI质量
 
-## 特别鸣谢： @宪武 整理出联想所有机型的HotPatch
+## 特别鸣谢： @宪武 整理出联想所有机型的[HotPatch](ACPI_Patch)
 
 ## 鸣谢：
 
