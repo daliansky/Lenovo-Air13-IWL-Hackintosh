@@ -282,12 +282,15 @@
 					<key>Custom ADB Map</key>
 					<array>
 						<string>;Items must be strings in the form of scanfrom=adbto (in hex)</string>
+						<string>46=80;Fn+K</string>
+						<string>e045=80;Fn+P</string>
 					</array>
 					<key>Custom PS2 Map</key>
 					<array>
 						<string>;Items must be strings in the form of scanfrom=scanto (in hex)</string>
 						<string>e027=0;disable discrete fnkeys toggle</string>
 						<string>e028=0;disable discrete trackpad toggle</string>
+						<string>e037=e022;PrtSc=Play/Pause</string>
 					</array>
 					<key>HIDF12EjectDelay</key>
 					<integer>250</integer>
@@ -296,7 +299,7 @@
 					<key>Make Application key into Apple Fn key</key>
 					<false/>
 					<key>Make Application key into right windows</key>
-					<true/>
+					<false/>
 					<key>Make right modifier keys into Hangul and Hanja</key>
 					<false/>
 					<key>SleepPressTime</key>
@@ -304,7 +307,7 @@
 					<key>Swap capslock and left control</key>
 					<false/>
 					<key>Swap command and option</key>
-					<true/>
+					<false/>
 					<key>Use ISO layout keyboard</key>
 					<false/>
 					<key>alt_handler_id</key>

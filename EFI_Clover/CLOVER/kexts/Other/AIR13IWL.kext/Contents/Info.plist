@@ -790,7 +790,7 @@
 					<key>HS03</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>9</integer>
+						<integer>0</integer>
 						<key>port</key>
 						<data>
 						AwAAAA==

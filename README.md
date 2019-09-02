@@ -1,4 +1,4 @@
-# Lenovo-Air13-IWL黑苹果全套hotpatch施工，EFI适配10.13/10.14
+# Lenovo 小新 Air 13 IWL 安装macOS Catalina & Mojave & High Sierra
 
 ## 电脑配置
 
@@ -21,14 +21,18 @@
 + 配置说明
   + [进阶配置说明](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/Advanced/ReadMe.md)
 + EFI下载
-  - [Clover 、OC](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh)
+  - [Clover 、OpenCore](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh)
 + 更新日志
   + [Clover更新日志](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/EFI_Clover/ReadMe.md)
   + [OpenCore更新日志](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/EFI_OC/ReadMe.md)
 
+## 哪些可以工作得更好
 
+- 使用[ALCPlugFix](ALCPlugFix)来修复
+- 使用[One_Key_Hidpi](One_Key_Hidpi)来提升系统UI质量
+- 使用[One_Key_CPUFriend](One_Key_CPUFriend)来提升CPU性能
 
-## 特别鸣谢：@黑果小兵 @宪武 整理出联想所有机型的hotpatch
+## 特别鸣谢： @宪武 整理出联想所有机型的HotPatch
 
 ## 鸣谢：
 
