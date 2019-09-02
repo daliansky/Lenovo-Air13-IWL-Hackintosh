@@ -21,7 +21,7 @@
 + 配置说明
   + [进阶配置说明](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/Advanced/ReadMe.md)
 + EFI下载
-  - [Clover 、OpenCore](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh)
+  - [Clover 、OpenCore](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/releases)
 + 更新日志
   + [Clover更新日志](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/EFI_Clover/ReadMe.md)
   + [OpenCore更新日志](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/EFI_OC/ReadMe.md)
@@ -41,7 +41,7 @@
 - [PMheart](https://github.com/PMheart) 提供 [CPUFriend](https://github.com/PMheart/CPUFriend) 的维护
 - [alexandred](https://github.com/alexandred) 和 [hieplpvip](https://github.com/hieplpvip) 提供 [VoodooI2C](https://github.com/alexandred/VoodooI2C) 的维护
 - [PavelLJ](https://github.com/PavelLJ) 和 [Javmain](https://github.com/javmain) 和 [johnnync13](https://github.com/johnnync13) 的宝贵建议
-- [stevezhengshiqi](https://github.com/stevezhengshiqi)的One_Key_CPUFriend脚本
+- [stevezhengshiqi](https://github.com/stevezhengshiqi)的脚本
 
 ## 关于打赏
 
