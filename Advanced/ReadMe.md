@@ -17,7 +17,9 @@
 + `/System/Library/Extensions/IOPlatfromPluginFamily.kext/Contents/Pluglns/X86PlatformPlugin.kext/Contents/Resources`拷贝`Mac-551B86E5744E2388.plist`出来，修改最低频率为800Mhz ;
 + 终端执行脚本`ResourceConverter.sh --kext Mac-551B86E5744E2388.plist `;
 + 得到`CPUFriendProvider.kext` (默认输出至用户名主目录下`~/`) ;
-+ 所需脚本在 `CPUFrequency/` ,变频正常, 双系统切换需要关机切换否则会有高频不降现象. 
++ 所需脚本在 `CPUFrequency/` ,变频正常, 双系统切换需要关机切换否则会有高频不降现象.
+  + 本段介绍为简单的基本用法,更高阶的调整请参考[stevezhengshiqi](https://github.com/daliansky/XiaoMi-Pro-Hackintosh/tree/master/one-key-cpufriend)
+
 ![CPU](Pictures/CPU.png)
 
 -----
