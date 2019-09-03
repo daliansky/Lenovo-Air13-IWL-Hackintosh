@@ -14,7 +14,7 @@
 ##### 驱动 : `CPUFriend.kext` , `CPUFriendProvider.kext`
 ##### 补丁 : `SSDT-XCPM.aml`
 + 终端执行脚本`freqVectorsEdit.sh`输入密码,选`nano`继续,记下高亮绿色的机型`Mac-551B86E5744E2388.plist`(根据自己实际情况选择一个合适的记下),查看即可不要继续执行,关闭终端;
-+ `/System/Library/Extensions/IOPlatfromPluginFamily.kext/Contents/Pluglns/X86PlatformPlugin.kext/Contents/Resources`拷贝`Mac-551B86E5744E2388.plist`到桌面，修改最低频率为800Mhz ;
++ `/System/Library/Extensions/IOPlatfromPluginFamily.kext/Contents/Pluglns/X86PlatformPlugin.kext/Contents/Resources`拷贝`Mac-551B86E5744E2388.plist`出来，修改最低频率为800Mhz ;
 + 终端执行脚本`ResourceConverter.sh --kext Mac-551B86E5744E2388.plist `;
 + 得到`CPUFriendProvider.kext` (默认输出至用户名主目录下`~/`) ;
 + 所需脚本在 `CPUFrequency/` ,变频正常, 双系统切换需要关机切换否则会有高频不降现象. 
@@ -48,9 +48,20 @@
 
 ### 声卡 : Realtek ALC236  8086:9DC8
 ##### 驱动 : `AppleALC.kext` , `FakePCIID.kext` , `FakePCIID_Intel_HDMI_Audio.kext` , `CodecCommander.kext`
-+ 采用Properties方法注入,注入ID为`99` ;
-+ 安装`ALCPlugFix`(需要关闭SIP)声卡守护进程(处理3.5mm接口切换);
-+ 内置音频输入输出正常,HDMI音频输出正常.
++ 采用Properties方法注入,注入ID为`99` (63000000);
+
++ 安装`ALCPlugFix`声卡守护进程(处理3.5mm接口切换);
+  
+  + 安装前需要确认SIP为关闭状态,使用本仓库的EFI,默认为关闭状态;
+  
+  + 开机或睡眠唤醒后出现声音异常,重新插拔即可;
+  
++ 内置音频输入输出正常;
+
++ HDMI音频输出正常;
+  
+  + 对本机来说需要将9DC8仿冒为9D70才能使HDMI音频正常,为了`AppleALC.kext`单独使用不受影响,对`FakePCIID_Intel_HDMI_Audio.kext`做了对应的修改,本仓库的EFI中已提供;
+
 ![ALC236](Pictures/ALC236.png)
 
 -----
