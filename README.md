@@ -31,7 +31,7 @@
 - 使用[ALCPlugFix](ALCPlugFix)来修复3.5mm耳麦切换异常问题
 - 使用[HIDPI](HIDPI)来提升系统UI质量
 
-## 特别鸣谢： @宪武 整理出联想所有机型的[HotPatch](ACPI_Patch)
+## 特别鸣谢： @宪武 整理出联想所有机型的[HotPatch](https://github.com/daliansky/P-little)
 
 ## 鸣谢：
 
@@ -50,11 +50,13 @@
 
 ## QQ群:
 
-331686786 [一起吃苹果](http://shang.qq.com/wpa/qunwpa?idkey=db511a29e856f37cbb871108ffa77a6e79dde47e491b8f2c8d8fe4d3c310de91)
+331686786  [一起吃苹果](http://shang.qq.com/wpa/qunwpa?idkey=db511a29e856f37cbb871108ffa77a6e79dde47e491b8f2c8d8fe4d3c310de91)
 
-688324116[一起黑苹果](https://shang.qq.com/wpa/qunwpa?idkey=6bf69a6f4b983dce94ab42e439f02195dfd19a1601522c10ad41f4df97e0da82)
+688324116 [一起黑苹果](https://shang.qq.com/wpa/qunwpa?idkey=6bf69a6f4b983dce94ab42e439f02195dfd19a1601522c10ad41f4df97e0da82)
 
-128630866[ThinkPad黑苹果交流群](https://jq.qq.com/?_wv=1027&k=5aKxc6n)
+943181023 [联想小新Air黑苹果交流群](https://shang.qq.com/wpa/qunwpa?idkey=fb772a7e01436d43e1d856a099549551952bb08161ced4a8fc08b4e75e7ab438) 
+
+128630866 [ThinkPad黑苹果交流群](https://jq.qq.com/?_wv=1027&k=5aKxc6n)
 
 
 
