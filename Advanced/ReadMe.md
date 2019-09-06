@@ -49,7 +49,7 @@
 -----
 
 ### 声卡 : Realtek ALC236  8086:9DC8
-##### 驱动 : `AppleALC.kext` , `FakePCIID.kext` , `FakePCIID_Intel_HDMI_Audio.kext` , `CodecCommander.kext`
+##### 驱动 : `AppleALC.kext` , `CodecCommander.kext`
 + 采用Properties方法注入,注入ID为`99` (63000000);
 
 + 安装`ALCPlugFix`声卡守护进程(处理3.5mm接口切换);
@@ -58,11 +58,8 @@
   
   + 开机或睡眠唤醒后出现声音异常,重新插拔即可;
   
-+ 内置音频输入输出正常;
++ 内置音频输入输出正常,HDMI音频输出正常;
 
-+ HDMI音频输出正常;
-  
-  + 对本机来说需要将9DC8仿冒为9D70才能使HDMI音频正常,为了`AppleALC.kext`单独使用不受影响,对`FakePCIID_Intel_HDMI_Audio.kext`做了对应的修改,本仓库的EFI中已提供;
 
 ![ALC236](Pictures/ALC236.png)
 
@@ -138,7 +135,6 @@
 | VoodooPS2        | https://github.com/acidanthera/VoodooPS2/releases            |
 | VoodooI2C        | https://github.com/alexandred/VoodooI2C/releases             |
 | NoTouchID        | https://github.com/al3xtjames/NoTouchID/releases             |
-| FakePCIID        | https://bitbucket.org/RehabMan/os-x-fake-pci-id/downloads    |
 | CodecCommander   | https://bitbucket.org/RehabMan/os-x-eapd-codec-commander/downloads |
 | Hackintool       | http://headsoft.com.au/download/mac/Hackintool.zip           |
 | PlistEdit Pro    | https://www.fatcatsoftware.com/plisteditpro/PlistEditPro.zip |

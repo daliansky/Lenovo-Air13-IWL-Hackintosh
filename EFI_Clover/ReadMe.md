@@ -1,19 +1,27 @@
-- 2019-09-02
+#### 2019-09-05
 
-  + 修改驱动`VoodooPS2Controller.kext`内的`VoodooPS2Keyboard.kext`PS2键盘驱动实现下列功能
-    + 屏蔽错误的亮度快捷键 `Fn+K`、`Fn+P`
-    + 添加`PrtSc` = 播放/暂停
-    + 关闭 `Command` 、`Option` 交换位置选项
+- 从`SSDT-AIR13IWL.aml`中分离并移除 `FakePCIID_Intel_HDMI_Audio.kext` ,移除 `FakePCIID.kext` 
+- 更新`小兵`新编译的`AppleALC.kext`添加HDMI音频支持,相关修改已提交至`AppleALC.kext`项目
+- 随着`WhateverGreen.kext`的更新,移除显卡部分不再需要的属性
 
-- 2019-08-30
-  
-  + 更新Clover版本到5058
-  + 整合`SSDT-XOSI.aml` , `SSDT-XCPM.aml` , `SSDT-PNLF.aml` , `SSDT-SBUS.aml` , `SSDT-EC.aml` , `SSDT-Q11Q12.aml` , `SSDT-GPRW.aml` 合并为`Air13IWL.aml`
-  + 整合`CPUFriendProvider.kext` , `FakePCIID_Intel_HDMI_Audio.kext` , `XHCI-unsupported.kext` , `USBPorts.kext` 合并为`SSDT-Air13IWL.kext`
-  + 蓝牙驱动`BrcmPatchRAM2.kext`经过修改只适合蓝牙ID为`0a5c `:` 6412`的`DW1820A`使用
-  
+#### 2019-09-02
+
++ 修改驱动`VoodooPS2Controller.kext`内的`VoodooPS2Keyboard.kext`PS2键盘驱动实现下列功能
+  + 屏蔽错误的亮度快捷键 `Fn+K`、`Fn+P`
+  + 添加`PrtSc` = 播放/暂停
+  + 关闭 `Command` 、`Option` 交换位置选项
+
+#### 2019-08-30
++ 更新Clover版本到5058
++ 整合`SSDT-XOSI.aml` , `SSDT-XCPM.aml` , `SSDT-PNLF.aml` , `SSDT-SBUS.aml` , `SSDT-EC.aml` , `SSDT-Q11Q12.aml` , `SSDT-GPRW.aml` 合并为`Air13IWL.aml`
++ 整合`CPUFriendProvider.kext` , `FakePCIID_Intel_HDMI_Audio.kext` , `XHCI-unsupported.kext` , `USBPorts.kext` 合并为`SSDT-Air13IWL.kext`
++ 蓝牙驱动`BrcmPatchRAM2.kext`经过修改只适合蓝牙ID为`0a5c `:` 6412`的`DW1820A`使用
+
+----
+#### 历史更新
+----
+
 - 8-7-2019
-  
   - 修复蓝牙驱动，`DW1820A` 可以正常使用了
   
 - 5-22-2019

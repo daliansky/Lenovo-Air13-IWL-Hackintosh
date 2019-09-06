@@ -6,6 +6,19 @@
 	<dict>
 		<key>DSDT</key>
 		<dict>
+			<key>Fixes</key>
+			<dict>
+				<key>AddHDMI</key>
+				<false/>
+				<key>AddIMEI</key>
+				<false/>
+				<key>FixDisplay</key>
+				<false/>
+				<key>FixHDA</key>
+				<false/>
+				<key>FixIntelGfx</key>
+				<false/>
+			</dict>
 			<key>Patches</key>
 			<array>
 				<dict>
@@ -103,6 +116,13 @@
 	</dict>
 	<key>Devices</key>
 	<dict>
+		<key>Audio</key>
+		<dict>
+			<key>Inject</key>
+			<string>No</string>
+		</dict>
+		<key>Inject</key>
+		<false/>
 		<key>Properties</key>
 		<dict>
 			<key>PciRoot(0x0)/Pci(0x1f,0x0)</key>
@@ -131,10 +151,6 @@
 				<data>
 				mz4AAA==
 				</data>
-				<key>enable-hdmi-dividers-fix</key>
-				<data>
-				AQAAAA==
-				</data>
 				<key>enable-hdmi20</key>
 				<data>
 				AQAAAA==
@@ -154,10 +170,6 @@
 				<key>framebuffer-con1-has-lspcon</key>
 				<data>
 				AQAAAA==
-				</data>
-				<key>framebuffer-con1-pipe</key>
-				<data>
-				EgAAAA==
 				</data>
 				<key>framebuffer-con1-preferred-lspcon-mode</key>
 				<data>
@@ -179,12 +191,10 @@
 				<data>
 				AAAwAQ==
 				</data>
-				<key>framebuffer-unifiedmem</key>
-				<data>
-				AAAAgA==
-				</data>
 			</dict>
 		</dict>
+		<key>UseIntelHDMI</key>
+		<false/>
 	</dict>
 	<key>GUI</key>
 	<dict>
@@ -207,6 +217,18 @@
 		<string>1920x1080</string>
 		<key>Theme</key>
 		<string>Lenovo</string>
+	</dict>
+	<key>Graphics</key>
+	<dict>
+		<key>Inject</key>
+		<dict>
+			<key>ATI</key>
+			<false/>
+			<key>Intel</key>
+			<false/>
+			<key>NVidia</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>

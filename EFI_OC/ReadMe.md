@@ -1,3 +1,11 @@
+#### 2019-09-05
+
++ 从`SSDT-AIR13IWL.aml`中分离并移除 `FakePCIID_Intel_HDMI_Audio.kext` ,移除 `FakePCIID.kext` 
+
++ 更新`小兵`新编译的`AppleALC.kext`添加HDMI音频支持,相关修改已提交至`AppleALC.kext`项目
+
++ 随着`WhateverGreen.kext`的更新,移除显卡部分不再需要的属性
+
 #### 2019-08-30
 
 + 合并`SSDT-TPXX.aml`至`SSDT-AIR13IWL.aml`

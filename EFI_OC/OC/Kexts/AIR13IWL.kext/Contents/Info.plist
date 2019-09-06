@@ -704,26 +704,6 @@
 			CjwvZGljdD4KPC9wbGlzdD4K
 			</data>
 		</dict>
-		<key>AppleIntelHDMIAudio-9DC8</key>
-		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>org.rehabman.driver.FakePCIID</string>
-			<key>FakeProperties</key>
-			<dict>
-				<key>RM,device-id</key>
-				<data>
-				cJ0AAA==
-				</data>
-			</dict>
-			<key>IOClass</key>
-			<string>FakePCIID</string>
-			<key>IOMatchCategory</key>
-			<string>FakePCIID</string>
-			<key>IOPCIPrimaryMatch</key>
-			<string>0x9dc88086</string>
-			<key>IOProviderClass</key>
-			<string>IOPCIDevice</string>
-		</dict>
 		<key>AppleUSBXHCISPT-9DED</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
