@@ -1,4 +1,4 @@
-DefinitionBlock ("", "SSDT", 2, "APPLE", "XCPM", 0)
+DefinitionBlock ("", "SSDT", 2, "ACDT", "XCPM", 0)
 {
     External (_SB.PR00, ProcessorObj)
     Scope (_SB.PR00)

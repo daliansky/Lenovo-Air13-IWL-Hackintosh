@@ -1,4 +1,4 @@
-DefinitionBlock("", "SSDT", 2, "APPLE", "Q11Q12", 0)
+DefinitionBlock("", "SSDT", 2, "ACDT", "Q11Q12", 0)
 {
     External(_SB.PCI0.LPCB.PS2K, DeviceObj)
     External(_SB.PCI0.LPCB.EC0, DeviceObj)

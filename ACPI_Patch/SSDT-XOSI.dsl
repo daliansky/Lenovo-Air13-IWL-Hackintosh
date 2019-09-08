@@ -1,4 +1,4 @@
-DefinitionBlock ("", "SSDT", 2, "APPLE", "XOSI", 0x00000000)
+DefinitionBlock ("", "SSDT", 2, "ACDT", "XOSI", 0x00000000)
 { 
     Method (XOSI, 1, NotSerialized)
     {

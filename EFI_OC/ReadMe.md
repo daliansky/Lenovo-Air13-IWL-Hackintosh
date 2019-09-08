@@ -1,3 +1,15 @@
+#### Air13IWL-OC-1.1.0
+
+- 更新OpenCore版本至0.5.0
+- 更新驱动至最新Releases版
+- 添加文件保险箱功能的相关驱动
+
+------
+
+#### 启用以Releases版本号为基础的更新日志
+
+------
+
 #### 2019-09-05
 
 + 从`SSDT-AIR13IWL.aml`中分离并移除 `FakePCIID_Intel_HDMI_Audio.kext` ,移除 `FakePCIID.kext` 

@@ -1,4 +1,4 @@
-DefinitionBlock ("", "SSDT", 2, "APPLE", "EC", 0)
+DefinitionBlock ("", "SSDT", 2, "ACDT", "EC", 0)
 {
     External (_SB_.PCI0.LPCB, DeviceObj)
     Scope (\_SB.PCI0.LPCB)

@@ -54,6 +54,10 @@
 		<dict>
 			<key>AvoidRuntimeDefrag</key>
 			<true/>
+			<key>DevirtualiseMmio</key>
+			<false/>
+			<key>DisableSingleUser</key>
+			<false/>
 			<key>DisableVariableWrite</key>
 			<false/>
 			<key>DiscardHibernateMap</key>
@@ -329,16 +333,6 @@
 			</dict>
 			<dict>
 				<key>BundlePath</key>
-				<string>FakePCIID.kext</string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/FakePCIID</string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>BundlePath</key>
 				<string>Air13IWL.kext</string>
 				<key>Enabled</key>
 				<true/>
@@ -436,6 +430,8 @@
 			<string>None</string>
 			<key>HideSelf</key>
 			<true/>
+			<key>PollAppleHotKeys</key>
+			<true/>
 			<key>Resolution</key>
 			<string></string>
 			<key>ShowPicker</key>
@@ -452,7 +448,7 @@
 			<key>DisplayDelay</key>
 			<integer>0</integer>
 			<key>DisplayLevel</key>
-			<integer>0</integer>
+			<integer>2147483650</integer>
 			<key>Target</key>
 			<integer>0</integer>
 		</dict>
@@ -460,6 +456,8 @@
 		<array/>
 		<key>Security</key>
 		<dict>
+			<key>AllowNvramReset</key>
+			<true/>
 			<key>ExposeSensitiveData</key>
 			<integer>2</integer>
 			<key>HaltLevel</key>
@@ -492,16 +490,6 @@
 				<string>Verify MsrE2</string>
 				<key>Path</key>
 				<string>VerifyMsrE2.efi</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Clean Nvram</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Name</key>
-				<string>Clean Nvram</string>
-				<key>Path</key>
-				<string>CleanNvram.efi</string>
 			</dict>
 		</array>
 	</dict>
@@ -580,11 +568,21 @@
 		<array>
 			<string>HfsPlus.efi</string>
 			<string>ApfsDriverLoader.efi</string>
+			<string>AppleGenericInput.efi</string>
 			<string>FwRuntimeServices.efi</string>
+			<string>VirtualSmc.efi</string>
 		</array>
 		<key>Protocols</key>
 		<dict>
 			<key>AppleBootPolicy</key>
+			<false/>
+			<key>AppleEvent</key>
+			<false/>
+			<key>AppleImageConversion</key>
+			<false/>
+			<key>AppleKeyMap</key>
+			<false/>
+			<key>AppleUserInterfaceTheme</key>
 			<false/>
 			<key>ConsoleControl</key>
 			<true/>
@@ -592,10 +590,18 @@
 			<false/>
 			<key>DeviceProperties</key>
 			<false/>
+			<key>FirmwareVolume</key>
+			<false/>
+			<key>HashServices</key>
+			<false/>
+			<key>UnicodeCollation</key>
+			<false/>
 		</dict>
 		<key>Quirks</key>
 		<dict>
 			<key>AvoidHighAlloc</key>
+			<false/>
+			<key>ClearScreenOnModeSwitch</key>
 			<false/>
 			<key>ExitBootServicesDelay</key>
 			<integer>0</integer>
@@ -606,6 +612,8 @@
 			<key>ProvideConsoleGop</key>
 			<false/>
 			<key>ReleaseUsbOwnership</key>
+			<false/>
+			<key>ReplaceTabWithSpace</key>
 			<false/>
 			<key>RequestBootVarRouting</key>
 			<false/>

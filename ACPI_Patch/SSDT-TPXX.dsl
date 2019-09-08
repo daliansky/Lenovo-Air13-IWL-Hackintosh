@@ -1,4 +1,4 @@
-DefinitionBlock("", "SSDT", 2, "APPLE", "TPXX", 0)
+DefinitionBlock("", "SSDT", 2, "ACDT", "TPXX", 0)
 {
     External(_SB.PCI0.I2C0, DeviceObj)
     External(TPDD, FieldUnitObj)

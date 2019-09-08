@@ -1,4 +1,4 @@
-DefinitionBlock ("", "SSDT", 2, "APPLE", "PNLF", 0)
+DefinitionBlock ("", "SSDT", 2, "ACDT", "PNLF", 0)
 {
     Scope (_SB)
     {

@@ -1,4 +1,4 @@
-DefinitionBlock ("", "SSDT", 2, "APPLE", "SBUS", 0)
+DefinitionBlock ("", "SSDT", 2, "ACDT", "SBUS", 0)
 {
     External (_SB_.PCI0.SBUS, DeviceObj)
     Scope (_SB.PCI0.SBUS)
