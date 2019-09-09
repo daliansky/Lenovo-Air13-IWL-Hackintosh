@@ -25,7 +25,7 @@
 -----
 
 ### 内存 : Samsung 4GB x 2 双通道 1867MHz~2133MHz  LPDDR3
-##### 驱动 :Clover :`AptioMemoryFix-64.efi`  , OpenCore：`FwRuntimeServices.efi`
+##### 驱动 :Clover :`AptioMemoryFix.efi`  , OpenCore：`FwRuntimeServices.efi`
 
 + 内存默认频率为1867MHz , 通过修改隐藏BIOS可以超频到2133MHz ;
 + BIOS `9RCN22WW`版本会卡内存,建议避开使用.
@@ -33,7 +33,7 @@
 -----
 
 ### 硬盘 : HFS256GD9TNG-62A0A 250G Nvme SSD  1C5C:1527
-##### 驱动 : `ApfsDriverLoader-64.efi` , `HFSPlus.efi`
+##### 驱动 : `ApfsDriverLoader.efi` , `HFSPlus.efi`
 
 -----
 
