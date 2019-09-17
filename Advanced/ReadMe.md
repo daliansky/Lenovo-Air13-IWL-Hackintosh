@@ -21,31 +21,16 @@
 ### CPU : Intel(R) Core(TM) i5-8265U 1.60GHz Turbo 3.9Ghz 4C8T
 
 + 驱动 : [CPUFriend.kext](https://github.com/acidanthera/CPUFriend/releases) , [CPUFriendProvider.kext](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/CPUFrequency)
-
 + 补丁 : [SSDT-XCPM.aml](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/ACPI_Patch)
-
 + 终端执行
-
-+ ```bash
-  bash -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/Lenovo-Air13-IWL-Hackintosh/master/CPUFrequency/CPUView.sh)"
-  ```
-
++ `bash -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/Lenovo-Air13-IWL-Hackintosh/master/CPUFrequency/View.sh)"`
 + 输入密码,选`nano`继续,记下高亮绿色的机型`Mac-53FDB3D8DB8CA971.plist`(根据自己实际情况选择一个合适的记下),查看即可不要继续执行,关闭终端;
-
-  ```
-  cp /System/Library/Extensions/IOPlatformPluginFamily.kext/Contents/PlugIns/X86PlatformPlugin.kext/Contents/Resources/Mac-53FDB3D8DB8CA971.plist ~/desktop/CPU.plist
-  ```
-
-+ 修改最低频率为800Mhz ;![CPU](Pictures/CPU.png)
-
 + 终端执行
-
-+ ```
-  bash -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/Lenovo-Air13-IWL-Hackintosh/master/CPUFrequency/Data.sh)"
-  ```
-
++ `cp /System/Library/Extensions/IOPlatformPluginFamily.kext/Contents/PlugIns/X86PlatformPlugin.kext/Contents/Resources/Mac-53FDB3D8DB8CA971.plist ~/desktop/CPU.plist`
++ 修改最低频率为800Mhz ;![CPU](Pictures/CPU.png)
++ 终端执行
++ `bash -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/Lenovo-Air13-IWL-Hackintosh/master/CPUFrequency/Data.sh)"`
 + 桌面得到`CPUFriendProvider.kext`
-
 + 所需脚本在 [CPUFrequency](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/ACPI_Patch) ,变频正常, 双系统切换需要关机切换否则会有高频不降现象.
   
   + 本段介绍为简单的基本用法,更高阶的调整请参考[stevezhengshiqi](https://github.com/daliansky/XiaoMi-Pro-Hackintosh/tree/master/one-key-cpufriend)
