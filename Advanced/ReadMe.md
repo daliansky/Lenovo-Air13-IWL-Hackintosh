@@ -23,14 +23,19 @@
 + 驱动 : [CPUFriend.kext](https://github.com/acidanthera/CPUFriend/releases) , [CPUFriendDataProvider.kext](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/CPUFrequency)
 + 补丁 : [SSDT-XCPM.aml](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/ACPI_Patch)
 + 终端执行
+  
   + `bash -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/Lenovo-Air13-IWL-Hackintosh/master/CPUFrequency/View.sh)"`
-+ 输入密码,选`nano`继续,记下高亮绿色的机型`Mac-53FDB3D8DB8CA971.plist`(根据自己实际情况选择一个合适的记下),查看即可不要继续执行,强制关闭终端![View](Pictures/View.png)
+  
+  + 输入密码,选`nano`继续,记下高亮绿色的机型`Mac-53FDB3D8DB8CA971.plist`(根据自己实际情况选择一个合适的记下),查看即可不要继续执行,强制关闭终端![View](Pictures/View.png)
 + 终端执行
+  
   + `cp /System/Library/Extensions/IOPlatformPluginFamily.kext/Contents/PlugIns/X86PlatformPlugin.kext/Contents/Resources/Mac-53FDB3D8DB8CA971.plist ~/desktop/CPU.plist`
-+ 修改桌面`CPU.plist`最低频率为800Mhz ![CPU](Pictures/CPU.png)
+  
+  + 修改桌面`CPU.plist`最低频率为800Mhz ![CPU](Pictures/CPU.png)
 + 终端执行
+  
   + `bash -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/Lenovo-Air13-IWL-Hackintosh/master/CPUFrequency/Data.sh)"`
-+ 桌面得到 `CPUFriendDataProvider.kext`
+  + 桌面得到 `CPUFriendDataProvider.kext`
 + 变频正常, 双系统切换需要关机切换否则会有高频不降现象
   
 
