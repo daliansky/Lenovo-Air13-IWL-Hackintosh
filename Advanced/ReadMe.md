@@ -20,7 +20,10 @@
 
 ### CPU : Intel(R) Core(TM) i5-8265U 1.60GHz Turbo 3.9Ghz 4C8T
 
-##### 驱动 : [CPUFriend.kext](https://github.com/acidanthera/CPUFriend/releases) , [CPUFriendProvider.kext](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/CPUFrequency)		补丁 : [SSDT-XCPM.aml](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/ACPI_Patch)
+驱动 : [CPUFriend.kext](https://github.com/acidanthera/CPUFriend/releases) , [CPUFriendProvider.kext](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/CPUFrequency)
+
+补丁 : [SSDT-XCPM.aml](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/ACPI_Patch)
+
 + 终端执行脚本`freqVectorsEdit.sh`输入密码,选`nano`继续,记下高亮绿色的机型`Mac-551B86E5744E2388.plist`(根据自己实际情况选择一个合适的记下),查看即可不要继续执行,关闭终端;
 + `/System/Library/Extensions/IOPlatfromPluginFamily.kext/Contents/Pluglns/X86PlatformPlugin.kext/Contents/Resources`拷贝`Mac-551B86E5744E2388.plist`出来，修改最低频率为800Mhz ;
 + 终端执行脚本`ResourceConverter.sh --kext Mac-551B86E5744E2388.plist `;
