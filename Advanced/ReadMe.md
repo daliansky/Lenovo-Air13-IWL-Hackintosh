@@ -20,22 +20,19 @@
 
 ### CPU : Intel(R) Core(TM) i5-8265U 1.60GHz Turbo 3.9Ghz 4C8T
 
-+ 驱动 : [CPUFriend.kext](https://github.com/acidanthera/CPUFriend/releases) , [CPUFriendProvider.kext](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/CPUFrequency)
++ 驱动 : [CPUFriend.kext](https://github.com/acidanthera/CPUFriend/releases) , [CPUFriendDataProvider.kext](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/CPUFrequency)
 + 补丁 : [SSDT-XCPM.aml](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/ACPI_Patch)
 + 终端执行
   + `bash -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/Lenovo-Air13-IWL-Hackintosh/master/CPUFrequency/View.sh)"`
-+ 输入密码,选`nano`继续,记下高亮绿色的机型`Mac-53FDB3D8DB8CA971.plist`(根据自己实际情况选择一个合适的记下),查看即可不要继续执行,关闭终端;
++ 输入密码,选`nano`继续,记下高亮绿色的机型`Mac-53FDB3D8DB8CA971.plist`(根据自己实际情况选择一个合适的记下),查看即可不要继续执行,强制关闭终端![View](Pictures/View.png)
 + 终端执行
   + `cp /System/Library/Extensions/IOPlatformPluginFamily.kext/Contents/PlugIns/X86PlatformPlugin.kext/Contents/Resources/Mac-53FDB3D8DB8CA971.plist ~/desktop/CPU.plist`
-+ 修改最低频率为800Mhz ;![CPU](Pictures/CPU.png)
++ 修改桌面`CPU.plist`最低频率为800Mhz ![CPU](Pictures/CPU.png)
 + 终端执行
   + `bash -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/Lenovo-Air13-IWL-Hackintosh/master/CPUFrequency/Data.sh)"`
-+ 桌面得到`CPUFriendProvider.kext`
-+ 所需脚本在 [CPUFrequency](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/ACPI_Patch) ,变频正常, 双系统切换需要关机切换否则会有高频不降现象.
++ 桌面得到 `CPUFriendDataProvider.kext`
++ 变频正常, 双系统切换需要关机切换否则会有高频不降现象
   
-  + 本段介绍为简单的基本用法,更高阶的调整请参考[stevezhengshiqi](https://github.com/daliansky/XiaoMi-Pro-Hackintosh/tree/master/one-key-cpufriend)
-
-
 
 -----
 
@@ -45,7 +42,7 @@
 + 补丁 : [SSDT-PNLF.aml](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/ACPI_Patch)
 
 + 采用Properties方法注入ig-platform-id,默认使用`0x3e9b0000`,若出现睡眠唤醒花屏尝试更换`0x3EA50009` 
-+ 支持亮度调节,支持硬解H264,HEVC .
++ 支持亮度调节,支持硬解H264,HEVC
 ![UHD620](Pictures/UHD620.png)
 
 -----

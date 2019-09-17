@@ -1,3 +1,7 @@
+#### Next Release
+
++ 移除 `SMCSuperIO.kext`
+
 #### Air13IWL-Clover-1.1.0
 
 + 更新Clover版本至5070
@@ -28,7 +32,7 @@
 #### 2019-08-30
 + 更新Clover版本到5058
 + 整合`SSDT-XOSI.aml` , `SSDT-XCPM.aml` , `SSDT-PNLF.aml` , `SSDT-SBUS.aml` , `SSDT-EC.aml` , `SSDT-Q11Q12.aml` , `SSDT-GPRW.aml` 合并为`Air13IWL.aml`
-+ 整合`CPUFriendProvider.kext` , `FakePCIID_Intel_HDMI_Audio.kext` , `XHCI-unsupported.kext` , `USBPorts.kext` 合并为`SSDT-Air13IWL.kext`
++ 整合`CPUFriendDataProvider.kext` , `FakePCIID_Intel_HDMI_Audio.kext` , `XHCI-unsupported.kext` , `USBPorts.kext` 合并为`SSDT-Air13IWL.kext`
 + 蓝牙驱动`BrcmPatchRAM2.kext`经过修改只适合蓝牙ID为`0a5c `:` 6412`的`DW1820A`使用
 
 ----
