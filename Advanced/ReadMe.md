@@ -24,14 +24,33 @@
 
 + 补丁 : [SSDT-XCPM.aml](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/ACPI_Patch)
 
-+ 终端执行脚本`freqVectorsEdit.sh`输入密码,选`nano`继续,记下高亮绿色的机型`Mac-551B86E5744E2388.plist`(根据自己实际情况选择一个合适的记下),查看即可不要继续执行,关闭终端;
-+ `/System/Library/Extensions/IOPlatfromPluginFamily.kext/Contents/Pluglns/X86PlatformPlugin.kext/Contents/Resources`拷贝`Mac-551B86E5744E2388.plist`出来，修改最低频率为800Mhz ;
-+ 终端执行脚本`ResourceConverter.sh --kext Mac-551B86E5744E2388.plist `;
-+ 得到`CPUFriendProvider.kext` (默认输出至用户名主目录下`~/`) ;
++ 终端执行
+
++ ```bash
+  bash -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/Lenovo-Air13-IWL-Hackintosh/master/CPUFrequency/CPUView.sh)"
+  ```
+
++ 输入密码,选`nano`继续,记下高亮绿色的机型`Mac-53FDB3D8DB8CA971.plist`(根据自己实际情况选择一个合适的记下),查看即可不要继续执行,关闭终端;
+
+  ```
+  cp /System/Library/Extensions/IOPlatformPluginFamily.kext/Contents/PlugIns/X86PlatformPlugin.kext/Contents/Resources/Mac-53FDB3D8DB8CA971.plist ~/desktop/CPU.plist
+  ```
+
++ 修改最低频率为800Mhz ;![CPU](Pictures/CPU.png)
+
++ 终端执行
+
++ ```
+  bash -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/Lenovo-Air13-IWL-Hackintosh/master/CPUFrequency/Data.sh)"
+  ```
+
++ 桌面得到`CPUFriendProvider.kext`
+
 + 所需脚本在 [CPUFrequency](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/ACPI_Patch) ,变频正常, 双系统切换需要关机切换否则会有高频不降现象.
+  
   + 本段介绍为简单的基本用法,更高阶的调整请参考[stevezhengshiqi](https://github.com/daliansky/XiaoMi-Pro-Hackintosh/tree/master/one-key-cpufriend)
 
-![CPU](Pictures/CPU.png)
+
 
 -----
 
