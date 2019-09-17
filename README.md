@@ -30,6 +30,7 @@
 
 - 使用[ALCPlugFix](ALCPlugFix)来修复3.5mm耳麦切换异常问题
 - 使用[HIDPI](HIDPI)来提升系统UI质量
+- [蓝牙设备Windows和MacOS双系统共用](/Advanced/Bluetooth.md)
 
 ## 特别鸣谢： @宪武 整理出联想所有机型的[HotPatch](https://github.com/daliansky/P-little)
 
