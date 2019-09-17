@@ -40,7 +40,7 @@
 
 + 补丁 : [SSDT-PNLF.aml](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/ACPI_Patch)
 
-+ 采用Properties方法注入ig-platform-id,默认使用`0x3e9b0000`,若出现睡眠唤醒花屏尝试更换`0x3EA50009` ;
++ 采用Properties方法注入ig-platform-id,默认使用`0x3e9b0000`,若出现睡眠唤醒花屏尝试更换`0x3EA50009` 
 + 支持亮度调节,支持硬解H264,HEVC .
 ![UHD620](Pictures/UHD620.png)
 
@@ -48,15 +48,11 @@
 
 ### 声卡 : Realtek ALC236  8086:9DC8
 + 驱动 : [AppleALC.kext](https://github.com/acidanthera/AppleALC/releases) , [CodecCommander.kext](https://bitbucket.org/RehabMan/os-x-eapd-codec-commander/downloads)
-+ 采用Properties方法注入,注入ID为`99` (63000000);
++ 采用Properties方法注入,注入ID为`99` (63000000)
 
-+ 安装`ALCPlugFix`声卡守护进程(处理3.5mm接口切换);
++ 安装[ALCPlugFix](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/ALCPlugFix)声卡守护进程(处理3.5mm接口切换)
   
-  + 安装前需要确认SIP为关闭状态,使用本仓库的EFI,默认为关闭状态;
-  
-  + 开机或睡眠唤醒后出现声音异常,重新插拔即可;
-  
-+ 内置音频输入输出正常,HDMI音频输出正常;
++ 内置音频输入输出正常,HDMI音频输出正常
 
 
 ![ALC236](Pictures/ALC236.png)
