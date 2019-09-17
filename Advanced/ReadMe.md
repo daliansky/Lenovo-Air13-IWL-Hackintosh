@@ -78,16 +78,14 @@
 
 ### 键盘 : PS/2 标准键盘  MSFT0001
 + 驱动 : [VoodooPS2Controller.kext](https://github.com/acidanthera/VoodooPS2/releases)
-+ 补丁 : [SSDT-Q11Q12.aml](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/ACPI_Patch)
-+ 找到驱动内的 `VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Mouse.kext` , `VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Trackpad.kext` 这两个扩展驱动直接删除,防止随机开机失败.
-+ 支持F11,F12亮度调整键,支持F6,PrtSc触控板开关键.
++ 移除驱动内的 `VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Mouse.kext` , `VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Trackpad.kext` 这两个扩展驱动,防止随机开机失败.
 
 -----
 
 ### 触控板 : Intel I2C HID  INT34BB
 + 驱动 : [VoodooI2C.kext , VoodooI2CHID.kext](https://github.com/alexandred/VoodooI2C/releases)
 + 补丁 : Clover使用 [SSDT-XOSI.aml](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/ACPI_Patch) ; OC补丁 [SSDT-TPXX.aml](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/ACPI_Patch)
-+ 屏蔽苹果原装I2C驱动,终端执行`sudo kextcache -i /`重建缓存,重启,工作正常,多手势正常.
++ 屏蔽苹果原装I2C驱动,终端执行 `sudo kextcache -i /` 重建缓存,重启,工作正常,多手势正常.
 
 -----
 
@@ -103,6 +101,7 @@
 + ACPI
   + 添加BUS0补丁[SSDT-SBUS.aml](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/ACPI_Patch)
   + 添加0D/6D补丁 [SSDT-GPRW.aml](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/ACPI_Patch) 解决睡了即醒问题
+  + Clover添加补丁 : [SSDT-Q11Q12.aml](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/ACPI_Patch) 亮度调整快捷键
 + Drivers
   + Clover
     + `HfsPlus.efi` , `ApfsDriverLoader.efi` ,`FSInject.efi` ,  `AptioMemoryFix.efi` , `AppleImageCodec.efi` , `AppleKeyAggregator.efi` , `AppleKeyFeeder.efi` , `AppleUITheme.efi` ,  `FirmwareVolume.efi` , `HashServiceFix.efi` , `VirtualSmc.efi`
