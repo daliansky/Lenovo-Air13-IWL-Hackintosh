@@ -1,3 +1,5 @@
+#!/bin/bash
+
 cd ~/desktop/
 curl -O https://raw.githubusercontent.com/acidanthera/CPUFriend/master/Tools/ResourceConverter.sh
 chmod +x ~/desktop/ResourceConverter.sh
