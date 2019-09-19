@@ -77,7 +77,7 @@
 
 ### 键盘 : PS/2 标准键盘  MSFT0001
 + 驱动 : [VoodooPS2Controller.kext](https://github.com/acidanthera/VoodooPS2/releases)
-+ 移除驱动内的 `VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Mouse.kext` , `VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Trackpad.kext` 这两个扩展驱动,防止随机开机失败.
++ Clover 移除 `VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Mouse.kext` , `VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Trackpad.kext` 这两个扩展驱动,防止随机开机失败.
 
 -----
 
@@ -96,12 +96,21 @@
 
 ### 杂项
 + ACPI
+  
   + [Air13IWL所需SSDT部件补丁](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/ACPI_Patch)
 + Drivers
   + Clover
-    + [`HfsPlus.efi` , `ApfsDriverLoader.efi` ,`FSInject.efi` ,  `AptioMemoryFix.efi` , `AppleImageCodec.efi` , `AppleKeyAggregator.efi` , `AppleKeyFeeder.efi` , `AppleUITheme.efi` ,  `FirmwareVolume.efi` , `HashServiceFix.efi` , `VirtualSmc.efi`](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/EFI_Clover/CLOVER/drivers/UEFI)
+    + 文件系统、内存驱动
+      + [HfsPlus.efi 、ApfsDriverLoader.efi 、FSInject.efi 、AptioMemoryFix.efi](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/EFI_Clover/CLOVER/drivers/UEFI)
+    + 文件保险箱功能驱动 
+      + [AppleImageCodec.efi 、AppleKeyAggregator.efi 、AppleKeyFeeder.efi 、AppleUITheme.efi 、FirmwareVolume.efi 、HashServiceFix.efi 、VirtualSmc.efi](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/EFI_Clover/CLOVER/drivers/UEFI)
+    
   + OpenCore
-    + [`HfsPlus.efi` , `ApfsDriverLoader.efi` , `AppleGenericInput.efi` , `FwRuntimeServices.efi` , `VirtualSmc.efi`](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/EFI_OC/OC/Drivers)
+    + 文件系统、内存驱动
+      + [HfsPlus.efi 、ApfsDriverLoader.efi 、FwRuntimeServices.efi](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/EFI_OC/OC/Drivers)
+    + 文件保险箱功能驱动 
+      + [VirtualSmc.efi](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/EFI_OC/OC/Drivers)
+  
 + Kexts
   + 添加驱动 [NoTouchID.kext](https://github.com/al3xtjames/NoTouchID/releases) 解决输入密码卡顿问题
   + 添加必备驱动 [Lilu.kext](https://github.com/acidanthera/Lilu/releases) 
