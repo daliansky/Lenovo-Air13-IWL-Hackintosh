@@ -21,7 +21,6 @@
 ### CPU : Intel(R) Core(TM) i5-8265U 1.60GHz Turbo 3.9Ghz 4C8T
 
 + 驱动 : [CPUFriend.kext](https://github.com/acidanthera/CPUFriend/releases) , [CPUFriendDataProvider.kext](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/CPUFrequency)
-+ 补丁 : [SSDT-XCPM.aml](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/ACPI_Patch)
 + 终端执行
   
   + `bash -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/Lenovo-Air13-IWL-Hackintosh/master/CPUFrequency/View.sh)"`
@@ -43,8 +42,6 @@
 
 ### 显卡 : Intel UHD Graphics 620 Whiskey Lake-U GT2  8086:3EA0
 + 驱动 : [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases )
-
-+ 补丁 : [SSDT-PNLF.aml](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/ACPI_Patch)
 
 + 采用Properties方法注入ig-platform-id,默认使用`0x3e9b0000`,若出现睡眠唤醒花屏尝试更换`0x3EA50009` 
 + 支持亮度调节,支持硬解H264,HEVC
@@ -86,29 +83,25 @@
 
 ### 触控板 : Intel I2C HID  INT34BB
 + 驱动 : [VoodooI2C.kext , VoodooI2CHID.kext](https://github.com/alexandred/VoodooI2C/releases)
-+ 补丁 : Clover使用 [SSDT-XOSI.aml](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/ACPI_Patch) ; OC补丁 [SSDT-TPXX.aml](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/ACPI_Patch)
 + 屏蔽苹果原装I2C驱动,终端执行 `sudo kextcache -i /` 重建缓存,重启,工作正常,多手势正常.
 
 -----
 
 ### USB : 端口定制 8086:9DED
 + 驱动 : `XHCI-unsupported.kext` , `USBPorts.kext`
-+ 补丁 : [SSDT-EC.aml](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/ACPI_Patch)
-使用Hackintool定制USB由于指纹识别不可用所以删除对应USB端口,最终保留端口为:`HS01-USB2` ,` HS02-USB2` , `HS03-USB2` , `HS05-Internal-摄像头` , `HS10-Internal-蓝牙` , `SS01-USB3` , `SS02-USB3` , `SS03-TypeC+Sw`其他端口都删除,导出`USBPorts.kext`即可.
-![USB](Pictures/USB.png)
+  使用Hackintool定制USB由于指纹识别不可用所以删除对应USB端口,最终保留端口为:`HS01-USB2` ,` HS02-USB2` , `HS03-USB2` , `HS05-Internal-摄像头` , `HS10-Internal-蓝牙` , `SS01-USB3` , `SS02-USB3` , `SS03-TypeC+Sw`其他端口都删除,导出`USBPorts.kext`即可.
+  ![USB](Pictures/USB.png)
 
 -----
 
 ### 杂项
 + ACPI
-  + 添加BUS0补丁[SSDT-SBUS.aml](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/ACPI_Patch)
-  + 添加0D/6D补丁 [SSDT-GPRW.aml](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/ACPI_Patch) 解决睡了即醒问题
-  + Clover添加补丁 : [SSDT-Q11Q12.aml](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/ACPI_Patch) 亮度调整快捷键
+  + [Air13IWL所需SSDT部件补丁](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/ACPI_Patch)
 + Drivers
   + Clover
-    + `HfsPlus.efi` , `ApfsDriverLoader.efi` ,`FSInject.efi` ,  `AptioMemoryFix.efi` , `AppleImageCodec.efi` , `AppleKeyAggregator.efi` , `AppleKeyFeeder.efi` , `AppleUITheme.efi` ,  `FirmwareVolume.efi` , `HashServiceFix.efi` , `VirtualSmc.efi`
+    + [`HfsPlus.efi` , `ApfsDriverLoader.efi` ,`FSInject.efi` ,  `AptioMemoryFix.efi` , `AppleImageCodec.efi` , `AppleKeyAggregator.efi` , `AppleKeyFeeder.efi` , `AppleUITheme.efi` ,  `FirmwareVolume.efi` , `HashServiceFix.efi` , `VirtualSmc.efi`](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/EFI_Clover/CLOVER/drivers/UEFI)
   + OpenCore
-    + `HfsPlus.efi` , `ApfsDriverLoader.efi` , `AppleGenericInput.efi` , `FwRuntimeServices.efi` , `VirtualSmc.efi`
+    + [`HfsPlus.efi` , `ApfsDriverLoader.efi` , `AppleGenericInput.efi` , `FwRuntimeServices.efi` , `VirtualSmc.efi`](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/EFI_OC/OC/Drivers)
 + Kexts
   + 添加驱动 [NoTouchID.kext](https://github.com/al3xtjames/NoTouchID/releases) 解决输入密码卡顿问题
   + 添加必备驱动 [Lilu.kext](https://github.com/acidanthera/Lilu/releases) 
