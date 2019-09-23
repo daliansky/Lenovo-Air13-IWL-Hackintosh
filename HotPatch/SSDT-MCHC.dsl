@@ -1,18 +1,16 @@
-DefinitionBlock ("", "SSDT", 2, "ACDT", "PNLF", 0)
+DefinitionBlock ("", "SSDT", 2, "ACDT", "MCHC", 0)
 {
-    Scope (_SB)
+    External (_SB_.PCI0, DeviceObj)
+    Scope (_SB.PCI0)
     {
-        Device (PNLF)
+        Device (MCHC)
         {
             Name (_ADR, Zero)
-            Name (_HID, EisaId ("APP0002"))
-            Name (_CID, "backlight")
-            Name (_UID, 0x13)
             Method (_STA, 0, NotSerialized)
             {
                 If (_OSI ("Darwin"))
                 {
-                    Return (0x0B)
+                    Return (0x0F)
                 }
                 Else
                 {

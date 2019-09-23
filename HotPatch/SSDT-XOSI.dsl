@@ -1,8 +1,12 @@
-DefinitionBlock ("", "SSDT", 2, "ACDT", "XOSI", 0x00000000)
+// Rename  : _OSI to XQSI
+// Find    : 5F4F5349
+// Replace : 584F5349
+
+DefinitionBlock ("", "SSDT", 2, "ACDT", "XOSI", 0)
 { 
     Method (XOSI, 1, NotSerialized)
     {
-        Local0 = Package (0x13)
+        Local0 = Package ()
             {
                 "Windows", 
                 "Windows 2001", 

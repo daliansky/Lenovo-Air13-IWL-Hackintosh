@@ -1,12 +1,10 @@
-//
-// In config ACPI, GPRW to XPRW
+// Rename  : GPRW, 2 to XPRW, 2
 // Find:     47505257 02
 // Replace:  58505257 02
-//
+
 DefinitionBlock ("", "SSDT", 2, "ACDT", "GPRW", 0)
 {
-    External(XPRW, MethodObj)
-
+    External (XPRW, MethodObj)
     Method (GPRW, 2, NotSerialized)
     {
         If (_OSI ("Darwin"))
@@ -19,7 +17,6 @@ DefinitionBlock ("", "SSDT", 2, "ACDT", "GPRW", 0)
                     Zero
                 })
             }
-
             If ((0x0D == Arg0))
             {
                 Return (Package ()
@@ -32,4 +29,3 @@ DefinitionBlock ("", "SSDT", 2, "ACDT", "GPRW", 0)
         Return (XPRW (Arg0, Arg1))
     }
 }
-
