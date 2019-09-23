@@ -83,7 +83,7 @@
 ### 杂项
 + ACPI
   
-  + [Air13IWL 所需SSDT部件补丁](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/ACPI_Patch)
+  + [HotPatch](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/HotPatch)
 + Drivers
   + Clover
     + 文件系统、内存驱动
