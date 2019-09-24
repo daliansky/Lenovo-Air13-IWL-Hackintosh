@@ -9,7 +9,7 @@
 - 重新使用 `SSDT-RMCF.aml` 定制PS2键盘按键映射 , 还原原版 `VoodooPS2Controller.kext` 驱动 
   - 屏蔽错误的亮度调整快捷键 `Fn+K` 、`Fn+P`
   - 添加 `PrtSc` = 系统电源键
-  -  添加 `Command` 、`Option` 交换位置
+  - 添加 `Command` 、`Option` 交换位置
     - `Command` = `Windows` 、`Option = Alt`
   
 - `Config.plist`
