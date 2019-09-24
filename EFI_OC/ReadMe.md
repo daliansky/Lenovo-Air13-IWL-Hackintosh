@@ -1,6 +1,22 @@
 #### Next Release
 
-- 移除 `SMCSuperIO.kext`
+- 移除补丁 `SSDT-AIR13IWL.aml`  , 重新整理 [HotPatch](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/blob/master/HotPatch/ReadMe.md) 添加下列部件补丁
+  - `SSDT-OSYS.aml` 、`SSDT-MCHC.aml` 、`SSDT-DMAC.aml` 、`SSDT-HPTE.aml` 、`SSDT-EC.aml` 、`SSDT-BKEY.aml` 、`SSDT-PMCR.aml` 、`SSDT-BUS0.aml` 、`SSDT-PR00.aml` 、`SSDT-PNLF.aml` 、`SSDT-GPRW.aml` 、`SSDT-RMCF.aml`
+  
+- 移除驱动 `SMCSuperIO.kext` 、`AIR13IWL.kext` , 添加下列驱动
+  - `XHCI-unsupported.kext` 、`USBPorts.kext` 、`CPUFriendDataProvider.kext`
+  
+- 重新使用 `SSDT-RMCF.aml` 定制PS2键盘按键映射 , 还原原版 `VoodooPS2Controller.kext` 驱动 
+  - 屏蔽错误的亮度调整快捷键 `Fn+K` 、`Fn+P`
+  - 添加 `PrtSc` = 系统电源键
+  -  添加 `Command` 、`Option` 交换位置
+    - `Command` = `Windows` 、`Option = Alt`
+  
+- `Config.plist`
+  - 移除 `AppleLPC` 仿冒属性 , 电源键功能由 `SSDT-PMCR.aml` 取代
+  - 移除关于屏蔽 AppleIntelLpssI2C 的属性 , 不再需要
+  - 由于用回早期亮度调整快捷键补丁 `SSDT-BKEY.aml`  , 添加相关更名
+
 
 #### Air13IWL-OC-1.1.0
 
