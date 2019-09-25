@@ -1,4 +1,4 @@
-#### Next Release
+#### Air13IWL-Clover-1.2.0
 
 - 移除补丁 `SSDT-AIR13IWL.aml`  , 重新整理 [HotPatch](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/blob/master/HotPatch/ReadMe.md) 添加下列部件补丁
   - `SSDT-XOSI.aml` 、`SSDT-MCHC.aml` 、`SSDT-DMAC.aml` 、`SSDT-HPTE.aml` 、`SSDT-EC.aml` 、`SSDT-BKEY.aml` 、`SSDT-PMCR.aml` 、`SSDT-BUS0.aml` 、`SSDT-PR00.aml` 、`SSDT-PNLF.aml` 、`SSDT-GPRW.aml` 、`SSDT-RMCF.aml`
