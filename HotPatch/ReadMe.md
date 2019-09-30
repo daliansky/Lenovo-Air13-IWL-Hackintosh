@@ -15,6 +15,7 @@
 | [SSDT-BUS0.dsl](SSDT-BUS0.dsl) | SMBusPCI 系统管理总线补丁 |
 | [SSDT-PR00.dsl](SSDT-PR00.dsl) | CPU 电源管理补丁          |
 | [SSDT-PNLF.dsl](SSDT-PNLF.dsl) | Coffee Lake 亮度控制补丁  |
+| [SSDT-SLPB.dsl](SSDT-SLPB.dsl) | 丢失的 PNP0C0E 补丁       |
 | [SSDT-GPRW.dsl](SSDT-GPRW.dsl) | 睡了即醒（USB 断电）补丁  |
 | [SSDT-RMCF.dsl](SSDT-RMCF.dsl) | PS2 键盘按键映射补丁      |
 
