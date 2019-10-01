@@ -4,7 +4,7 @@
   - 移除 SSDT-OSYS.aml
   - 移除 SSDT-BKEY.aml
   - 添加 [SSDT-TPXX.aml](SSDT-TPXX.aml)
-- 替换 [SSDT-RMCF.aml](SSDT-RMCF.aml)
+  - 替换 [SSDT-RMCF.aml](SSDT-RMCF.aml)
 - EFI - OC - Config.plist 
   - ACPI - Add
     - 移除 OSYS
