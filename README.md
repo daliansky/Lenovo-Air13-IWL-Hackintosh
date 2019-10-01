@@ -28,6 +28,7 @@
 
 ## 哪些可以工作得更好
 
+- [OpenCore 单系统建议](SingleSystem/ReadMe.md)
 - 使用[ALCPlugFix](ALCPlugFix)来修复3.5mm耳麦切换异常问题
 - 使用[HIDPI](HIDPI)来提升系统UI质量
 - [蓝牙设备Windows和MacOS双系统共用](/Advanced/Bluetooth.md)
