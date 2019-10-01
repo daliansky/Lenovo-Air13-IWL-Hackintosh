@@ -88,6 +88,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>SLPB</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-SLPB.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>GPRW</string>
 				<key>Enabled</key>
 				<true/>
@@ -107,6 +115,16 @@
 		<array/>
 		<key>Patch</key>
 		<array>
+			<dict>
+				<key>Comment</key>
+				<string>Windows to Xindows</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>V2luZG93cw==</data>
+				<key>Replace</key>
+				<data>WGluZG93cw==</data>
+			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>GPRW to XPRW</string>
@@ -563,7 +581,7 @@
 				<key>bootercfg</key>
 				<string>log=0 debug=0 level=0</string>
 				<key>csr-active-config</key>
-				<data>ZwAAAA==</data>
+				<data>5wMAAA==</data>
 				<key>nvda_drv</key>
 				<data>MA==</data>
 				<key>prev-lang:kbd</key>

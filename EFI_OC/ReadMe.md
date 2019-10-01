@@ -1,3 +1,9 @@
+####Next Releases
+
+- 更新 `SSDT-OSYS.aml` , 添加 `Windows to Xindows` 更名 , 使 Windows 10 和 MacOS 双系统工作状态保持一致
+- 添加 `SSDT-SLPB.aml` (PNP0C0E) 丢失的部件
+- 更新 SIP 完全关闭参数 `csr-active-config` :  `e7030000`
+
 #### Air13IWL-OC-1.2.0
 
 - 移除补丁 `SSDT-AIR13IWL.aml`  , 重新整理 [HotPatch](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/blob/master/HotPatch/ReadMe.md) 添加下列部件补丁
