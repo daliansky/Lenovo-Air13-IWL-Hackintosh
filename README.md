@@ -21,7 +21,8 @@
 + 配置说明
   + [进阶配置说明](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/Advanced/ReadMe.md)
 + EFI下载
-  - [Clover 、OpenCore](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/releases)
+  - [Releases](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/releases)
+  - [腾讯微云](https://share.weiyun.com/5yMO9jB)
 + 更新日志
   + [Clover更新日志](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/EFI_Clover/ReadMe.md)
   + [OpenCore更新日志](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/EFI_OC/ReadMe.md)
