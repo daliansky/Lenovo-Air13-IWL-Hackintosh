@@ -2,10 +2,10 @@
 
 #### 环境 :Windows 10 1903 , MacOS 10.14.5 , 以本人鼠标为例子,按顺序操作即可
 
-+ 在Windows下配对使用成功,关机
-+ 在MacOS下配对使用成功
-+ 在MacOS终端执行 `sudo defaults read /var/root/Library/Preferences/com.apple.bluetoothd.plist`
-+ 找到其中的`linkKeys`每个蓝牙设备对应一组十六进制ID
++ 在 Windows 下配对使用成功,关机
++ 在 MacOS 下配对使用成功
++ 在 MacOS 终端执行 `sudo defaults read /var/root/Library/Preferences/com.apple.bluetoothd.plist`
++ 找到其中的 `linkKeys` 每个蓝牙设备对应一组十六进制 ID
 ![ID1](Pictures/Blue/ID1.png) 
 + 按照倒序重新排列,比如
     + `28 B8 F6 D0 A0 3D A8 2E 23 47 00 EC 18 CB 0D 5D`

@@ -10,7 +10,7 @@ macOS 的 DPI 机制和 Windows 下不一样，比如 1080p 的屏幕在 Windows
 
 ## 使用方法
 
-- 在终端执行HIDPI目录中的`hidpi-zh.sh`
+- 在终端执行HIDPI目录中的 `hidpi-zh.sh`
 
 ## 恢复
 
