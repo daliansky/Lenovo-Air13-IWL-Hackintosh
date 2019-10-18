@@ -1,8 +1,12 @@
-#### Next Releases
+#### Air13IWL-OC-1.3.0
 
+- 更新 OpenCore 版本至 Releases - 0.5.1
 - 更新 `SSDT-OSYS.aml` , 添加 `Windows to Xindows` 更名 , 使 Windows 10 和 MacOS 双系统工作状态保持一致
-- 添加 `SSDT-SLPB.aml` (PNP0C0E) 丢失的部件
-- 更新 SIP 完全关闭参数 `csr-active-config` :  `e7030000`
+- 更新 `SSDT-BUS0.aml` 更接近白果 , 添加 `SSDT-SLPB.aml` (PNP0C0E) 丢失的部件
+- 移除 `AppleGenericInput.efi` ( 已合并进 OC )
+- 更新部分驱动至最新版本 Releases , 移除 `XHCI-unsupported.kext` ( 并未发现使用与否有区别 ) 
+- 补全删减掉的 `Config.plist` 内容 , 保持和官方样本一致
+- 默认使用机型 `MacBook Pro 15,4` , 更新 SIP 关闭参数 `csr-active-config` :  `e7030000`
 - [OpenCore 单系统建议](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/blob/master/SingleSystem/ReadMe.md)
 
 #### Air13IWL-OC-1.2.0

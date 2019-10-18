@@ -1,3 +1,10 @@
+#### Air13IWL-Clover-1.3.0
+
+- 更新 Clover 版本至 Releases - 5096
+- 更新 `SSDT-BUS0.aml` 更接近白果 , 添加 `SSDT-SLPB.aml` (PNP0C0E) 丢失的部件
+- 更新部分驱动至最新版本 Releases , 移除 `XHCI-unsupported.kext` ( 并未发现使用与否有区别 )
+- 默认使用机型 `MacBook Pro 15,4`
+
 #### Air13IWL-Clover-1.2.0
 
 - 移除补丁 `SSDT-AIR13IWL.aml`  , 重新整理 [HotPatch](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/blob/master/HotPatch/ReadMe.md) 添加下列部件补丁
