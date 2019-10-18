@@ -7,6 +7,11 @@
 - 更新部分驱动至最新版本 Releases , 移除 `XHCI-unsupported.kext` ( 并未发现使用与否有区别 ) 
 - 补全删减掉的 `Config.plist` 内容 , 保持和官方样本一致
 - 默认使用机型 `MacBook Pro 15,4` , 更新 SIP 关闭参数 `csr-active-config` :  `e7030000`
+- macOS 10.15 Catalina 临时解锁系统分区 , 用以开启 HIDPI 、安装 ALCPlugFix 和 重建缓存
+  - 终端执行以下命令
+    - 挂载为可写模式 : `sudo mount -uw /`
+    - 重启 Finder : `killall Finder`
+    - 重建缓存 : `sudo kextcache -i /`
 - [OpenCore 单系统建议](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/blob/master/SingleSystem/ReadMe.md)
 
 #### Air13IWL-OC-1.2.0

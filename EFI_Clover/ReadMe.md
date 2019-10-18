@@ -4,6 +4,11 @@
 - 更新 `SSDT-BUS0.aml` 更接近白果 , 添加 `SSDT-SLPB.aml` (PNP0C0E) 丢失的部件
 - 更新部分驱动至最新版本 Releases , 移除 `XHCI-unsupported.kext` ( 并未发现使用与否有区别 )
 - 默认使用机型 `MacBook Pro 15,4`
+- macOS 10.15 Catalina 临时解锁系统分区 , 用以开启 HIDPI 、安装 ALCPlugFix 和 重建缓存
+  - 终端执行以下命令
+    - 挂载为可写模式 : `sudo mount -uw /`
+    - 重启 Finder : `killall Finder`
+    - 重建缓存 : `sudo kextcache -i /`
 
 #### Air13IWL-Clover-1.2.0
 
