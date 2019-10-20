@@ -36,6 +36,7 @@
 - [stevezhengshiqi](https://github.com/stevezhengshiqi) 的脚本和 MD
 ## 关于打赏
 如果您认可我的工作，请通过打赏支持我后续的更新
+
 | 微信                                                       | 支付宝                                               |
 | ---------------------------------------------------------- | ---------------------------------------------------- |
 | ![wechatpay_160](http://7.daliansky.net/wechatpay_160.jpg) | ![alipay_160](http://7.daliansky.net/alipay_160.jpg) |
