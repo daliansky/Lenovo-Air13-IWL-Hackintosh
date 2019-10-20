@@ -1,5 +1,4 @@
 # Air13IWL OpenCore 单系统建议
-
 - EFI - OC - ACPI
   - 移除 SSDT-OSYS.aml
   - 移除 SSDT-BKEY.aml

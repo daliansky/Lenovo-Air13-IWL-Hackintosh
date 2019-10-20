@@ -11,18 +11,18 @@
 | 显示器   | 13.3 英寸 FHD 1920x1080                                      |
 | 声卡     | Realtek ALC236                                               |
 | 网卡     | 更换为 Dell DW1820A                                          |
-+ 安装教程
-  + [[**黑果小兵的部落阁**] : 联想小新Air 13安装黑苹果兼macOS Mojave安装教程](https://blog.daliansky.net/Lenovo-Xiaoxin-Air-13-macOS-Mojave-installation-tutorial.html)
-+ 镜像下载
-  + [[**黑果小兵的部落阁**] :【黑果小兵】原版镜像](https://blog.daliansky.net/categories/下载/镜像/)
-+ 配置说明
-  + [进阶配置说明](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/Advanced/ReadMe.md)
-+ EFI下载
+- 安装教程
+  - [[**黑果小兵的部落阁**] : 联想小新Air 13安装黑苹果兼macOS Mojave安装教程](https://blog.daliansky.net/Lenovo-Xiaoxin-Air-13-macOS-Mojave-installation-tutorial.html)
+- 镜像下载
+  - [[**黑果小兵的部落阁**] :【黑果小兵】原版镜像](https://blog.daliansky.net/categories/下载/镜像/)
+- 配置说明
+  - [进阶配置说明](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/Advanced/ReadMe.md)
+- EFI下载
   - [Releases](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/releases)
   - [腾讯微云](https://share.weiyun.com/5yMO9jB)
-+ 更新日志
-  + [Clover 更新日志](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/EFI_Clover/ReadMe.md)
-  + [OpenCore 更新日志](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/EFI_OC/ReadMe.md)
+- 更新日志
+  - [Clover 更新日志](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/EFI_Clover/ReadMe.md)
+  - [OpenCore 更新日志](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/EFI_OC/ReadMe.md)
 ## 哪些可以工作得更好
 - [OpenCore 单系统建议](SingleSystem/ReadMe.md)
 - 安装 [ALCPlugFix](ALCPlugFix) 来修复3.5mm耳麦切换异常问题
@@ -41,7 +41,7 @@
 | ---------------------------------------------------------- | ---------------------------------------------------- |
 | ![wechatpay_160](http://7.daliansky.net/wechatpay_160.jpg) | ![alipay_160](http://7.daliansky.net/alipay_160.jpg) |
 ## QQ群:
-331686786  [一起吃苹果](http://shang.qq.com/wpa/qunwpa?idkey=db511a29e856f37cbb871108ffa77a6e79dde47e491b8f2c8d8fe4d3c310de91)
-688324116 [一起黑苹果](https://shang.qq.com/wpa/qunwpa?idkey=6bf69a6f4b983dce94ab42e439f02195dfd19a1601522c10ad41f4df97e0da82)
-943181023 [联想小新 Air 黑苹果交流群](https://shang.qq.com/wpa/qunwpa?idkey=fb772a7e01436d43e1d856a099549551952bb08161ced4a8fc08b4e75e7ab438) 
-128630866 [ThinkPad 黑苹果交流群](https://jq.qq.com/?_wv=1027&k=5aKxc6n)
+- 331686786  [一起吃苹果](http://shang.qq.com/wpa/qunwpa?idkey=db511a29e856f37cbb871108ffa77a6e79dde47e491b8f2c8d8fe4d3c310de91)
+- 688324116 [一起黑苹果](https://shang.qq.com/wpa/qunwpa?idkey=6bf69a6f4b983dce94ab42e439f02195dfd19a1601522c10ad41f4df97e0da82)
+- 943181023 [联想小新 Air 黑苹果交流群](https://shang.qq.com/wpa/qunwpa?idkey=fb772a7e01436d43e1d856a099549551952bb08161ced4a8fc08b4e75e7ab438) 
+- 128630866 [ThinkPad 黑苹果交流群](https://jq.qq.com/?_wv=1027&k=5aKxc6n)

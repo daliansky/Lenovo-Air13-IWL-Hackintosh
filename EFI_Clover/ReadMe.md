@@ -1,4 +1,4 @@
-#### Air13IWL-Clover-1.3.0
+# Air13IWL-Clover-1.3.0
 
 - 更新 Clover 版本至 Releases - 5096
 - 更新 `SSDT-BUS0.aml` 更接近白果 , 添加 `SSDT-SLPB.aml` (PNP0C0E) 丢失的部件
@@ -10,7 +10,7 @@
     - 重启 Finder : `killall Finder`
     - 重建缓存 : `sudo kextcache -i /`
 
-#### Air13IWL-Clover-1.2.0
+# Air13IWL-Clover-1.2.0
 
 - 移除补丁 `SSDT-AIR13IWL.aml`  , 重新整理 [HotPatch](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/blob/master/HotPatch/ReadMe.md) 添加下列部件补丁
   - `SSDT-XOSI.aml` 、`SSDT-MCHC.aml` 、`SSDT-DMAC.aml` 、`SSDT-HPTE.aml` 、`SSDT-EC.aml` 、`SSDT-BKEY.aml` 、`SSDT-PMCR.aml` 、`SSDT-BUS0.aml` 、`SSDT-PR00.aml` 、`SSDT-PNLF.aml` 、`SSDT-GPRW.aml` 、`SSDT-RMCF.aml`
@@ -25,7 +25,7 @@
   - 移除 `AppleLPC` 仿冒属性 , 电源键功能由 `SSDT-PMCR.aml` 取代
   - 移除关于屏蔽 AppleIntelLpssI2C 的属性 , 不再需要
 
-#### Air13IWL-Clover-1.1.0
+# Air13IWL-Clover-1.1.0
 
 + 更新Clover版本至5070
 
@@ -33,13 +33,9 @@
 
 + 添加文件保险箱功能的相关驱动
 
-----
+# 启用以Releases版本号为基础的更新日志
 
-#### 启用以Releases版本号为基础的更新日志
-
-----
-
-#### 2019-09-05
+# 2019-09-05
 
 - 从`SSDT-AIR13IWL.aml`中分离并移除 `FakePCIID_Intel_HDMI_Audio.kext` ,移除 `FakePCIID.kext` 
 - 更新`小兵`新编译的`AppleALC.kext`添加HDMI音频支持,相关修改已提交至`AppleALC.kext`项目
@@ -47,16 +43,16 @@
 
 #### 2019-09-02
 
-+ 修改驱动`VoodooPS2Controller.kext`内的`VoodooPS2Keyboard.kext`PS2键盘驱动实现下列功能
-  + 屏蔽错误的亮度快捷键 `Fn+K`、`Fn+P`
-  + 添加`PrtSc` = 播放/暂停
-  + 关闭 `Command` 、`Option` 交换位置选项
+- 修改驱动`VoodooPS2Controller.kext`内的`VoodooPS2Keyboard.kext`PS2键盘驱动实现下列功能
+  - 屏蔽错误的亮度快捷键 `Fn+K`、`Fn+P`
+  - 添加`PrtSc` = 播放/暂停
+  - 关闭 `Command` 、`Option` 交换位置选项
 
 #### 2019-08-30
-+ 更新Clover版本到5058
-+ 整合`SSDT-XOSI.aml` , `SSDT-XCPM.aml` , `SSDT-PNLF.aml` , `SSDT-SBUS.aml` , `SSDT-EC.aml` , `SSDT-Q11Q12.aml` , `SSDT-GPRW.aml` 合并为`Air13IWL.aml`
-+ 整合`CPUFriendDataProvider.kext` , `FakePCIID_Intel_HDMI_Audio.kext` , `XHCI-unsupported.kext` , `USBPorts.kext` 合并为`SSDT-Air13IWL.kext`
-+ 蓝牙驱动`BrcmPatchRAM2.kext`经过修改只适合蓝牙ID为`0a5c `:` 6412`的`DW1820A`使用
+- 更新Clover版本到5058
+- 整合`SSDT-XOSI.aml` , `SSDT-XCPM.aml` , `SSDT-PNLF.aml` , `SSDT-SBUS.aml` , `SSDT-EC.aml` , `SSDT-Q11Q12.aml` , `SSDT-GPRW.aml` 合并为`Air13IWL.aml`
+- 整合`CPUFriendDataProvider.kext` , `FakePCIID_Intel_HDMI_Audio.kext` , `XHCI-unsupported.kext` , `USBPorts.kext` 合并为`SSDT-Air13IWL.kext`
+- 蓝牙驱动`BrcmPatchRAM2.kext`经过修改只适合蓝牙ID为`0a5c `:` 6412`的`DW1820A`使用
 
 ----
 #### 历史更新
