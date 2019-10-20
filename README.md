@@ -1,18 +1,18 @@
-# Lenovo 小新 Air 13 IWL 安装 macOS Catalina & Mojave & High Sierra
+# Lenovo Air 13 IWL Hackintosh
 
 ## 电脑配置
 
-| 规格     | 详细信息                                     |
-| -------- | -------------------------------------------- |
-| 电脑型号 | 联想 Lenovo Air 13 IWL 笔记本电脑            |
-| 操作系统 | macOS Mojave 10.14 / macOS High Sierra 10.13 |
-| 处理器   | 英特尔 酷睿 i5 - 8265U / i7-8565U            |
-| 内存     | 8GB / 16GB  1867MHz                          |
-| 硬盘     | Nvme SSD 256G / 512G                         |
-| 显卡     | Intel UHD Graphics 620 Whiskey Lake - U GT2  |
-| 显示器   | 13.3 英寸 FHD 1920x1080                      |
-| 声卡     | Realtek ALC236                               |
-| 网卡     | 更换为 Dell DW1820A                          |
+| 规格     | 详细信息                                                     |
+| -------- | ------------------------------------------------------------ |
+| 电脑型号 | 联想小新 Lenovo Air 13 IWL 笔记本电脑                        |
+| 操作系统 | macOS Catalina 10.15 / macOS Mojave 10.14 / macOS High Sierra 10.13 |
+| 处理器   | 英特尔 酷睿 i5 - 8265U / i7-8565U                            |
+| 内存     | 8GB / 16GB  1867MHz                                          |
+| 硬盘     | Nvme SSD 256G / 512G                                         |
+| 显卡     | Intel UHD Graphics 620 Whiskey Lake - U GT2                  |
+| 显示器   | 13.3 英寸 FHD 1920x1080                                      |
+| 声卡     | Realtek ALC236                                               |
+| 网卡     | 更换为 Dell DW1820A                                          |
 
 + 安装教程
   + [[**黑果小兵的部落阁**] : 联想小新Air 13安装黑苹果兼macOS Mojave安装教程](https://blog.daliansky.net/Lenovo-Xiaoxin-Air-13-macOS-Mojave-installation-tutorial.html)
@@ -24,14 +24,14 @@
   - [Releases](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/releases)
   - [腾讯微云](https://share.weiyun.com/5yMO9jB)
 + 更新日志
-  + [Clover更新日志](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/EFI_Clover/ReadMe.md)
-  + [OpenCore更新日志](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/EFI_OC/ReadMe.md)
+  + [Clover 更新日志](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/EFI_Clover/ReadMe.md)
+  + [OpenCore 更新日志](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/EFI_OC/ReadMe.md)
 
 ## 哪些可以工作得更好
 
 - [OpenCore 单系统建议](SingleSystem/ReadMe.md)
-- 使用 [ALCPlugFix](ALCPlugFix) 来修复3.5mm耳麦切换异常问题
-- 使用 [HIDPI](HIDPI) 来提升系统UI质量
+- 安装 [ALCPlugFix](ALCPlugFix) 来修复3.5mm耳麦切换异常问题
+- 开启 [HIDPI](HIDPI) 来提升系统UI质量
 - [蓝牙设备 Windows 和 MacOS 双系统共用](/Advanced/Bluetooth.md)
 
 ## 鸣谢
