@@ -4,75 +4,18 @@
 <dict>
 	<key>ACPI</key>
 	<dict>
-		<key>DSDT</key>
+		<key>SSDT</key>
 		<dict>
-			<key>Fixes</key>
+			<key>Generate</key>
 			<dict>
-				<key>AddHDMI</key>
+				<key>CStates</key>
 				<false/>
-				<key>AddIMEI</key>
-				<false/>
-				<key>FixDisplay</key>
-				<false/>
-				<key>FixHDA</key>
-				<false/>
-				<key>FixIntelGfx</key>
+				<key>PStates</key>
 				<false/>
 			</dict>
-			<key>Patches</key>
-			<array>
-				<dict>
-					<key>Comment</key>
-					<string>_OSI to XOSI</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>X09TSQ==</data>
-					<key>Replace</key>
-					<data>WE9TSQ==</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>LID0 to LID</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>TElEMA==</data>
-					<key>Replace</key>
-					<data>TElEXw==</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>_Q11 to XQ11</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>X1ExMQ==</data>
-					<key>Replace</key>
-					<data>WFExMQ==</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>_Q12 to XQ12</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>X1ExMg==</data>
-					<key>Replace</key>
-					<data>WFExMg==</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>GPRW to XPRW</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>R1BSVwI=</data>
-					<key>Replace</key>
-					<data>WFBSVwI=</data>
-				</dict>
-			</array>
 		</dict>
+		<key>DisableASPM</key>
+		<false/>
 		<key>DropTables</key>
 		<array>
 			<dict>
@@ -80,28 +23,239 @@
 				<string>DMAR</string>
 			</dict>
 		</array>
+		<key>FixHeaders</key>
+		<false/>
+		<key>RenameDevices</key>
+		<dict/>
+		<key>AutoMerge</key>
+		<false/>
+		<key>DSDT</key>
+		<dict>
+			<key>Patches</key>
+			<array>
+				<dict>
+					<key>Find</key>
+					<data>UFhTWAhfQURSAAhfUFJXEgYC</data>
+					<key>Comment</key>
+					<string>Add _SUN property for GIGE</string>
+					<key>Disabled</key>
+					<true/>
+					<key>Replace</key>
+					<data>UFhTWAhfQURSAAhfU1VOCgQIX1BSVxIGAg==</data>
+				</dict>
+				<dict>
+					<key>Find</key>
+					<data>R0ZYMA==</data>
+					<key>Comment</key>
+					<string>Rename GFX0 to IGPU</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Replace</key>
+					<data>SUdQVQ==</data>
+				</dict>
+				<dict>
+					<key>Find</key>
+					<data>SERFRg==</data>
+					<key>Comment</key>
+					<string>Rename HDEF to AZAL</string>
+					<key>Disabled</key>
+					<true/>
+					<key>Replace</key>
+					<data>QVpBTA==</data>
+				</dict>
+				<dict>
+					<key>Find</key>
+					<data>X0RTTQ==</data>
+					<key>Comment</key>
+					<string>Rename oem _DSM to ZDSM</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Replace</key>
+					<data>WkRTTQ==</data>
+				</dict>
+				<dict>
+					<key>Find</key>
+					<data>SEVDSQ==</data>
+					<key>Comment</key>
+					<string>Rename HECI to IMEI</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Replace</key>
+					<data>SU1FSQ==</data>
+				</dict>
+			</array>
+			<key>Debug</key>
+			<false/>
+			<key>Fixes</key>
+			<dict>
+				<key>FixIDE</key>
+				<false/>
+				<key>FixIPIC</key>
+				<false/>
+				<key>FixIntelGfx</key>
+				<false/>
+				<key>FixACST</key>
+				<false/>
+				<key>FakeLPC</key>
+				<false/>
+				<key>FixFirewire</key>
+				<false/>
+				<key>FixShutdown</key>
+				<false/>
+				<key>FixDisplay</key>
+				<false/>
+				<key>AddIMEI</key>
+				<false/>
+				<key>FixRegions</key>
+				<false/>
+				<key>AddMCHC</key>
+				<false/>
+				<key>FixAirport</key>
+				<false/>
+				<key>FixDarwin7</key>
+				<false/>
+				<key>FixHPET</key>
+				<false/>
+				<key>FixHeaders</key>
+				<false/>
+				<key>FixLAN</key>
+				<false/>
+				<key>FixRTC</key>
+				<false/>
+				<key>AddPNLF</key>
+				<false/>
+				<key>DeleteUnused</key>
+				<false/>
+				<key>AddDTGP</key>
+				<false/>
+				<key>FixS3D</key>
+				<false/>
+				<key>FixSATA</key>
+				<false/>
+				<key>FixSBUS</key>
+				<false/>
+				<key>FixTMR</key>
+				<false/>
+				<key>FixMutex</key>
+				<false/>
+				<key>FixUSB</key>
+				<false/>
+				<key>FixWAK</key>
+				<false/>
+				<key>FixDarwin</key>
+				<false/>
+				<key>FixHDA</key>
+				<false/>
+				<key>FixADP1</key>
+				<false/>
+				<key>AddHDMI</key>
+				<false/>
+			</dict>
+			<key>Name</key>
+			<string></string>
+			<key>ReuseFFFF</key>
+			<false/>
+		</dict>
+		<key>FixMCFG</key>
+		<false/>
+		<key>HaltEnabler</key>
+		<false/>
+	</dict>
+	<key>RtVariables</key>
+	<dict>
+		<key>ROM</key>
+		<string></string>
+		<key>BooterConfig</key>
+		<string>0x28</string>
+		<key>CsrActiveConfig</key>
+		<string>0x3E7</string>
+		<key>MLB</key>
+		<string></string>
+		<key>Block</key>
+		<array/>
+	</dict>
+	<key>CPU</key>
+	<dict/>
+	<key>Graphics</key>
+	<dict>
+		<key>Inject</key>
+		<dict>
+			<key>ATI</key>
+			<false/>
+			<key>NVidia</key>
+			<false/>
+			<key>Intel</key>
+			<false/>
+		</dict>
+		<key>EDID</key>
+		<dict/>
 	</dict>
 	<key>Boot</key>
 	<dict>
+		<key>NeverHibernate</key>
+		<false/>
+		<key>NeverDoRecovery</key>
+		<false/>
+		<key>DisableCloverHotkeys</key>
+		<false/>
+		<key>Timeout</key>
+		<integer>10</integer>
+		<key>RtcHibernateAware</key>
+		<false/>
+		<key>DefaultVolume</key>
+		<string>LastBootedVolume</string>
 		<key>Arguments</key>
 		<string>brcmfx-country=HK</string>
-		<key>CustomLogo</key>
-		<string>Alternate</string>
-		<key>NeverHibernate</key>
-		<true/>
-		<key>NoEarlyProgress</key>
-		<true/>
-		<key>Timeout</key>
-		<integer>3</integer>
+		<key>StrictHibernate</key>
+		<false/>
+		<key>Fast</key>
+		<false/>
+		<key>Legacy</key>
+		<string></string>
+		<key>SignatureFixup</key>
+		<false/>
+		<key>SkipHibernateTimeout</key>
+		<false/>
+		<key>Debug</key>
+		<false/>
+	</dict>
+	<key>KernelAndKextPatches</key>
+	<dict>
+		<key>KernelLapic</key>
+		<false/>
+		<key>KernelToPatch</key>
+		<array/>
+		<key>KernelPm</key>
+		<false/>
+		<key>AppleRTC</key>
+		<false/>
+		<key>KernelXCPM</key>
+		<false/>
+		<key>PanicNoKextDump</key>
+		<false/>
+		<key>DellSMBIOSPatch</key>
+		<false/>
+		<key>KernelCpu</key>
+		<false/>
+		<key>Debug</key>
+		<false/>
+		<key>AppleIntelCPUPM</key>
+		<false/>
 	</dict>
 	<key>Devices</key>
 	<dict>
 		<key>Audio</key>
 		<dict>
+			<key>AFGLowPowerState</key>
+			<false/>
 			<key>Inject</key>
 			<string>No</string>
+			<key>ResetHDA</key>
+			<false/>
 		</dict>
-		<key>Inject</key>
+		<key>LANInjection</key>
+		<false/>
+		<key>HDMIInjection</key>
 		<false/>
 		<key>Properties</key>
 		<dict>
@@ -142,55 +296,64 @@
 		</dict>
 		<key>UseIntelHDMI</key>
 		<false/>
+		<key>USB</key>
+		<dict>
+			<key>Inject</key>
+			<false/>
+			<key>FixOwnership</key>
+			<false/>
+			<key>HighCurrent</key>
+			<false/>
+			<key>AddClockID</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>GUI</key>
 	<dict>
+		<key>ScreenResolution</key>
+		<string>1920x1080</string>
 		<key>Hide</key>
 		<array>
 			<string>Preboot</string>
 		</array>
 		<key>Scan</key>
 		<dict>
-			<key>Entries</key>
-			<true/>
 			<key>Legacy</key>
 			<false/>
-			<key>Linux</key>
+			<key>Entries</key>
 			<true/>
 			<key>Tool</key>
 			<true/>
 		</dict>
-		<key>ScreenResolution</key>
-		<string>1920x1080</string>
+		<key>ShowOptimus</key>
+		<false/>
+		<key>Timezone</key>
+		<integer>3</integer>
 		<key>Theme</key>
 		<string>Lenovo</string>
+		<key>EmbeddedThemeType</key>
+		<string>Daytime</string>
+		<key>PlayAsync</key>
+		<false/>
 	</dict>
-	<key>Graphics</key>
+	<key>BootGraphics</key>
 	<dict>
-		<key>Inject</key>
-		<dict>
-			<key>ATI</key>
-			<false/>
-			<key>Intel</key>
-			<false/>
-			<key>NVidia</key>
-			<false/>
-		</dict>
-	</dict>
-	<key>KernelAndKextPatches</key>
-	<dict/>
-	<key>RtVariables</key>
-	<dict>
-		<key>CsrActiveConfig</key>
-		<string>0x67</string>
+		<key>UIScale</key>
+		<integer>1</integer>
+		<key>EFILoginHiDPI</key>
+		<integer>1</integer>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
+		<key>Manufacturer</key>
+		<string>Apple Inc.</string>
 		<key>ProductName</key>
 		<string>MacBookPro15,4</string>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
+		<key>InjectSystemID</key>
+		<true/>
 		<key>InjectKexts</key>
 		<string>Detect</string>
 	</dict>

@@ -1,3 +1,7 @@
+# Air13IWL-Clover-1.4.0
+- 更新 Clover 版本至 Releases - 5099
+- 更新部分驱动至最新 Releases 版本
+- 移除 `SSDT-BUS0.aml` , 还原 `SSDT-SBUS.aml`
 # Air13IWL-Clover-1.3.0
 - 更新 Clover 版本至 Releases - 5096
 - 更新 `SSDT-BUS0.aml` 更接近白果 , 添加 `SSDT-SLPB.aml` (PNP0C0E) 丢失的部件

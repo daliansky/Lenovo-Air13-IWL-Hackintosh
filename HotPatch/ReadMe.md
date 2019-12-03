@@ -10,7 +10,7 @@
 | [SSDT-EC.dsl](SSDT-EC.dsl)     | 仿冒 EC 补丁              |
 | [SSDT-BKEY.dsl](SSDT-BKEY.dsl) | 亮度调整快捷键补丁        |
 | [SSDT-PMCR.dsl](SSDT-PMCR.dsl) | PCHPMC 电源管理补丁       |
-| [SSDT-BUS0.dsl](SSDT-BUS0.dsl) | SMBusPCI 系统管理总线补丁 |
+| [SSDT-SBUS.dsl](SSDT-SBUS.dsl) | SMBusPCI 系统管理总线补丁 |
 | [SSDT-PR00.dsl](SSDT-PR00.dsl) | CPU 电源管理补丁          |
 | [SSDT-PNLF.dsl](SSDT-PNLF.dsl) | Coffee Lake 亮度控制补丁  |
 | [SSDT-SLPB.dsl](SSDT-SLPB.dsl) | 丢失的 PNP0C0E 补丁       |

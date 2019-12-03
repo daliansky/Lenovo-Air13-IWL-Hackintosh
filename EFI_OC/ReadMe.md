@@ -1,3 +1,8 @@
+# Air13IWL-OC-1.4.0
+- 更新 OpenCore 版本至 Releases - 0.5.3
+- 更新部分驱动至最新 Releases 版本
+- 还原 `宪武` 早期的 `SSDT-OSYS.aml`  , 移除 `SSDT-BUS0.aml` , 还原 `SSDT-SBUS.aml`
+- [OpenCore 下使用原生苹果 **启动磁盘 ( BootCamp )** 切换双系统](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/blob/master/Advanced/BootCamp.md)
 # Air13IWL-OC-1.3.0
 - 更新 OpenCore 版本至 Releases - 0.5.1
 - 更新 `SSDT-OSYS.aml` , 添加 `Windows to Xindows` 更名 , 使 Windows 10 和 MacOS 双系统工作状态保持一致
