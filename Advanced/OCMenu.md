@@ -2,18 +2,15 @@
 
 - 怎么隐藏菜单 ？
   - Config.plist - Misc - Boot
-    
-    - ```
-      ShowPicker				Boolean				NO
-      ```
+    - `ShowPicker		Boolean		NO`
 - 单 ESP 分区菜单看不到 Windows 怎么办 ？
   - Config.plist - Misc - Boot
-    - `HideSelf				Boolean				NO`
+    - `HideSelf		Boolean		NO`
   - Config.plist - Misc - Security
     - `ScanPolicy		Number		0`  ( 自定义必须包含 ESP )
   - Config.plist - Misc
     - BlessOverride  ( 覆盖替换掉 Windows 的 BOOTx64.efi 情况下, 需要在此指定 Windows 引导 )
-      - `Item 0		<String>	\EFI\Microsoft\Boot\bootmgfw.efi`
+      - `Item0		<String>	\EFI\Microsoft\Boot\bootmgfw.efi`
 + 怎么临时开启 -V 模式 ？
   + Config.plist - Misc - Boot
     + `PollAppleHotKeys		Boolean		YES` 

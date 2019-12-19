@@ -9,7 +9,7 @@
 - Config.plist 
   - Misc
     - BlessOverride  ( 覆盖替换掉 Windows 的 BOOTx64.efi 情况下, 需要在此指定 Windows 引导 )
-      - `Item 0		<String>	\EFI\Microsoft\Boot\bootmgfw.efi`
+      - `Item0		<String>	\EFI\Microsoft\Boot\bootmgfw.efi`
     - Boot
       - `HideSelf		<Boolean>		NO`
     - Security
