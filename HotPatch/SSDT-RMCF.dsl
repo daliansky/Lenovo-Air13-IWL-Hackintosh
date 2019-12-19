@@ -16,7 +16,6 @@ DefinitionBlock ("", "SSDT", 2, "ACDT", "RMCF", 0)
                     "38=37",      // Left Alt = Left Win
                     "e05c=3d",    // Right Win = Right Alt
                     "e038=36",    // Right Alt = Right Win               
-                    "e05e=7f",    // System Power
                 }, 
                 "Custom PS2 Map", Package()
                 {
