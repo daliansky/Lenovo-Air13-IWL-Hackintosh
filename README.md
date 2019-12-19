@@ -28,6 +28,7 @@
 - 安装 [ALCPlugFix](ALCPlugFix) 来修复3.5mm耳麦切换异常问题
 - 开启 [HIDPI](HIDPI) 来提升系统UI质量
 - [蓝牙设备 Windows 和 MacOS 双系统共用](/Advanced/Bluetooth.md)
+- [OpenCore 菜单部分相关问题](/Advanced/OCMenu.md)
 - [OpenCore 下使用原生苹果 **启动磁盘 ( BootCamp )** 切换双系统](/Advanced/BootCamp.md)
 ## 鸣谢
 - [宪武](https://github.com/daliansky/OC-little)  提供的所有 [HotPatch](HotPatch)
