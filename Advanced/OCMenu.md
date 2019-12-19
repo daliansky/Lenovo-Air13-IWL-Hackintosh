@@ -2,10 +2,10 @@
 
 - 怎么隐藏菜单 ？
   - Config.plist - Misc - Boot
-    - `ShowPicker		Boolean		NO`
+    - `ShowPicker				Boolean				NO`
 - 单 ESP 分区菜单看不到 Windows 怎么办 ？
   - Config.plist - Misc - Boot
-    - `HideSelf		Boolean		NO`
+    - `HideSelf				Boolean				NO`
   - Config.plist - Misc - Security
     - `ScanPolicy		Number		0`  ( 自定义必须包含 ESP )
   - Config.plist - Misc
