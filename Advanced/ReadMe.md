@@ -17,7 +17,7 @@
 - 驱动 : [CPUFriend.kext](https://github.com/acidanthera/CPUFriend/releases) 、[CPUFriendDataProvider.kext](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/CPUFrequency)
   - [关于 CPUFriendDataProvider.kext 的定制](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/CPUFrequency/ReadMe.md)
 - 变频正常 , 双系统切换需要关机切换否则会有高频不降现象
-## 显卡 : Intel UHD Graphics 620 Whiskey Lake-U GT2  8086:3EA0
+## 显卡 : Intel UHD Graphics 620 Whiskey Lake-U GT3  8086:3EA0
 - 驱动 : [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases )
 - 采用 `Properties` 方法注入 `ig-platform-id` , 默认使用 `0x3e9b0000` , 若出现睡眠唤醒花屏尝试更换 `0x3EA50009` 
 - 支持亮度调节 , 支持硬解 H264 、HEVC

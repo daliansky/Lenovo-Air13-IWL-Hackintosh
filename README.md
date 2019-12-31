@@ -7,7 +7,7 @@
 | 处理器   | 英特尔 酷睿 i5 - 8265U / i7-8565U                            |
 | 内存     | 8GB / 16GB  1867MHz                                          |
 | 硬盘     | Nvme SSD 256G / 512G                                         |
-| 显卡     | Intel UHD Graphics 620 Whiskey Lake - U GT2                  |
+| 显卡     | Intel UHD Graphics 620 Whiskey Lake - U GT3                  |
 | 显示器   | 13.3 英寸 FHD 1920x1080                                      |
 | 声卡     | Realtek ALC236                                               |
 | 网卡     | 更换为 Dell DW1820A                                          |
