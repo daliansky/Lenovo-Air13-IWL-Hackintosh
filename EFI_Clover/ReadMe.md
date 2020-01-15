@@ -1,3 +1,7 @@
+# End
+
+- 鉴于 Acidanthera 开发组的驱动不再对 Clover 做兼容性测试 , 停更 Clover
+
 # Air13IWL-Clover-1.4.0
 
 - 更新 Clover 版本至 Releases - 5099
