@@ -1,6 +1,6 @@
 # End
 
-- 鉴于 Acidanthera 开发组的驱动不再对 Clover 做兼容性测试 , 停更 Clover
+- 鉴于 Acidanthera 开发组的驱动不再对 Clover 做兼容性测试 , 停更 Clover , 建议大家转向 [OC](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/EFI_OC)
 
 # Air13IWL-Clover-1.4.0
 
