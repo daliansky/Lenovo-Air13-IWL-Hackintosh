@@ -1,4 +1,12 @@
+# Air13IWL-OC-1.5.0
+
+- 更新 OpenCore 版本至 Releases - 0.5.4
+- 更新部分驱动至最新 Releases 版本
+- 添加 [NVMeFix.kext](https://github.com/acidanthera/NVMeFix) 驱动
+- [部分 OpenCore 菜单 常用操作](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/blob/master/Advanced/OCMenu.md)
+
 # Air13IWL-OC-1.4.0
+
 - 更新 OpenCore 版本至 Releases - 0.5.3
 - 更新部分驱动至最新 Releases 版本
 - 还原 `宪武` 早期的 `SSDT-OSYS.aml`  , 移除 `SSDT-BUS0.aml` , 还原 `SSDT-SBUS.aml`
