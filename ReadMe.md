@@ -17,17 +17,16 @@
 - [配置说明](Advanced/ReadMe.md)
 - [更新日志](Changelog.md)
 ## 哪些可以工作得更好
-- 安装 [ALCPlugFix](ALCPlugFix) 来修复3.5mm耳麦切换异常问题
-- 开启 [HIDPI](HIDPI) 来提升系统UI质量
-- [蓝牙设备 Windows 和 MacOS 双系统共用](/Advanced/Bluetooth.md)
-- [OpenCore 菜单部分相关问题](/Advanced/OCMenu.md)
-- [OpenCore 下使用原生苹果 **启动磁盘 ( BootCamp )** 切换双系统](/Advanced/BootCamp.md)
+- 安装 [ALCPlugFix](ALCPlugFix) 来修复 3.5 mm 耳麦切换异常问题
+- 开启 [HIDPI](Advanced/HIDPI.md) 来提升系统 UI 质量
+- [蓝牙设备 Windows 和 MacOS 双系统共用](Advanced/Bluetooth.md)
+- [OpenCore 菜单部分相关问题](Advanced/OCMenu.md)
+- [OpenCore 下使用原生苹果 **启动磁盘 ( BootCamp )** 切换双系统](Advanced/BootCamp.md)
 ## 鸣谢
-- [宪武](https://github.com/daliansky/OC-little)  提供的所有 [HotPatch](HotPatch)
+- [Acidanthera](https://github.com/acidanthera) 提供 [OpenCore](https://github.com/acidanthera/OpenCorePkg) 和 [相关驱动](https://github.com/acidanthera)
 - [RehabMan](https://github.com/RehabMan) 提供 [EAPD-Codec-Commander](https://github.com/RehabMan/EAPD-Codec-Commander) 
-- [Acidanthera](https://github.com/acidanthera) 提供 [Lilu](https://github.com/acidanthera/Lilu) 系列驱动 、 [VirtualSMC](https://github.com/acidanthera/VirtualSMC) 系列驱动和 [VoodooPS2Controller](https://github.com/acidanthera/VoodooPS2) 驱动的维护
-- [alexandred](https://github.com/alexandred) 提供 [VoodooI2C](https://github.com/alexandred/VoodooI2C) 的维护
-- [stevezhengshiqi](https://github.com/stevezhengshiqi) 的脚本和 MD
+- [alexandred](https://github.com/alexandred) 提供 [VoodooI2C](https://github.com/alexandred/VoodooI2C)
+- [宪武](https://github.com/daliansky/OC-little)  提供的所有 [HotPatch](HotPatch)
 ## 关于打赏
 如果您认可我的工作，请通过打赏支持我后续的更新
 

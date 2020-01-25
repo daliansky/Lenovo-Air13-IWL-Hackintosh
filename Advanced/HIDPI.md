@@ -6,7 +6,8 @@ macOS 的 DPI 机制和 Windows 下不一样 , 比如 1080P 的屏幕在 Windows
   - macOS 10.15 Catalina 需要临时解锁系统分区 , 终端执行以下命令后再使用
     - 挂载为可写模式 : `sudo mount -uw /`
     - 重启 Finder : `killall Finder`
-- 在终端执行HIDPI目录中的 `hidpi-zh.sh`
+- 在终端执行
+  - `bash -c "$(curl -fsSL https://raw.githubusercontent.com/xzhih/one-key-hidpi/master/hidpi.sh)"`
 ## 恢复
 如果使用此脚本后，开机无法进入系统，请到恢复模式中或使用 clover `-x` 安全模式进入系统 ，使用终端删除 `/System/Library/Displays/Contents/Resources/Overrides` 下删除 `DisplayVendorID-xxx` 文件夹(xxx是显示器供应商的ID)，并把 backup 文件夹中的备份复制出来。
 

@@ -6,4 +6,3 @@ chmod +x ~/desktop/ResourceConverter.sh
 ~/desktop/ResourceConverter.sh --kext ~/desktop/CPU.plist
 rm ~/desktop/ResourceConverter.sh
 rm ~/desktop/CPU.plist
-rm ~/desktop/freqVectorsEdit.sh
