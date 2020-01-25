@@ -11,18 +11,12 @@
 | 显示器   | 13.3 英寸 FHD 1920x1080                                      |
 | 声卡     | Realtek ALC236                                               |
 | 网卡     | 更换为 Dell DW1820A                                          |
-- 安装教程
-  - [[**黑果小兵的部落阁**] : 联想小新Air 13安装黑苹果兼macOS Mojave安装教程](https://blog.daliansky.net/Lenovo-Xiaoxin-Air-13-macOS-Mojave-installation-tutorial.html)
-- 镜像下载
-  - [[**黑果小兵的部落阁**] :【黑果小兵】原版镜像](https://blog.daliansky.net/categories/下载/镜像/)
-- 配置说明
-  - [进阶配置说明](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/Advanced/ReadMe.md)
-- EFI下载
-  - [Releases](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/releases)
-  - [腾讯微云](https://share.weiyun.com/5yMO9jB)
-- 更新日志
-  - [Clover 更新日志](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/EFI_Clover/ReadMe.md)
-  - [OpenCore 更新日志](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/EFI_OC/ReadMe.md)
+- 安装教程 : [[**黑果小兵的部落阁**] : 联想小新Air 13安装黑苹果兼macOS Mojave安装教程](https://blog.daliansky.net/Lenovo-Xiaoxin-Air-13-macOS-Mojave-installation-tutorial.html)
+- 镜像下载 : [[**黑果小兵的部落阁**] :【黑果小兵】原版镜像](https://blog.daliansky.net/categories/下载/镜像/)
+  
+- EFI 下载 : [GitHub](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/releases) 、 [腾讯微云](https://share.weiyun.com/5yMO9jB)
+- [配置说明](Advanced/ReadMe.md)
+- [更新日志](Changelog.md)
 ## 哪些可以工作得更好
 - [OpenCore 单系统建议](SingleSystem/ReadMe.md)
 - 安装 [ALCPlugFix](ALCPlugFix) 来修复3.5mm耳麦切换异常问题

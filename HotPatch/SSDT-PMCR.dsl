@@ -1,7 +1,7 @@
 DefinitionBlock ("", "SSDT", 2, "ACDT", "PMCR", 0)
 {
-    External (_SB_.PCI0, DeviceObj)
-    Scope (_SB.PCI0)
+    External (_SB_.PCI0.LPCB, DeviceObj)
+    Scope (_SB.PCI0.LPCB)
     {
         Device (PMCR)
         {
