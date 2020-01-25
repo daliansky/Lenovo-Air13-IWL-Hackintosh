@@ -4,7 +4,7 @@
 
 - 它可以解决耳机插拔状态的切换。
 - 它是通过使用命令 : `hda-verb 0xNode SET_PIN_WIDGET_CONTROL 0xVerbs` 的方式进行状态切换
-- `hda-verb` 是原本来自于linux下面的 `alsa-project` 的一条命令 , 它的作用是发送HD-audio命令
+- `hda-verb` 是原本来自于 linux 下面的 `alsa-project` 的一条命令 , 它的作用是发送HD-audio命令
 ## 注意：
 - 每次开机和睡眠唤醒后 , 你可能需要重新插拔耳机来让耳机正常工作
 - 安装前需要确认 SIP 为关闭状态 , 使用本仓库的EFI,默认为关闭状态
