@@ -277,6 +277,10 @@
 					<array>
 						<string>46=80</string>
 						<string>e045=80</string>
+						<string>e04e=80</string>
+						<string>e003=80</string>
+						<string>e04c=6b</string>
+						<string>e054=71</string>
 					</array>
 					<key>Custom PS2 Map</key>
 					<array>

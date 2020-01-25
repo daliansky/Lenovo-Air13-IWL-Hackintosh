@@ -24,7 +24,6 @@
     - 挂载为可写模式 : `sudo mount -uw /`
     - 重启 Finder : `killall Finder`
     - 重建缓存 : `sudo kextcache -i /`
-- [OpenCore 单系统建议](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/blob/master/SingleSystem/ReadMe.md)
 # Air13IWL-OC-1.2.0
 - 移除补丁 `SSDT-AIR13IWL.aml`  , 重新整理 [HotPatch](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/blob/master/HotPatch/ReadMe.md) 添加下列部件补丁
   - `SSDT-OSYS.aml` 、`SSDT-MCHC.aml` 、`SSDT-DMAC.aml` 、`SSDT-HPTE.aml` 、`SSDT-EC.aml` 、`SSDT-BKEY.aml` 、`SSDT-PMCR.aml` 、`SSDT-BUS0.aml` 、`SSDT-PR00.aml` 、`SSDT-PNLF.aml` 、`SSDT-GPRW.aml` 、`SSDT-RMCF.aml`
