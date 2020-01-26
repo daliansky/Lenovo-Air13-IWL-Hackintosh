@@ -13,7 +13,8 @@
 | 网卡     | 更换为 Dell DW1820A                                          |
 - 安装教程 : [[**黑果小兵的部落阁**] : 联想小新Air 13安装黑苹果兼macOS Mojave安装教程](https://blog.daliansky.net/Lenovo-Xiaoxin-Air-13-macOS-Mojave-installation-tutorial.html)
 - 镜像下载 : [[**黑果小兵的部落阁**] :【黑果小兵】原版镜像](https://blog.daliansky.net/categories/下载/镜像/)
-- EFI 下载 : [GitHub](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/releases) , [腾讯微云](https://share.weiyun.com/5yMO9jB)
+- [EFI 下载](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/releases)
+- [腾讯微云](https://share.weiyun.com/5yMO9jB)
 - [配置说明](Advanced/ReadMe.md)
 - [更新日志](Changelog.md)
 ## 哪些可以工作得更好
