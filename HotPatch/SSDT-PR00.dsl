@@ -1,6 +1,6 @@
 DefinitionBlock ("", "SSDT", 2, "ACDT", "PR00", 0)
 {
-    External (_SB.PR00, ProcessorObj)
+    External (_SB_.PR00, ProcessorObj)
     Scope (_SB.PR00)
     {
         Method (DTGP, 5, NotSerialized)
@@ -17,21 +17,18 @@ DefinitionBlock ("", "SSDT", 2, "ACDT", "PR00", 0)
                             }
                         Return (One)
                     }
-
                     If ((Arg2 == One))
                     {
                         Return (One)
                     }
                 }
             }
-
             Arg4 = Buffer (One)
                 {
                      0x00
                 }
             Return (Zero)
         }
-
         Method (_DSM, 4, NotSerialized)
         {
             Local0 = Package (0x02)

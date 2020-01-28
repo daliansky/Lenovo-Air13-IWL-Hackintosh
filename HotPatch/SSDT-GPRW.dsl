@@ -1,31 +1,33 @@
 // Rename  : GPRW, 2 to XPRW, 2
 // Find:     47505257 02
 // Replace:  58505257 02
-
 DefinitionBlock ("", "SSDT", 2, "ACDT", "GPRW", 0)
 {
     External (XPRW, MethodObj)
-    Method (GPRW, 2, NotSerialized)
+    Scope (\)
     {
-        If (_OSI ("Darwin"))
+        Method (GPRW, 2, NotSerialized)
         {
-            If ((0x6D == Arg0))
+            If (_OSI ("Darwin"))
             {
-                Return (Package ()
+                If ((0x6D == Arg0))
                 {
-                    0x6D, 
-                    Zero
-                })
-            }
-            If ((0x0D == Arg0))
-            {
-                Return (Package ()
+                    Return (Package ()
+                    {
+                        0x6D, 
+                        Zero
+                    })
+                }
+                If ((0x0D == Arg0))
                 {
-                    0x0D, 
-                    Zero
-                })
+                    Return (Package ()
+                    {
+                        0x0D, 
+                        Zero
+                    })
+                }
             }
+            Return (XPRW (Arg0, Arg1))
         }
-        Return (XPRW (Arg0, Arg1))
     }
 }

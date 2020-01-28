@@ -7,14 +7,16 @@
 - 更新 OpenCore 版本至 Releases - 0.5.4
 - 更新部分驱动至最新 Releases 版本
 - 添加 [NVMeFix.kext](https://github.com/acidanthera/NVMeFix) 驱动
-- [部分 OpenCore 菜单 常用操作](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/blob/master/Advanced/OCMenu.md)
+- [部分 OpenCore 菜单常用操作](Advanced/OCMenu.md)
+- 鉴于 Acidanthera 开发组的驱动不再对 Clover 做兼容性测试 , 停更 Clover
+- [Clover 最后版本 2019-12-04 Releases 1.4.0 下载](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/releases/tag/1.4.0)
 
 # Air13IWL-OC-1.4.0
 
 - 更新 OpenCore 版本至 Releases - 0.5.3
 - 更新部分驱动至最新 Releases 版本
 - 还原 `宪武` 早期的 `SSDT-OSYS.aml`  , 移除 `SSDT-BUS0.aml` , 还原 `SSDT-SBUS.aml`
-- [OpenCore 下使用原生苹果 **启动磁盘 ( BootCamp )** 切换双系统](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/blob/master/Advanced/BootCamp.md)
+- [OpenCore 下使用原生苹果 **启动磁盘 ( BootCamp )** 切换双系统](Advanced/BootCamp.md)
 # Air13IWL-OC-1.3.0
 - 更新 OpenCore 版本至 Releases - 0.5.1
 - 更新 `SSDT-OSYS.aml` , 添加 `Windows to Xindows` 更名 , 使 Windows 10 和 MacOS 双系统工作状态保持一致
@@ -29,7 +31,7 @@
     - 重启 Finder : `killall Finder`
     - 重建缓存 : `sudo kextcache -i /`
 # Air13IWL-OC-1.2.0
-- 移除补丁 `SSDT-AIR13IWL.aml`  , 重新整理 [HotPatch](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/blob/master/HotPatch/ReadMe.md) 添加下列部件补丁
+- 移除补丁 `SSDT-AIR13IWL.aml`  , 重新整理 [HotPatch](HotPatch/ReadMe.md) 添加下列部件补丁
   - `SSDT-OSYS.aml` 、`SSDT-MCHC.aml` 、`SSDT-DMAC.aml` 、`SSDT-HPTE.aml` 、`SSDT-EC.aml` 、`SSDT-BKEY.aml` 、`SSDT-PMCR.aml` 、`SSDT-BUS0.aml` 、`SSDT-PR00.aml` 、`SSDT-PNLF.aml` 、`SSDT-GPRW.aml` 、`SSDT-RMCF.aml`
 - 移除驱动 `SMCSuperIO.kext` 、`AIR13IWL.kext` , 添加下列驱动
   - `XHCI-unsupported.kext` 、`USBPorts.kext` 、`CPUFriendDataProvider.kext`

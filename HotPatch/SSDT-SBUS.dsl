@@ -1,7 +1,6 @@
 DefinitionBlock ("", "SSDT", 2, "ACDT", "SBUS", 0)
 {
     External (_SB_.PCI0.SBUS, DeviceObj)
-
     Scope (_SB.PCI0.SBUS)
     {
         Device (BUS0)
@@ -21,7 +20,6 @@ DefinitionBlock ("", "SSDT", 2, "ACDT", "SBUS", 0)
                              0x03
                         })
                     }
-
                     Return (Package (0x02)
                     {
                         "address", 
@@ -43,4 +41,3 @@ DefinitionBlock ("", "SSDT", 2, "ACDT", "SBUS", 0)
         }
     }
 }
-

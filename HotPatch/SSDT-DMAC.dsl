@@ -9,28 +9,28 @@ DefinitionBlock ("", "SSDT", 2, "ACDT", "DMAC", 0)
             Name (_CRS, ResourceTemplate ()
             {
                 IO (Decode16,
-                    0x0000,             // Range Minimum
-                    0x0000,             // Range Maximum
-                    0x01,               // Alignment
-                    0x20,               // Length
+                    0x0000,
+                    0x0000,
+                    0x01,
+                    0x20,
                     )
                 IO (Decode16,
-                    0x0081,             // Range Minimum
-                    0x0081,             // Range Maximum
-                    0x01,               // Alignment
-                    0x11,               // Length
+                    0x0081,
+                    0x0081,
+                    0x01,
+                    0x11,
                     )
                 IO (Decode16,
-                    0x0093,             // Range Minimum
-                    0x0093,             // Range Maximum
-                    0x01,               // Alignment
-                    0x0D,               // Length
+                    0x0093,
+                    0x0093,
+                    0x01,
+                    0x0D,
                     )
                 IO (Decode16,
-                    0x00C0,             // Range Minimum
-                    0x00C0,             // Range Maximum
-                    0x01,               // Alignment
-                    0x20,               // Length
+                    0x00C0,
+                    0x00C0,
+                    0x01,
+                    0x20,
                     )
                 DMA (Compatibility, NotBusMaster, Transfer8_16, )
                     {4}
