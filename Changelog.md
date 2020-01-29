@@ -1,6 +1,14 @@
 # Air13IWL-OC-1.6.0
 
-- 
+- 调整添加 [HotPatch](HotPatch)
+- 默认关闭操作系统补丁 `OSYS` 和亮度快捷键补丁 `BKEY`
+- 默认关闭亮度快捷键更名补丁 `_Q11 to XQ11` , `_Q12 to XQ12`
+- 操作系统补丁的关闭使 Windows 的 **电池养护模式** ( 并无多大用处 ) 关闭 , 如需开启做如下调整 ( 不建议开启 )
+  - `Config.plist` - `ACPI` - `Add` - `OSYS` : `Enabled` - `YES`
+  - 开启 `OSYS` 改变了功能键的布局导致 `RMCF` 的亮度快捷映射失效,所以需要做如下调整
+    - `Config.plist` - `ACPI` - `Add` - `BKEY` : `Enabled` - `YES`
+    - `Config.plist` - `ACPI` - `Patch` - `_Q11 to XQ11` : `Enabled` - `YES`
+    - `Config.plist` - `ACPI` - `Patch` - `_Q12 to XQ12` : `Enabled` - `YES`
 
 # Air13IWL-OC-1.5.0
 

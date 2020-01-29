@@ -208,9 +208,15 @@
 						<array>
 							<string>;This section maps ps2 codes (packet format) received quickly (macros) into fake ps2 codes (packet format)</string>
 							<string>;Fn+F1</string>
-							<data>//8CbgAAAAACWwEZ</data>
-							<data>//8C7gAAAAAC2wGZ</data>
-							<data>//8C7gAAAAABmQLb</data>
+							<data>
+							//8CbgAAAAACWwEZ
+							</data>
+							<data>
+							//8C7gAAAAAC2wGZ
+							</data>
+							<data>
+							//8C7gAAAAABmQLb
+							</data>
 						</array>
 						<key>MaximumMacroTime</key>
 						<integer>35000000</integer>
@@ -275,16 +281,11 @@
 					</array>
 					<key>Custom ADB Map</key>
 					<array>
-						<string>46=80</string>
-						<string>e045=80</string>
-						<string>e04e=80</string>
-						<string>e003=80</string>
-						<string>e04c=6b</string>
-						<string>e054=71</string>
+						<string>;Items must be strings in the form of scanfrom=adbto (in hex)</string>
 					</array>
 					<key>Custom PS2 Map</key>
 					<array>
-						<string>e037=e05e</string>
+						<string>;Items must be strings in the form of scanfrom=scanto (in hex)</string>
 						<string>e027=0;disable discrete fnkeys toggle</string>
 						<string>e028=0;disable discrete trackpad toggle</string>
 					</array>
@@ -295,7 +296,7 @@
 					<key>Make Application key into Apple Fn key</key>
 					<false/>
 					<key>Make Application key into right windows</key>
-					<false/>
+					<true/>
 					<key>Make right modifier keys into Hangul and Hanja</key>
 					<false/>
 					<key>SleepPressTime</key>
@@ -303,7 +304,7 @@
 					<key>Swap capslock and left control</key>
 					<false/>
 					<key>Swap command and option</key>
-					<false/>
+					<true/>
 					<key>Use ISO layout keyboard</key>
 					<false/>
 					<key>alt_handler_id</key>
