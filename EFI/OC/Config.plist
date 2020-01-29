@@ -112,6 +112,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>RMCF</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-RMCF.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>OSYS</string>
 				<key>Enabled</key>
 				<false/>
