@@ -1,6 +1,6 @@
 # Air13IWL-OC-1.6.0
 
-- 调整添加 [HotPatch](HotPatch)
+- 默认关闭 **可选** 补丁, 详见 [HotPatch](HotPatch/ReadMe.md)
 - 默认关闭操作系统补丁 `OSYS` 和亮度快捷键补丁 `BKEY`
 - 默认关闭亮度快捷键更名补丁 `_Q11 to XQ11` , `_Q12 to XQ12`
 - 操作系统补丁的关闭导致 Windows 的 **电池养护模式** ( 并无多大用处 ) 关闭 , 如需开启做如下调整 ( 不建议开启 )

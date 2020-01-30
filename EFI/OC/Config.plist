@@ -8,35 +8,11 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>GPRW</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-GPRW.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>HPTE</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-HPTE.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>PNLF</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
 				<string>SSDT-PNLF.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>SLPB</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-SLPB.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -48,27 +24,11 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>XSPI</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-XSPI.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>LPAD</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
 				<string>SSDT-LPAD.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>DMAC</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-DMAC.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -88,6 +48,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>RMCF</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-RMCF.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>SBUS</string>
 				<key>Enabled</key>
 				<true/>
@@ -104,11 +72,43 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>RMCF</string>
+				<string>GPRW</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-RMCF.aml</string>
+				<string>SSDT-GPRW.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>HPTE</string>
+				<key>Enabled</key>
+				<false/>
+				<key>Path</key>
+				<string>SSDT-HPTE.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SLPB</string>
+				<key>Enabled</key>
+				<false/>
+				<key>Path</key>
+				<string>SSDT-SLPB.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>XSPI</string>
+				<key>Enabled</key>
+				<false/>
+				<key>Path</key>
+				<string>SSDT-XSPI.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>DMAC</string>
+				<key>Enabled</key>
+				<false/>
+				<key>Path</key>
+				<string>SSDT-DMAC.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
