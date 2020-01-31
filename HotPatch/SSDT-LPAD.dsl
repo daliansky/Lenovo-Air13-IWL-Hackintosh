@@ -137,7 +137,7 @@ DefinitionBlock ("", "SSDT", 2, "ACDT", "LPAD", 0)
                 }
                 Return (DerefOf (DerefOf (TPID [Local0]) [Arg0]))
             }
-            Method (_DSM, 4, NotSerialized)
+            Method (XDSM, 4, NotSerialized)
             {
                 If ((Arg0 == ToUUID ("3cdff6f7-4267-4555-ad05-b30a3d8938de")))
                 {

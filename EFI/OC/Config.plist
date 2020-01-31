@@ -220,7 +220,7 @@
 			<key>RebaseRegions</key>
 			<false/>
 			<key>ResetHwSig</key>
-			<true/>
+			<false/>
 			<key>ResetLogoStatus</key>
 			<false/>
 		</dict>
@@ -685,7 +685,7 @@
 			<key>CustomSMBIOSGuid</key>
 			<false/>
 			<key>DisableIoMapper</key>
-			<true/>
+			<false/>
 			<key>ExternalDiskIcons</key>
 			<false/>
 			<key>IncreasePciBarSize</key>
@@ -835,7 +835,7 @@
 			<key>ROM</key>
 			<data></data>
 			<key>SpoofVendor</key>
-			<true/>
+			<false/>
 			<key>SupportsCsm</key>
 			<false/>
 			<key>SystemProductName</key>
