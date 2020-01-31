@@ -13,7 +13,6 @@ DefinitionBlock ("", "SSDT", 2, "ACDT", "RMCF", 0)
                     "46=80",      // Disable Fn + K
                     "e045=80",    // Disable Fn + P
                     "e04e=80",    // Disable Fn + F4
-                    "e003=80",    // Disable Fn + F7
                     "e04c=6b",    // Fn + F11 = F14
                     "e054=71",    // Fn + F12 = F15
                 },
