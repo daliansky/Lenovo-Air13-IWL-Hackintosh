@@ -2,10 +2,6 @@
 ## 简介
 macOS 的 DPI 机制和 Windows 下不一样 , 比如 1080P 的屏幕在 Windows 下有 125% 、150% 这样的缩放选项 , 而同样的屏幕在 macOS 下 , 缩放选项里只是单纯的调节分辨率 , 这就使得在默认分辨率下字体和UI看起来很小 , 降低分辨率又显得模糊 , 此脚本的目的是为开启 HiDPI 选项 , 使屏幕具有原生的 HIDPI 设置 , 不需要 RDM 软件即可在系统显示器设置中设置 , 开机的第二阶段 logo 总是会稍微放大 , 因为分辨率是仿冒的
 ## 使用方法
-- 使用前需要确认 SIP 为关闭状态 , 使用本仓库的EFI,默认为关闭状态
-  - macOS 10.15 Catalina 需要临时解锁系统分区 , 终端执行以下命令后再使用
-    - 挂载为可写模式 : `sudo mount -uw /`
-    - 重启 Finder : `killall Finder`
 - 在终端执行
   - `bash -c "$(curl -fsSL https://raw.githubusercontent.com/xzhih/one-key-hidpi/master/hidpi.sh)"`
 ## 恢复

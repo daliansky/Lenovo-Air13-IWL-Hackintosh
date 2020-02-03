@@ -1,5 +1,7 @@
 # Air13IWL-OC-1.6.0
 
+- 更新 OpenCore 版本至 Releases - 0.5.5
+- 更新部分驱动至最新 Releases 版本
 - 默认关闭 **可选** 补丁, 详见 [HotPatch](HotPatch/ReadMe.md)
 - 默认关闭操作系统补丁 `OSYS` 和亮度快捷键补丁 `BKEY`
 - 默认关闭亮度快捷键更名补丁 `_Q11 to XQ11` , `_Q12 to XQ12`
