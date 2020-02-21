@@ -48,17 +48,9 @@
 ## 杂项
 - ACPI
   - [HotPatch](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/HotPatch)
-- Drivers
-  - Clover
-    - 文件系统、内存驱动
-      - [HfsPlus.efi 、ApfsDriverLoader.efi 、FSInject.efi 、AptioMemoryFix.efi](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/EFI_Clover/CLOVER/drivers/UEFI)
-    - 文件保险箱功能驱动 
-      - [AppleImageCodec.efi 、AppleKeyAggregator.efi 、AppleKeyFeeder.efi 、AppleUITheme.efi 、FirmwareVolume.efi 、HashServiceFix.efi 、VirtualSmc.efi](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/EFI_Clover/CLOVER/drivers/UEFI)    
-  - OpenCore
-    - 文件系统、内存驱动
-      - [HfsPlus.efi 、ApfsDriverLoader.efi 、FwRuntimeServices.efi](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/EFI_OC/OC/Drivers)
-    - 文件保险箱功能驱动 
-      - [VirtualSmc.efi](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/EFI_OC/OC/Drivers)
+- Drivers  
+  - 文件系统、内存驱动
+    - [HfsPlus.efi 、ApfsDriverLoader.efi 、FwRuntimeServices.efi](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/EFI/OC/Drivers)
 - Kexts
   - 添加驱动 [NoTouchID.kext](https://github.com/al3xtjames/NoTouchID/releases) 解决输入密码卡顿问题
   - 添加必备驱动 [Lilu.kext](https://github.com/acidanthera/Lilu/releases) 
