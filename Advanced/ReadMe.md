@@ -18,7 +18,7 @@
 - 变频正常 , 双系统切换需要关机切换否则会有高频不降现象
 ## 显卡 : Intel UHD Graphics 620 Whiskey Lake-U GT3  8086:3EA0
 - 驱动 : [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases )
-- 采用 `Properties` 方法注入 `ig-platform-id` , 默认使用 `0x3e9b0000` , 若出现睡眠唤醒花屏尝试更换 `0x3EA50009` 
+- 采用 `Properties` 方法注入 `ig-platform-id` , 默认使用 `0x3e9b0000` , 若出现睡眠唤醒花屏尝试更换 `0x3EA50009` , 使用 `0x3EA60005` 可解决某些 HIDPI 分辨率下睡眠唤醒后四分之一屏的现象
 - 支持亮度调节 , 支持硬解 H264 、HEVC
 ![UHD620](Pictures/UHD620.png)
 ## 声卡 : Realtek ALC236  8086:9DC8
