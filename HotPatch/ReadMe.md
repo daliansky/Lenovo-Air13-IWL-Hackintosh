@@ -4,6 +4,7 @@
 | -------------------------- | ---------------------------------------- | ---- | ---- | ---- |
 | [SSDT-GPRW](SSDT-GPRW.dsl) | 0D / 6D 睡了即醒补丁                     | √    |      |      |
 | [SSDT-HPTE](SSDT-HPTE.dsl) | 屏蔽 HPET 补丁                           |      |      | √    |
+| [SSDT-USBX](SSDT-USBX.dsl) | USB 电源补丁                             | √    |      |      |
 | [SSDT-PNLF](SSDT-PNLF.dsl) | Coffee Lake 亮度控制补丁                 | √    |      |      |
 | [SSDT-SLPB](SSDT-SLPB.dsl) | 仿冒 PNP0C0E 设备                        |      |      | √    |
 | [SSDT-MCHC](SSDT-MCHC.dsl) | 仿冒 MCHC 设备                           |      | √    |      |
