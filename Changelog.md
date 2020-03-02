@@ -1,3 +1,12 @@
+# Air13IWL-OC-1.7.0
+
+- 更新 OpenCore 版本至 Releases - 0.5.6
+- 更新部分驱动至最新 Releases 版本
+- 关闭 RTC 唤醒计划 , 提高睡眠质量
+- 添加 `AudioDxe.efi` 和音频资源 , 在启动时播放提示音
+- 更新 `USBPorts.kext` , 移除驱动内的电源属性
+- 添加 `SSDT-USBX.aml` , USB 电源管理补丁 
+
 # Air13IWL-OC-1.6.0
 
 - 更新 OpenCore 版本至 Releases - 0.5.5
