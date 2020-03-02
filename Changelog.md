@@ -6,6 +6,7 @@
 - 添加 `AudioDxe.efi` 和音频资源 , 在启动时播放提示音
 - 更新 `USBPorts.kext` , 移除驱动内的电源属性
 - 添加 `SSDT-USBX.aml` , USB 电源管理补丁 
+- 默认隐藏 Recovery ( 恢复模式 ) 和 辅助工具等选项 , 按下空格键可显示
 
 # Air13IWL-OC-1.6.0
 
