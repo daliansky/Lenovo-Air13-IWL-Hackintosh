@@ -932,7 +932,7 @@
 			<key>KeySupport</key>
 			<true/>
 			<key>KeySupportMode</key>
-			<string>V1</string>
+			<string>Auto</string>
 			<key>KeySwap</key>
 			<false/>
 			<key>PointerSupport</key>
