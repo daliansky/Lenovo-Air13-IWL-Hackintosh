@@ -8,10 +8,10 @@
 
 DefinitionBlock("", "SSDT", 2, "ACDT", "BKEY", 0)
 {
-    External (_SB.PCI0.LPCB.PS2K, DeviceObj)
-    External (_SB.PCI0.LPCB.EC0, DeviceObj)
-    External (_SB.PCI0.LPCB.EC0.XQ11, MethodObj)
-    External (_SB.PCI0.LPCB.EC0.XQ12, MethodObj)
+    External (_SB_.PCI0.LPCB.PS2K, DeviceObj)
+    External (_SB_.PCI0.LPCB.EC0, DeviceObj)
+    External (_SB_.PCI0.LPCB.EC0.XQ11, MethodObj)
+    External (_SB_.PCI0.LPCB.EC0.XQ12, MethodObj)
     Scope (_SB.PCI0.LPCB.EC0)
     {
         Method (_Q11, 0, NotSerialized)
