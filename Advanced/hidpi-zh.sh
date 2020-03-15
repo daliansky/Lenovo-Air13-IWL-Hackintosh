@@ -1,5 +1,5 @@
 #!/bin/sh
-
+sudo mount -uw / && killall Finder
 function get_edid()
 {
     local index=0

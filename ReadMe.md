@@ -24,9 +24,7 @@
 - 因目前休眠无法正常唤醒 , 为避免影响到睡眠 , 终端使用以下命令关闭休眠 
   - `sudo pmset -a hibernatemode 0`
 - 重建缓存 , 使触摸板正常工作 , 终端执行以下命令之后重启
-  - `sudo mount -uw /`
-  - `killall Finder`
-  - `sudo kextcache -i /`
+  - `sudo mount -uw / && killall Finder && sudo kextcache -i /`
 - 安装 [ALCPlugFix](ALCPlugFix) 来修复 3.5 mm 耳麦切换异常问题
 - 开启 [HIDPI](Advanced/HIDPI.md) 来提升系统 UI 质量
 - Windows 和 MacOS [蓝牙设备双系统共用](Advanced/Bluetooth.md)
