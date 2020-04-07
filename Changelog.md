@@ -1,6 +1,13 @@
-# Air13IWL-OC-1.7.0
+# Air13IWL-OC-1.8.0
 
-
+- 更新 OpenCore 版本至 Releases - 0.5.7
+- 更新部分驱动至最新 Releases 版本
+- 调整部分显卡注入属性
+- 添加官方 GUI , 默认隐藏 , 开机按住 `Esc` 键显示
+- 默认关闭开机提示音 , 如需开启对 `Config.plist` 做如下调整
+  - `UEFI` - `Audio` - `Audio Support` :  `Yes`
+  - `UEFI` - `Audio` - `PlayChime` :  `Yes`
+  - `UEFI` - `Drivers` : `#AudioDex.efi` 改为 `AudioDex.efi` 
 
 # Air13IWL-OC-1.7.0
 
