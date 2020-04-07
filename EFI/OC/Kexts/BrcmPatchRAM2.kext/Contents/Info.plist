@@ -56,14 +56,6 @@
 			<integer>4000</integer>
 			<key>IOProviderClass</key>
 			<string>IOUSBHostDevice</string>
-			<key>InitialDelay</key>
-			<integer>200</integer>
-			<key>PostResetDelay</key>
-			<integer>250</integer>
-			<key>PreResetDelay</key>
-			<integer>250</integer>
-			<key>UpgradeDelay</key>
-			<integer>200</integer>
 			<key>idProduct</key>
 			<integer>25618</integer>
 			<key>idVendor</key>

@@ -1,5 +1,9 @@
 # Air13IWL-OC-1.7.0
 
+
+
+# Air13IWL-OC-1.7.0
+
 - 更新 OpenCore 版本至 Releases - 0.5.6
 - 更新部分驱动至最新 Releases 版本
 - 关闭 RTC 唤醒计划 , 提高睡眠质量
