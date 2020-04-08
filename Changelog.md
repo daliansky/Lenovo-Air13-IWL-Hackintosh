@@ -1,3 +1,9 @@
+# Air13IWL-OC-1.8.1
+
+- 更新触摸板驱动
+- 更新官方 GUI 资源包
+- 默认 `ig-platform-id` 使用 `3EA60005` ,  `Type-C` to `DP` 支持 4K@60Hz
+
 # Air13IWL-OC-1.8.0
 
 - 更新 OpenCore 版本至 Releases - 0.5.7
