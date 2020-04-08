@@ -71,7 +71,7 @@
   - 添加必备驱动 [Lilu.kext](https://github.com/acidanthera/Lilu/releases) 
   - 添加SMC、电池、传感器驱动 [VirtualSMC.kext 、SMCBatteryManager.kext 、SMCProcessor.kext](https://github.com/acidanthera/VirtualSMC/releases)
 - 所使用到的软件
-  - [Hackintool](http://headsoft.com.au/download/mac/Hackintool.zip)
+  - [Hackintool](https://github.com/headkaze/Hackintool/releases)
   - [PlistEdit Pro](https://www.fatcatsoftware.com/plisteditpro/PlistEditPro.zip)
     - Name : `TNT team`
     - Serial Number :  `PLEDPRO486-SF00-82GR-N8E3-50L2-0A0Q`
