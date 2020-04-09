@@ -39,10 +39,6 @@
 - Clover 移除 `VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Mouse.kext` 、`VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Trackpad.kext` 这两个扩展驱动 , 防止随机开机失败
 ## 触控板 : Intel I2C HID  INT34BB
 - 驱动 : [VoodooI2C.kext 、VoodooI2CHID.kext](https://github.com/alexandred/VoodooI2C/releases)
-- 多手势正常 , 在重新安装或系统升级后需要重建缓存使触摸板正常工作 , 终端执行以下命令之后重启 :
-  - `sudo mount -uw /`
-  - `killall Finder`
-  - `sudo kextcache -i /`
 ## USB : 端口定制 8086:9DED
 - 驱动 : [USBPorts.kext](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/EFI/OC/Kexts)
 
