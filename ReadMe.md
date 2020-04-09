@@ -23,10 +23,9 @@
 ## 哪些可以工作得更好
 - 因目前休眠无法正常唤醒 , 为避免影响到睡眠 , 终端使用以下命令关闭休眠 
   - `sudo pmset -a hibernatemode 0`
-- 重建缓存 , 使触摸板正常工作 , 终端执行以下命令之后重启
-  - `sudo mount -uw / && killall Finder && sudo kextcache -i /`
+- 开启 HIDPI 来提升系统 UI 质量 , 终端使用以下命开启或关闭 HIDPI
+  - `bash -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/Lenovo-Air13-IWL-Hackintosh/master/Advanced/hidpi-zh.sh)"`
 - 安装 [ALCPlugFix](ALCPlugFix) 来修复 3.5 mm 耳麦切换异常问题
-- 开启 [HIDPI](Advanced/HIDPI.md) 来提升系统 UI 质量
 - Windows 和 MacOS [蓝牙设备双系统共用](Advanced/Bluetooth.md)
 - OpenCore 菜单部分 [常见问题](Advanced/OCMenu.md)
 - OpenCore 使用原生苹果 [启动磁盘 ( BootCamp )](Advanced/BootCamp.md) 切换双系统
