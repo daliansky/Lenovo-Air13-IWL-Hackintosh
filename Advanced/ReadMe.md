@@ -27,7 +27,7 @@
 ![UHD620](Pictures/UHD620.png)
 ## 声卡 : Realtek ALC236  8086:9DC8
 - 驱动 : [AppleALC.kext](https://github.com/acidanthera/AppleALC/releases) 、[CodecCommander.kext](https://github.com/Sniki/EAPD-Codec-Commander/releases)
-- 采用 `Properties` 方法注入 , 注入ID为`99` ( `63000000` )
+- 采用 `DeviceProperties` 方法注入 , 注入ID为`99` ( `63000000` )
 - 安装 [ALCPlugFix](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/ALCPlugFix) 声卡守护进程 ( 处理3.5mm接口切换 )
 - 内置音频输入输出正常 , HDMI音频输出正常
 ![ALC236](Pictures/ALC236.png)
