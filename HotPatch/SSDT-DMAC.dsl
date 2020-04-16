@@ -1,4 +1,4 @@
-DefinitionBlock ("", "SSDT", 2, "ACDT", "DMAC", 0)
+DefinitionBlock ("", "SSDT", 2, "ACDT", "DMAC", 0x00000000)
 {
     External (_SB_.PCI0.LPCB, DeviceObj)
     Scope (_SB.PCI0.LPCB)
@@ -6,6 +6,17 @@ DefinitionBlock ("", "SSDT", 2, "ACDT", "DMAC", 0)
         Device (DMAC)
         {
             Name (_HID, EisaId ("PNP0200"))
+            Method (_STA, 0, NotSerialized)
+            {
+                If (_OSI ("Darwin"))
+                {
+                    Return (0x0F)
+                }
+                Else
+                {
+                    Return (Zero)
+                }
+            }
             Name (_CRS, ResourceTemplate ()
             {
                 IO (Decode16,
@@ -35,17 +46,6 @@ DefinitionBlock ("", "SSDT", 2, "ACDT", "DMAC", 0)
                 DMA (Compatibility, NotBusMaster, Transfer8_16, )
                     {4}
             })
-            Method (_STA, 0, NotSerialized)
-            {
-                If (_OSI ("Darwin"))
-                {
-                    Return (0x0F)
-                }
-                Else
-                {
-                    Return (Zero)
-                }
-            }
         }
     }
 }

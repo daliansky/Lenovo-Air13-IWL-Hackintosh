@@ -1,4 +1,4 @@
-DefinitionBlock("", "SSDT", 2, "ACDT", "SLPB", 0)
+DefinitionBlock("", "SSDT", 2, "ACDT", "SLPB", 0x00000000)
 {
     Scope (_SB)
     {

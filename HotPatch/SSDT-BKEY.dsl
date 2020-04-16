@@ -6,12 +6,12 @@
 // Find    : 5F513132
 // Replace : 58513132
 
-DefinitionBlock("", "SSDT", 2, "ACDT", "BKEY", 0)
+DefinitionBlock("", "SSDT", 2, "ACDT", "BKEY", 0x00000000)
 {
-    External (_SB_.PCI0.LPCB.PS2K, DeviceObj)
     External (_SB_.PCI0.LPCB.EC0, DeviceObj)
     External (_SB_.PCI0.LPCB.EC0.XQ11, MethodObj)
     External (_SB_.PCI0.LPCB.EC0.XQ12, MethodObj)
+    External (_SB_.PCI0.LPCB.PS2K, DeviceObj)
     Scope (_SB.PCI0.LPCB.EC0)
     {
         Method (_Q11, 0, NotSerialized)

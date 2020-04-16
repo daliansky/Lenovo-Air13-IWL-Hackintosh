@@ -1,4 +1,4 @@
-DefinitionBlock ("", "SSDT", 2, "ACDT", "PNLF", 0)
+DefinitionBlock ("", "SSDT", 2, "ACDT", "PNLF", 0x00000000)
 {
     Scope (_SB)
     {
@@ -7,7 +7,7 @@ DefinitionBlock ("", "SSDT", 2, "ACDT", "PNLF", 0)
             Name (_ADR, Zero)
             Name (_HID, EisaId ("APP0002"))
             Name (_CID, "backlight")
-            Name (_UID, 19)
+            Name (_UID, 0x13)
             Method (_STA, 0, NotSerialized)
             {
                 If (_OSI ("Darwin"))

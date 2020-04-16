@@ -1,4 +1,4 @@
-DefinitionBlock ("", "SSDT", 2, "ACDT", "HPTE", 0)
+DefinitionBlock ("", "SSDT", 2, "ACDT", "HPTE", 0x00000000)
 {
     External (HPTE, FieldUnitObj)
     Scope (\)

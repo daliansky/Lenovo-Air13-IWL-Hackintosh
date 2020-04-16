@@ -1,11 +1,11 @@
-DefinitionBlock ("", "SSDT", 2, "ACDT", "USBX", 0)
+DefinitionBlock ("", "SSDT", 2, "ACDT", "USBX", 0x00000000)
 {
     Scope (_SB)
     {
         Device (USBX)
         {
             Name (_ADR, Zero)
-            Method (_STA, 0, NotSerialized)  // _STA: Status
+            Method (_STA, 0, NotSerialized)
             {
                 If (_OSI ("Darwin"))
                 {
@@ -25,15 +25,10 @@ DefinitionBlock ("", "SSDT", 2, "ACDT", "USBX", 0)
                          0x03
                     })
                 }
-
                 Return (Package ()
                 {
-                    "kUSBSleepPowerSupply",
-                    0x0A28,
                     "kUSBSleepPortCurrentLimit",
                     0x0960,
-                    "kUSBWakePowerSupply",
-                    0x0C80,
                     "kUSBWakePortCurrentLimit",
                     0x0960
                 })

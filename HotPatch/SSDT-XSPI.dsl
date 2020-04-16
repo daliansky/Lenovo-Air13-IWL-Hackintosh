@@ -1,4 +1,4 @@
-DefinitionBlock ("", "SSDT", 2, "ACDT", "XSPI", 0)
+DefinitionBlock ("", "SSDT", 2, "ACDT", "XSPI", 0x00000000)
 {
     External (_SB_.PCI0, DeviceObj)
     Scope (_SB.PCI0)

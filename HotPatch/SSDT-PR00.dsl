@@ -1,43 +1,26 @@
-DefinitionBlock ("", "SSDT", 2, "ACDT", "PR00", 0)
+DefinitionBlock ("", "SSDT", 2, "ACDT", "PR00", 0x00000000)
 {
     External (_SB_.PR00, ProcessorObj)
-    Scope (_SB.PR00)
+    
+    If (_OSI ("Darwin"))
     {
-        Method (DTGP, 5, NotSerialized)
+        Scope (_SB.PR00)
         {
-            If ((Arg0 == ToUUID ("a0b5b7c6-1318-441c-b0c9-fe695eaf949b")))
+            Method (_DSM, 4, NotSerialized)
             {
-                If ((Arg1 == One))
+                If ((Arg2 == Zero))
                 {
-                    If ((Arg2 == Zero))
+                    Return (Buffer (One)
                     {
-                        Arg4 = Buffer (One)
-                            {
-                                 0x03
-                            }
-                        Return (One)
-                    }
-                    If ((Arg2 == One))
-                    {
-                        Return (One)
-                    }
+                        0x03
+                    })
                 }
-            }
-            Arg4 = Buffer (One)
-                {
-                     0x00
-                }
-            Return (Zero)
-        }
-        Method (_DSM, 4, NotSerialized)
-        {
-            Local0 = Package (0x02)
+                Return (Package (0x02)
                 {
                     "plugin-type", 
                     One
-                }
-            DTGP (Arg0, Arg1, Arg2, Arg3, RefOf (Local0))
-            Return (Local0)
+                })
+            }
         }
     }
 }

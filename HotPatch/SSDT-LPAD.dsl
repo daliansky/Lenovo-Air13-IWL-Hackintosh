@@ -1,4 +1,4 @@
-DefinitionBlock ("", "SSDT", 2, "ACDT", "LPAD", 0)
+DefinitionBlock ("", "SSDT", 2, "ACDT", "LPAD", 0x00000000)
 {
     External (_SB_.PCI0.I2C0, DeviceObj)
     External (TPDD, FieldUnitObj)
