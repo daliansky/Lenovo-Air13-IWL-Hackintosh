@@ -1,3 +1,10 @@
+# Air13IWL-OC-1.9.0
+
+- 更新 OpenCore 版本至 Releases - 0.5.8
+- 更新部分驱动至最新 Releases 版本
+- 默认显示 GUI ，按空格显示隐藏选项
+- GUI 隐藏选项添加 `重启` 和 `关机` 
+
 # Air13IWL-OC-1.8.1
 
 - 更新触摸板驱动
