@@ -15,7 +15,7 @@
 | [SSDT-PMCR](SSDT-PMCR.dsl) | 仿冒 PCHPMC 设备                         | √    |      |      |
 | [SSDT-SBUS](SSDT-SBUS.dsl) | 仿冒 BUS0 , DVL0 设备                    |      | √    |      |
 | [SSDT-PR00](SSDT-PR00.dsl) | CPU 电源管理补丁 ( 开启XCPM )            | √    |      |      |
-| [SSDT-RMCF](SSDT-RMCF.dsl) | PS2 按键映射补丁                         | √    |      |      |
+| [SSDT-PS2K](SSDT-PS2K.dsl) | PS2 按键映射补丁                         | √    |      |      |
 | [SSDT-OSYS](SSDT-OSYS.dsl) | 操作系统补丁 ( 电池充电状态同步 )        |      |      | √    |
 | [SSDT-BKEY](SSDT-BKEY.dsl) | 亮度快捷键补丁 ( 使用 SSDT-OSYS 时使用 ) |      |      | √    |
 - **必备** : 影响各个部件的功能使用 , 开启
