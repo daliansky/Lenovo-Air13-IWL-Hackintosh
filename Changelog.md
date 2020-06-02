@@ -1,3 +1,9 @@
+# Air13IWL-OC-2.0.0
+
+- 更新 OpenCore 版本至 Releases - 0.5.9
+- 更新部分驱动至最新 Releases 版本
+- 默认 `ig-platform-id` 改为 `3EA50000 ` 以修复 10.15.5 后 HDMI 崩溃问题
+
 # Air13IWL-OC-1.9.0
 
 - 更新 OpenCore 版本至 Releases - 0.5.8
