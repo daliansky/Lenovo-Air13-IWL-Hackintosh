@@ -1,3 +1,10 @@
+# Air13IWL-OC-2.1.0
+
+- 更新 OpenCore 版本至 Releases - 0.6.0
+- 更新部分驱动至最新 Releases 版本
+- 默认 `ig-platform-id` 恢复为 `3EA60005 `
+- HDMI 崩溃问题已修复 ,  添加 `igfxonln=1` 使 HDMI 在开机和睡眠唤醒后正常工作
+
 # Air13IWL-OC-2.0.0
 
 - 更新 OpenCore 版本至 Releases - 0.5.9
