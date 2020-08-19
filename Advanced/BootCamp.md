@@ -10,8 +10,6 @@
   - Misc
     - BlessOverride  ( 覆盖替换掉 Windows 的 BOOTx64.efi 情况下, 需要在此指定 Windows 引导 )
       - `Item0		<String>	\EFI\Microsoft\Boot\bootmgfw.efi`
-    - Boot
-      - `HideSelf		<Boolean>		NO`
     - Security
       - `ExposeSensitiveData		<Number>	2 `
       - `ScanPolicy		<Number>	525571 `   ( 自定义必须包含 ESP , 例 : NVME + APFS + ESP )
