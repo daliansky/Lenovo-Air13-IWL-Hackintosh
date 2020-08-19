@@ -14,7 +14,7 @@
   - `Advanced` → `System Agent (SA) Configuration` → `Graphics Configuration` → `DVMT Pre-Allocated` → `64M`
 ## 处理器 : Intel Core i5-8265U 1.60GHz Turbo 3.9Ghz 4C8T
 - 驱动 : [CPUFriend.kext](https://github.com/acidanthera/CPUFriend/releases) 、[CPUFriendDataProvider.kext](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/EFI/OC/Kexts)
-  - [关于 CPUFriendDataProvider.kext 的定制](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/CPUFrequency/ReadMe.md)
+  - [关于 CPUFriendDataProvider.kext 的定制](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/blob/master/Advanced/CPU.md)
 - 变频正常 , 双系统切换需要关机切换否则会有高频不降现象
 ## 显卡 : Intel UHD Graphics 620 Whiskey Lake-U GT3  8086:3EA0
 - 驱动 : [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases )
