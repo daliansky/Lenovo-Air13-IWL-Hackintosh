@@ -46,7 +46,7 @@
 ## USB : 端口定制 8086:9DED
 - 驱动 : [USBPorts.kext](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/EFI/OC/Kexts)
 
-- 使用 [Hackintool](http://headsoft.com.au/download/mac/Hackintool.zip) 定制USB , 由于指纹识别不可用所以删除对应USB端口 , 最终保留端口如下:
+- 使用 [Hackintool](https://github.com/headkaze/Hackintool/releases) 定制USB , 由于指纹识别不可用所以删除对应USB端口 , 最终保留端口如下:
 
   | 名称 | 连接器   | 设备                                   |
   | ---- | -------- | -------------------------------------- |
