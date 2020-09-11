@@ -63,13 +63,6 @@
 ## 杂项
 - ACPI
   - [HotPatch](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/HotPatch)
-- Drivers  
-  - 文件系统、内存驱动
-    - [HfsPlus.efi 、ApfsDriverLoader.efi 、OpenRuntime.efi](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/EFI/OC/Drivers)
-  - UEFI 音频支持驱动
-    - [AudioDxe.efi](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/EFI/OC/Drivers)
-  - OC GUI 驱动
-    - [OpenCanopy.efi](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/EFI/OC/Drivers)
 - Kexts
   - 添加驱动 [NoTouchID.kext](https://github.com/al3xtjames/NoTouchID/releases) 解决输入密码卡顿问题
   - 添加必备驱动 [Lilu.kext](https://github.com/acidanthera/Lilu/releases) 
