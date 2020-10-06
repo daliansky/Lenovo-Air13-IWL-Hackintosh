@@ -1,21 +1,11 @@
 DefinitionBlock("", "SSDT", 2, "ACDT", "SLPB", 0x00000000)
 {
-    Scope (_SB)
+    If (_OSI ("Darwin"))
     {
-        Device (SLPB)
+        Device (_SB.SLPB)
         {
             Name (_HID, EisaId ("PNP0C0E"))
-            Method (_STA, 0, NotSerialized)
-            {
-                If (_OSI ("Darwin"))
-                {
-                    Return (0x0B)
-                }
-                Else
-                {
-                    Return (Zero)
-                }
-            }
+            Name (_STA, 0x0B)
         }
     }
 }

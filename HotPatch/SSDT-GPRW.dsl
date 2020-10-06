@@ -4,22 +4,20 @@
 DefinitionBlock ("", "SSDT", 2, "ACDT", "GPRW", 0x00000000)
 {
     External (XPRW, MethodObj)
-    Scope (\)
+
+    Method (GPRW, 2, NotSerialized)
     {
-        Method (GPRW, 2, NotSerialized)
+        If (_OSI ("Darwin"))
         {
-            If (_OSI ("Darwin"))
+            If ((0x6D == Arg0))
             {
-                If ((0x6D == Arg0))
+                Return (Package (0x02)
                 {
-                    Return (Package (0x02)
-                    {
-                        0x6D, 
-                        Zero
-                    })
-                }
+                    0x6D, 
+                    Zero
+                })
             }
-            Return (XPRW (Arg0, Arg1))
         }
+        Return (XPRW (Arg0, Arg1))
     }
 }

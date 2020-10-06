@@ -4,6 +4,7 @@ DefinitionBlock ("", "SSDT", 2, "ACDT", "LPAD", 0x00000000)
     External (TPDD, FieldUnitObj)
     External (TPDF, FieldUnitObj)
     External (OSYS, FieldUnitObj)
+    
     If (_OSI ("Darwin"))
     {
         TPDD = 0x03

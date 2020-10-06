@@ -1,21 +1,10 @@
 DefinitionBlock ("", "SSDT", 2, "ACDT", "USBX", 0x00000000)
 {
-    Scope (_SB)
+    If (_OSI ("Darwin"))
     {
-        Device (USBX)
+        Device (_SB.USBX)
         {
             Name (_ADR, Zero)
-            Method (_STA, 0, NotSerialized)
-            {
-                If (_OSI ("Darwin"))
-                {
-                    Return (0x0F)
-                }
-                Else
-                {
-                    Return (Zero)
-                }
-            }
             Method (_DSM, 4, NotSerialized)
             {
                 If ((Arg2 == Zero))

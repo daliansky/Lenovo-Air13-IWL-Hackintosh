@@ -1,6 +1,7 @@
 DefinitionBlock ("", "SSDT", 2, "ACDT", "RMCF", 0x00000000)
 {
     External (_SB_.PCI0.LPCB.PS2K, DeviceObj)
+    
     If (_OSI ("Darwin"))
     {
         Name (_SB.PCI0.LPCB.PS2K.RMCF, Package (0x02)

@@ -1,24 +1,14 @@
 DefinitionBlock ("", "SSDT", 2, "ACDT", "PNLF", 0x00000000)
 {
-    Scope (_SB)
+    If (_OSI ("Darwin"))
     {
-        Device (PNLF)
+        Device (_SB.PNLF)
         {
             Name (_ADR, Zero)
             Name (_HID, EisaId ("APP0002"))
             Name (_CID, "backlight")
             Name (_UID, 0x13)
-            Method (_STA, 0, NotSerialized)
-            {
-                If (_OSI ("Darwin"))
-                {
-                    Return (0x0B)
-                }
-                Else
-                {
-                    Return (Zero)
-                }
-            }
+            Name (_STA, 0x0B)
         }
     }
 }
