@@ -1,9 +1,9 @@
-# ALCPlugFix_for_ALC_node12_19
+# ALCPlugFix
 
 ## 简介
 
 - 它可以解决耳机插拔状态的切换。
-- 它是通过使用命令 : `hda-verb 0xNode SET_PIN_WIDGET_CONTROL 0xVerbs` 的方式进行状态切换
+- 它是通过使用命令 : `hda-verb 0x19 SET_PIN_WIDGET_CONTROL 0x25` 进行状态切换
 - `hda-verb` 是原本来自于 linux 下面的 `alsa-project` 的一条命令 , 它的作用是发送HD-audio命令
 ## 使用方法：
 

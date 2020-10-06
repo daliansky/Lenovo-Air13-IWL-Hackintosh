@@ -1,8 +1,7 @@
 #!/bin/bash
 
-path=${0%/*}
-sudo mount -uw / && killall Finder
-sudo launchctl remove /Library/LaunchAgents/good.win.ALCPlugFix.plist
-sudo rm -rf /Library/LaunchAgents/good.win.ALCPlugFix.plist
-sudo rm -rf /usr/bin/ALCPlugFix
-sudo rm -rf /usr/bin/hda-verb
+sudo rm /usr/local/bin/ALCPlugFix
+sudo rm /usr/local/bin/hda-verb
+sudo launchctl unload -w /Library/LaunchDaemons/good.win.ALCPlugFix.plist
+sudo launchctl remove /Library/LaunchDaemons/good.win.ALCPlugFix.plist
+sudo rm /Library/LaunchDaemons/good.win.ALCPlugFix.plist
