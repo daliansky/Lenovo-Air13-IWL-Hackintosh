@@ -40,7 +40,6 @@
 - 驱动 : [BrcmFirmwareData.kext 、BrcmPatchRAM2.kext 、BrcmBluetoothInjector.kext](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/EFI/OC/Kexts)
 ## 键盘 : PS/2 标准键盘  MSFT0001
 - 驱动 : [VoodooPS2Controller.kext](https://github.com/acidanthera/VoodooPS2/releases)
-- Clover 移除 `VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Mouse.kext` 、`VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Trackpad.kext` 这两个扩展驱动 , 防止随机开机失败
 ## 触控板 : Intel I2C HID  INT34BB
 - 驱动 : [VoodooI2C.kext 、VoodooI2CHID.kext](https://github.com/alexandred/VoodooI2C/releases)
 ## USB : 端口定制 8086:9DED
