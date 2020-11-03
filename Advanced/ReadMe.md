@@ -26,7 +26,7 @@
 - 各项功能正常 , 支持硬解 H264 、HEVC
 ![UHD620](Pictures/UHD620.png)
 ## 声卡 : Realtek ALC236  8086:9DC8
-- 驱动 : [AppleALC.kext](https://github.com/acidanthera/AppleALC/releases) 、[CodecCommander.kext](https://github.com/Sniki/EAPD-Codec-Commander/releases)
+- 驱动 : [AppleALC.kext](https://github.com/acidanthera/AppleALC/releases)
 - 采用 `DeviceProperties` 方法注入 , 注入ID为`99` ( `63000000` )
 - 安装 [ALCPlugFix](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/ALCPlugFix) 声卡守护进程 ( 处理3.5mm接口切换 )
 - 内置音频输入输出正常 , HDMI音频输出正常
@@ -37,11 +37,11 @@
 - 此网卡需要屏蔽5个针脚 , 如下图
 ![DW1820A](Pictures/DW1820A.jpg)
 ## 蓝牙 : 更换Dell DW1820A BCM2045A0  0A5C:6412
-- 驱动 : [BrcmFirmwareData.kext 、BrcmPatchRAM2.kext 、BrcmBluetoothInjector.kext](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/EFI/OC/Kexts)
+- 驱动 : [BrcmFirmwareData.kext 、BrcmPatchRAM3.kext 、BrcmBluetoothInjector.kext](https://github.com/acidanthera/BrcmPatchRAM/releases)
 ## 键盘 : PS/2 标准键盘  MSFT0001
 - 驱动 : [VoodooPS2Controller.kext](https://github.com/acidanthera/VoodooPS2/releases)
 ## 触控板 : Intel I2C HID  INT34BB
-- 驱动 : [VoodooI2C.kext 、VoodooI2CHID.kext](https://github.com/alexandred/VoodooI2C/releases)
+- 驱动 : [VoodooI2C.kext 、VoodooI2CHID.kext](https://github.com/VoodooI2C/VoodooI2C/releases)
 ## USB : 端口定制 8086:9DED
 - 驱动 : [USBPorts.kext](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/EFI/OC/Kexts)
 

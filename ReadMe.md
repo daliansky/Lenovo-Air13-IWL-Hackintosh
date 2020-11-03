@@ -34,9 +34,8 @@
 - OpenCore 使用原生苹果 [启动磁盘 ( BootCamp )](Advanced/BootCamp.md) 切换双系统
 ## 鸣谢
 - **Acidanthera** 提供 [OpenCore](https://github.com/acidanthera/OpenCorePkg) 和 [相关驱动](https://github.com/acidanthera)
-- **Sniki** 提供 [EAPD-Codec-Commander](https://github.com/Sniki/EAPD-Codec-Commander)
 - **al3xtjames** 提供 [NoTouchID](https://github.com/al3xtjames/NoTouchID)
-- **alexandred** 提供 [VoodooI2C](https://github.com/alexandred/VoodooI2C)
+- **alexandred** 提供 [VoodooI2C](https://github.com/VoodooI2C/VoodooI2C/)
 - **宪武** 提供 [OC-little](https://github.com/daliansky/OC-little)
 ## 关于打赏
 如果您认可我的工作，请通过打赏支持我后续的更新
