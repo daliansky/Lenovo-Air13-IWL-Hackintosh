@@ -1,5 +1,10 @@
 # Air13IWL-OC-2.3.0
 
+- 更新 OpenCore 版本至 Releases - 0.6.3
+- 更新部分驱动至最新 Releases 版本
+- 添加亮度按键驱动 [BrightnessKeys.kext](https://github.com/acidanthera/BrightnessKeys/releases) , 移除 `SSDT-BKEY` 和其相关更名
+- 更新 [ALCFixPlug](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/tree/master/ALCPlugFix) 使用 `alc-verb` 切换耳麦, 移除不再需要的驱动 `CodecCommander.kext`  
+
 # Air13IWL-OC-2.2.0
 
 - 更新 OpenCore 版本至 Releases - 0.6.1
