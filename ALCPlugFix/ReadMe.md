@@ -1,4 +1,4 @@
-# ALCPlugFix
+# ALCPlugFix-Swift
 
 ## 简介
 
@@ -8,4 +8,7 @@
 
 - 在终端执行 ALCPlugFix 目录下的 `install.sh`
 - 如需移除 , 在端执行 ALCPlugFix 目录下的 `Remove.sh`
+
+## 鸣谢
+- 感谢 [black-dragon74](https://github.com/black-dragon74) 提供 [ALCPlugFix-Swift](https://github.com/black-dragon74/ALCPlugFix-Swift/releases)
 
