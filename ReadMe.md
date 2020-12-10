@@ -25,7 +25,7 @@
   - `sudo pmset -a hibernatemode 0`
 - 开启 HIDPI 来提升系统 UI 质量 , 终端使用以下命开启或关闭 HIDPI
   - 10.15 +
-    - `bash -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/Lenovo-Air13-IWL-Hackintosh/master/HiDPI/HiDPI.sh)"`
+    - `bash -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/Lenovo-Air13-IWL-Hackintosh/master/HiDPI/Air13IWL-HiDPI.sh)"`
   - 10.14 -
     - `bash -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/Lenovo-Air13-IWL-Hackintosh/master/Advanced/hidpi-zh.sh)"`
 - 安装 [ALCPlugFix](ALCPlugFix) 来修复 3.5 mm 耳麦切换异常问题
