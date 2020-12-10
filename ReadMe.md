@@ -3,7 +3,7 @@
 | 规格     | 详细信息                                                     |
 | -------- | ------------------------------------------------------------ |
 | 电脑型号 | 联想小新 Lenovo Air 13 IWL 笔记本电脑                        |
-| 操作系统 | macOS Catalina 10.15 / macOS Mojave 10.14 / macOS High Sierra 10.13 |
+| 操作系统 | macOS Big Sur 11/ Catalina 10.15 / Mojave 10.14 / High Sierra 10.13 |
 | 处理器   | 英特尔 酷睿 i5 - 8265U / i7-8565U                            |
 | 内存     | 8GB / 16GB LPDDR3 1867MHz                                    |
 | 硬盘     | Nvme SSD 256G / 512G                                         |
