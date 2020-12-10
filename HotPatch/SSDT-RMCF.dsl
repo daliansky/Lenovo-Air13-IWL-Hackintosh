@@ -20,11 +20,7 @@ DefinitionBlock ("", "SSDT", 2, "ACDT", "RMCF", 0x00000000)
                 Package ()
                 {
                     "e037=e05e"    // PrtSc = System Power
-                },
-                "Make Application key into right windows",
-                ">n",    // Disable Make Application key into right windows
-                "Swap command and option",
-                ">n"    // Disable Swap command and option
+                }
             }
         })
     }

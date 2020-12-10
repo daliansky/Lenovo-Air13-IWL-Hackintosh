@@ -31,9 +31,9 @@ sudo cp "$path/Config.plist" /Library/Preferences/ALCPlugFix
 sudo chmod 644 /Library/Preferences/ALCPlugFix/Config.plist
 sudo chown root:wheel /Library/Preferences/ALCPlugFix/Config.plist
 
-sudo cp "$path/com.black-dragon74.ALCPlugFix.plist" /Library/LaunchDaemons
-sudo chmod 644 /Library/LaunchDaemons/com.black-dragon74.ALCPlugFix.plist
-sudo chown root:wheel /Library/LaunchDaemons/com.black-dragon74.ALCPlugFix.plist
-sudo launchctl load /Library/LaunchDaemons/com.black-dragon74.ALCPlugFix.plist
+sudo cp "$path/com.black-dragon74.ALCPlugFix.plist" /Library/LaunchAgents
+sudo chmod 644 /Library/LaunchAgents/com.black-dragon74.ALCPlugFix.plist
+sudo chown root:wheel /Library/LaunchAgents/com.black-dragon74.ALCPlugFix.plist
+sudo launchctl load /Library/LaunchAgents/com.black-dragon74.ALCPlugFix.plist
 
 echo Done !
