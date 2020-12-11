@@ -32,12 +32,17 @@
     - `bash -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/Lenovo-Air13-IWL-Hackintosh/master/Advanced/hidpi-zh.sh)"`
     - 备用:
       - `bash -c "$(curl -fsSL https://gitee.com/xlivans/Tools/raw/master/hidpi-zh.sh)"`
-- 安装 [ALCPlugFix](ALCPlugFix) 来修复 3.5 mm 耳麦切换异常问题
+- 安装 ALCPlugFix 来修复 3.5 mm 耳麦切换异常问题
+  - 它是通过使用命令 : `alc-verb 0x19 SET_PIN_WIDGET_CONTROL 0x25` 进行状态切换 , 终端使用以下命安装或卸载 ALCPlugFix
+    - `bash -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/Lenovo-Air13-IWL-Hackintosh/master/ALCPlugFix/Air13IWL-ALCPlugFix.sh)"`
+    - 备用:
+      - `bash -c "$(curl -fsSL https://gitee.com/xlivans/Tools/raw/master/Air13IWL-ALCPlugFix.sh)"`
 - Windows 和 MacOS [蓝牙设备双系统共用](Advanced/Bluetooth.md)
 - OpenCore 菜单部分 [常见问题](Advanced/OCMenu.md)
 - OpenCore 使用原生苹果 [启动磁盘 ( BootCamp )](Advanced/BootCamp.md) 切换双系统
 ## 鸣谢
 - **Acidanthera** 提供 [OpenCore](https://github.com/acidanthera/OpenCorePkg) 和 [相关驱动](https://github.com/acidanthera)
+- **black-dragon74** 提供 [ALCPlugFix-Swift](https://github.com/black-dragon74/ALCPlugFix-Swift)
 - **al3xtjames** 提供 [NoTouchID](https://github.com/al3xtjames/NoTouchID)
 - **alexandred** 提供 [VoodooI2C](https://github.com/VoodooI2C/VoodooI2C/)
 - **宪武** 提供 [OC-little](https://github.com/daliansky/OC-little)
