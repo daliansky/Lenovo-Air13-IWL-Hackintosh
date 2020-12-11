@@ -26,8 +26,12 @@
 - 开启 HIDPI 来提升系统 UI 质量 , 终端使用以下命开启或关闭 HIDPI
   - 10.15 +
     - `bash -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/Lenovo-Air13-IWL-Hackintosh/master/HiDPI/Air13IWL-HiDPI.sh)"`
+    - 备用:
+      - `bash -c "$(curl -fsSL https://gitee.com/xlivans/Tools/raw/master/Air13IWL-HiDPI.sh)"`
   - 10.14 -
     - `bash -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/Lenovo-Air13-IWL-Hackintosh/master/Advanced/hidpi-zh.sh)"`
+    - 备用:
+      - `bash -c "$(curl -fsSL https://gitee.com/xlivans/Tools/raw/master/hidpi-zh.sh)"`
 - 安装 [ALCPlugFix](ALCPlugFix) 来修复 3.5 mm 耳麦切换异常问题
 - Windows 和 MacOS [蓝牙设备双系统共用](Advanced/Bluetooth.md)
 - OpenCore 菜单部分 [常见问题](Advanced/OCMenu.md)
