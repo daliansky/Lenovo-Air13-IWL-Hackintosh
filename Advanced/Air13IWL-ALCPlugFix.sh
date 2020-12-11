@@ -133,6 +133,8 @@ sudo chmod 644 /Library/LaunchAgents/com.black-dragon74.ALCPlugFix.plist
 sudo chown root:wheel /Library/LaunchAgents/com.black-dragon74.ALCPlugFix.plist
 sudo launchctl load /Library/LaunchAgents/com.black-dragon74.ALCPlugFix.plist
 
+sudo rm -rf alc-verb
+sudo rm -rf ALCPlugFix
 sudo rm -rf Config.plist
 sudo rm -rf com.black-dragon74.ALCPlugFix.plist
 
