@@ -27,25 +27,13 @@
 - 开启 HIDPI 来提升系统 UI 质量 , 终端使用以下命开启或关闭 HIDPI
   - 适用于 macOS 10.15 和 macOS 11
     ```bash
-    bash -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/Lenovo-Air13-IWL-Hackintosh/master/Advanced/Air13IWL-HiDPI.sh)"
-    ```
-    备用地址 :
-    ```bash
     bash -c "$(curl -fsSL https://gitee.com/xlivans/Tools/raw/master/Air13IWL-HiDPI.sh)"
     ```
   - 适用于 macOS 10.14 或更早的版本
     ```bash
-    bash -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/Lenovo-Air13-IWL-Hackintosh/master/Advanced/hidpi-zh.sh)"
-    ```
-    备用地址 :
-    ```bash
     bash -c "$(curl -fsSL https://gitee.com/xlivans/Tools/raw/master/hidpi-zh.sh)"
     ```
 - 安装 ALCPlugFix 来修复 3.5 mm 耳麦切换异常问题 , 它是通过使用命令 : `alc-verb 0x19 SET_PIN_WIDGET_CONTROL 0x25` 进行状态切换 , 适用于 **AppleALC 1.5.4** 之后的版本, 终端使用以下命安装或卸载 ALCPlugFix
-  ```bash
-  bash -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/Lenovo-Air13-IWL-Hackintosh/master/Advanced/Air13IWL-ALCPlugFix.sh)"
-  ```
-  备用地址 :
   ```bash
   bash -c "$(curl -fsSL https://gitee.com/xlivans/Tools/raw/master/Air13IWL-ALCPlugFix.sh)"
   ```
