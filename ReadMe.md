@@ -33,7 +33,7 @@
     ```bash
     bash -c "$(curl -fsSL https://gitee.com/xlivans/Tools/raw/master/hidpi-zh.sh)"
     ```
-- 安装 ALCPlugFix 来修复 3.5 mm 耳麦切换异常问题 , 它是通过使用命令 : `alc-verb 0x19 SET_PIN_WIDGET_CONTROL 0x25` 进行状态切换 , 适用于 **AppleALC 1.5.4** 之后的版本, 终端使用以下命安装或卸载 ALCPlugFix
+- 安装 ALCPlugFix-Swift 来修复 3.5 mm 耳麦切换异常问题 , 它是通过使用命令 : `alc-verb 0x19 SET_PIN_WIDGET_CONTROL 0x25` 进行状态切换 , 适用于 **AppleALC 1.5.4** 之后的版本, 终端使用以下命安装或卸载 ALCPlugFix
   ```bash
   bash -c "$(curl -fsSL https://gitee.com/xlivans/Tools/raw/master/Air13IWL-ALCPlugFix.sh)"
   ```

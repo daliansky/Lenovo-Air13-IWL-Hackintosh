@@ -1,3 +1,9 @@
+# Air13IWL-OC-2.5.0
+
+- 更新 OpenCore 版本至 Releases - 0.6.6
+- 更新部分驱动至最新 Releases 版本
+- 添加 `enable-backlight-registers-fix` 属性修复背光 , 适用于 [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen) 1.4.6 和之后的版本
+
 # Air13IWL-OC-2.4.0
 
 - 更新 OpenCore 版本至 Releases - 0.6.4
