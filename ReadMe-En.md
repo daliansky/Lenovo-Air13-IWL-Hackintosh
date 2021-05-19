@@ -1,6 +1,6 @@
 # Lenovo Air 13 IWL Hackintosh
 
-[CN](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/blob/master/ReadMe.md) [EN](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/blob/master/ReadMe-En.md) 
+[CN](ReadMe.md) | [EN](ReadMe-En.md) 
 
 ## Computer configuration
 | Spec           | Detailed information                                                |
