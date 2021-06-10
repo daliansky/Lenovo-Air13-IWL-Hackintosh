@@ -1,6 +1,6 @@
 # Air13IWL-OC-2.7.0
 
-- 更新 OpenCore 版本至 Releases - 0.6.9
+- 更新 OpenCore 版本至 Releases - 0.7.0
 - 更新部分驱动至最新 Releases 版本
 
 # Air13IWL-OC-2.6.0
