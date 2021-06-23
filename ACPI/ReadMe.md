@@ -1,1 +1,1 @@
-# BIOS 2.05 版本的原始 ACPI
+# BIOS 2.08 版本的原始 ACPI
