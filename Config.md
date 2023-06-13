@@ -4,25 +4,19 @@
 - [调整 CPU 基础频率使其更接近`MacBookPro15,4`的CPU参数](BIOSConfig.md) , 变频正常 , 各项功能正常
 ## 显卡 : Intel UHD Graphics 620 Whiskey Lake-U GT3  8086:3EA0
 - 驱动 : [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases )
-
 - PCI 路径: `PciRoot(0x0)/Pci(0x2,0x0)`  , 使用 `DeviceProperties` 方法仿冒 `device-id` : `3EA6` , 注入 `ig-platform-id` , 默认使用 `3EA60005`
-
-  若使用10.13 , 10.14 系统更换机型`MacBookPro15,2`并设置 `device-id` : `3EA5` , `ig-platform-id` : `3EA50005`
-
+- 若使用10.13 , 10.14 系统更换机型`MacBookPro15,2`并设置 `device-id` : `3EA5` , `ig-platform-id` : `3EA50005`
 - 背光正常 , 亮度调节正常 , HDMI 外接正常, Type-C 外接 DP 正常 , 支持硬解 H264 、HEVC , 各项功能正常
 ![UHD620](Tools/Pictures/UHD620.png)
 ## 声卡 : Realtek ALC236  8086:9DC8
 - 驱动 : [AppleALC.kext](https://github.com/acidanthera/AppleALC/releases)
 - PCI 路径: `PciRoot(0x0)/Pci(0x1f,0x3)`  , 使用 `DeviceProperties` 方法注入 , 注入ID为`99` ( `63000000` )
-- 安装 [ALCPlugFix](Tools/ReadMe.md) 声卡守护进程 ( 处理3.5mm接口切换 )
 - 内置音频输入输出正常 , HDMI音频输出正常
 ![ALC236](Tools/Pictures/ALC236.png)
 ## 网卡 : 更换为苹果拆机卡 BCM94360CS2 / BCM943602CS (使用软排线转接)
 - 驱动 : [AirportBrcmFixup.kext](https://github.com/acidanthera/AirportBrcmFixup/releases)
-
 - PCI 路径: `PciRoot(0x0)/Pci(0x1C,0x0)/Pci(0x0,0x0)`  , 使用 `DeviceProperties` 方法 , 注入国家地区代码 `#a` , 解决5G速率限制
 
-  ![BCM4350](Tools/Pictures/BCM4350.png)
 ## 蓝牙 : 更换为苹果拆机卡 BCM94360CS2 / BCM943602CS 免驱蓝牙
 - 连续互通完美使用
 ## 键盘 : PS/2 标准键盘  MSFT0001
