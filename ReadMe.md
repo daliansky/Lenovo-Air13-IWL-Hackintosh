@@ -51,14 +51,10 @@
 - **black-dragon74** 提供 [ALCPlugFix-Swift](https://github.com/black-dragon74/ALCPlugFix-Swift)
 - **alexandred** 提供 [VoodooI2C](https://github.com/VoodooI2C/VoodooI2C/)
 - **宪武** 提供 [OC-little](https://github.com/daliansky/OC-little)
-## 关于打赏
-如果您认可我的工作，请通过打赏支持我后续的更新
 
-| 微信                                                       | 支付宝                                               |
-| ---------------------------------------------------------- | ---------------------------------------------------- |
-| ![wechatpay_160](http://7.daliansky.net/wechatpay_160.jpg) | ![alipay_160](http://7.daliansky.net/alipay_160.jpg) |
 ## QQ群:
-- 331686786  [一起吃苹果](http://shang.qq.com/wpa/qunwpa?idkey=db511a29e856f37cbb871108ffa77a6e79dde47e491b8f2c8d8fe4d3c310de91)
-- 688324116 [一起黑苹果](https://shang.qq.com/wpa/qunwpa?idkey=6bf69a6f4b983dce94ab42e439f02195dfd19a1601522c10ad41f4df97e0da82)
-- 943181023 [联想小新 Air 黑苹果交流群](https://shang.qq.com/wpa/qunwpa?idkey=fb772a7e01436d43e1d856a099549551952bb08161ced4a8fc08b4e75e7ab438) 
-- 128630866 [ThinkPad 黑苹果交流群](https://jq.qq.com/?_wv=1027&k=5aKxc6n)
+- 331686786 [一起吃苹果]
+- 688324116 [一起黑苹果]
+- 943181023 [联想小新 Air 黑苹果交流群]
+- 128630866 [ThinkPad 黑苹果交流群]
+
