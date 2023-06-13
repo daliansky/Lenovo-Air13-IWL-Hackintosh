@@ -17,9 +17,9 @@
 - [安装前 BIOS 设置建议](BIOSConfig.md)
 - 安装教程 : [[**黑果小兵的部落阁**] : 联想小新Air 13安装黑苹果兼macOS Mojave安装教程](https://blog.daliansky.net/Lenovo-Xiaoxin-Air-13-macOS-Mojave-installation-tutorial.html)
 - 镜像下载 : [[**黑果小兵的部落阁**] :【黑果小兵】原版镜像](https://blog.daliansky.net/categories/下载/镜像/)
-- [EFI Relsases 下载](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/releases)
-- [腾讯微云](https://share.weiyun.com/5yMO9jB)
-- [配置说明](Advanced/ReadMe.md)
+- EFI Releases 下载 : [Gitee](https://gitee.com/xlivans/Air13IWL/releases) , [GitHub](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/releases) , [腾讯微云](https://share.weiyun.com/5yMO9jB)
+- [热补丁信息](HotPatch/ReadMe.md)
+- [配置信息](Config.md)
 - [更新日志](Changelog.md)
 
 ## 哪些可以工作得更好
@@ -45,9 +45,7 @@
   ```bash
   bash -c "$(curl -fsSL https://gitee.com/xlivans/Air13IWL/raw/master/Tools/Air13IWL-ALCPlugFix.sh)"
   ```
-- Windows 和 MacOS [蓝牙设备双系统共用](Advanced/Bluetooth.md)
-- OpenCore 菜单部分 [常见问题](Advanced/OCMenu.md)
-- OpenCore 使用原生苹果 [启动磁盘 ( BootCamp )](Advanced/BootCamp.md) 切换双系统
+
 ## 鸣谢
 - **Acidanthera** 提供 [OpenCore](https://github.com/acidanthera/OpenCorePkg) 和 [相关驱动](https://github.com/acidanthera)
 - **black-dragon74** 提供 [ALCPlugFix-Swift](https://github.com/black-dragon74/ALCPlugFix-Swift)
