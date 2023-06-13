@@ -23,7 +23,8 @@
 - [Changelog](Changelog.md)
 
 ## Which can work better
-- Due to the current hibernation can not wake up normally, in order to avoid affecting sleep, the terminal uses the following command  - Close hibernation
+- Due to the current hibernation can not wake up normally, in order to avoid affecting sleep, the terminal uses the following command
+  - Close hibernation
     ```bash
     sudo pmset -a hibernatemode 0
     ```
