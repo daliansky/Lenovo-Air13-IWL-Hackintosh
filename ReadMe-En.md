@@ -31,11 +31,21 @@
     ```bash
     sudo pmset -a proximitywake 0
     ```
+  - Clear and lock the `com.apple.AutoWake.plist` file on `Ventura 13` to prevent scheduled tasks from waking up ( this operation will affect functions such as `Find My Mac` )
+    ```bash 
+    sudo pmset sched cancelall
+    sudo pmset repeat cancel
+    sudo chflags schg /Library/Preferences/SystemConfiguration/com.apple.AutoWake.plist
+    ```
+    Updating the system will result in the file being overwritten and locked out , Please repeat the above operation , Manually unlock the command
+    ```bash 
+    sudo chflags noschg /Library/Preferences/SystemConfiguration/com.apple.AutoWake.plist
+    ```
 - Enable HIDPI to improve system UI quality. The terminal uses the following command to turn HIDPI on or off
   - Suitable for Ventura 13
-  ```bash
-  bash -c "$(curl -fsSL https://gitee.com/xlivans/Air13IWL/raw/master/Tools/Air13IWL-HiDPI-Ventura.sh)"
-  ```
+    ```bash
+    bash -c "$(curl -fsSL https://gitee.com/xlivans/Air13IWL/raw/master/Tools/Air13IWL-HiDPI-Ventura.sh)"
+    ```
   - Suitable for Monterey 12 / Big Sur 11/ Catalina 10.15
     ```bash
     bash -c "$(curl -fsSL https://gitee.com/xlivans/Air13IWL/raw/master/Tools/Air13IWL-HiDPI.sh)"

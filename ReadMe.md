@@ -32,6 +32,17 @@
     ```bash
     sudo pmset -a proximitywake 0
     ```
+  - 在 `Ventura 13` 上清空并锁定 `com.apple.AutoWake.plist` ⽂件以防止计划任务唤醒 ( 此操作将影响`查找我的Mac`等功能 )
+    ```bash 
+    sudo pmset sched cancelall
+    sudo pmset repeat cancel
+    sudo chflags schg /Library/Preferences/SystemConfiguration/com.apple.AutoWake.plist
+    ```
+    更新系统将导致⽂件被覆盖锁定失效 , 请重复以上操作 , 手动解锁命令
+    ```bash 
+    sudo chflags noschg /Library/Preferences/SystemConfiguration/com.apple.AutoWake.plist
+    ```
+    
 - 开启 HIDPI 来提升系统 UI 质量 , 终端使用以下命开启或关闭 HIDPI
   - 适用于 Ventura 13
     ```bash
