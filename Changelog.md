@@ -1,3 +1,14 @@
+# Air13IWL-OC-3.0.0
+
+- 更新 OpenCore 版本至 Releases - 0.9.3
+- 更新部分驱动至最新 Releases 版本
+- 默认使用苹果拆机网卡 BCM94360CS2 / BCM943602CS (使用软排线转接)
+- 以下为使用前必要的`隐藏 BIOS 设置` , 参考 : [安装前 BIOS 设置建议](BIOSConfig.md)
+  - 关闭 CFG Lock ( MSR 0xE2 )
+    - `Advanced` → `Power & Performance` → `CPU - Power Management Control` → `CPU Lock Configuration` → `CFG Lock` → `Disabled`
+  - 修改 DVMT 为 64M
+    - `Advanced` → `System Agent (SA) Configuration` → `Graphics Configuration` → `DVMT Pre-Allocated` → `64M`
+
 # Air13IWL-OC-2.7.0
 
 - 更新 OpenCore 版本至 Releases - 0.7.0
