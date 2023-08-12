@@ -1,3 +1,9 @@
+# Air13IWL-OC-3.1.0
+
+- 更新 OpenCore 版本至 Releases - 0.9.4
+- 更新部分驱动至最新 Releases 版本
+- `macOS Ventura 13.5` 更新后 , `Air13IWL-OC-3.0.0` 中的 `enable-backlight-registers-alternative-fix` 失效 , `Air13IWL-OC-3.0.0` 仅适用于 `macOS Ventura 13.4` 版本 , 现恢复使用 `enable-backlight-registers-fix` 修复背光以适用于其他版本
+
 # Air13IWL-OC-3.0.0
 
 - 更新 OpenCore 版本至 Releases - 0.9.3
