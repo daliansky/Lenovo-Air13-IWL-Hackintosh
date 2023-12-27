@@ -1,3 +1,15 @@
+# Air13IWL-OC-3.2.0
+
+- 更新 OpenCore 版本至 Releases - 0.9.7
+- 更新部分驱动至最新 Releases 版本
+- 添加回 `DVMT` 补丁 , 已修改隐藏 `BIOS` 中 `DVMT` 设置的用户可自行移除
+  ```bash
+   <key>framebuffer-fbmem</key>
+   <data>AACQAA==</data>
+   <key>framebuffer-stolenmem</key>
+   <data>AAAwAQ==</data>
+   ```
+
 # Air13IWL-OC-3.1.0
 
 - 更新 OpenCore 版本至 Releases - 0.9.4
