@@ -52,10 +52,18 @@
     ```bash
     bash -c "$(curl -fsSL https://gitee.com/xlivans/Air13IWL/raw/master/Tools/Air13IWL-HiDPI.sh)"
     ```
-- 安装 ALCPlugFix-Swift 来修复 3.5 mm 耳麦切换异常问题 , 它是通过使用命令 : `alc-verb 0x19 SET_PIN_WIDGET_CONTROL 0x25` 进行状态切换 , 适用于 **AppleALC 1.5.4** 之后的版本, 终端使用以下命安装或卸载 ALCPlugFix
-  ```bash
+
+- 安装 ALCPlugFix-Swift 修复 3.5 mm 耳麦切换异常问题 , 终端使用以下命安装或卸载 ALCPlugFix
+  ```bash 
   bash -c "$(curl -fsSL https://gitee.com/xlivans/Air13IWL/raw/master/Tools/Air13IWL-ALCPlugFix.sh)"
   ```
+  **安装后 : 系统设置 - 隐私与安全 - 麦克风 - ALCPlugFix 打开 , 系统设置 - 通用 - 登陆项 - 允许在后台 - ALCPlugfix 打开**
+
+- 安装 sleepwatcher 和 blueutil 来修复蓝牙睡眠唤醒后异常问题 , 它在睡眠时关闭蓝牙唤醒时重新打开 , 终端使用以下命安装或卸载 sleepwatcher
+  ```bash
+  bash -c "$(curl -fsSL https://gitee.com/xlivans/Air13IWL/raw/master/Tools/BlueSleepFix.sh)"
+  ```
+  **安装后 : 系统设置 - 隐私与安全 - 输入监控 - sleepwatcher 打开 , 系统设置 - 通用 - 登陆项 - 允许在后台 - sleepwatcher 打开**
 
 ## 鸣谢
 - **Acidanthera** 提供 [OpenCore](https://github.com/acidanthera/OpenCorePkg) 和 [相关驱动](https://github.com/acidanthera)
