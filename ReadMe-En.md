@@ -6,7 +6,7 @@
 | Spec           | Detailed information                                                |
 | -------------- | ------------------------------------------------------------------- |
 | Model          |  Lenovo Air 13 IWL / Ideapad S530-13 IWL                            |
-| OS             | MacBookPro15,4 (Ventura 13 / Monterey 12 / Big Sur 11/ Catalina 10.15) |
+| OS             | MacBookPro15,4 (macOS 15 / 14 / 13 / 12 / 11 / 10.15) |
 | CPU            | Intel Core i5 - 8265U / i7-8565U                                    |
 | RAM            | 8GB / 16GB LPDDR3 1867MHz                                           |
 | Memory         | Nvme SSD 256G / 512G                                         |
@@ -18,6 +18,10 @@
 - Installation Tutorial: [[**Black Fruit Creeps Tribe Pavilion**]: Lenovo Air 13 / Ideapad S530-13 IWL macOS Mojave installation tutorial](https://blog.daliansky.net/Lenovo-Xiaoxin-Air-13-macOS-Mojave-installation-tutorial.html)
 - Mirror download: [[**Black Fruit Creeps Tribal Pavilion**]: [Black Fruit Creeps] Original mirror](https://blog.daliansky.net/categories/下载/镜像/)
 - EFI Releases Download : [Gitee](https://gitee.com/xlivans/Air13IWL/releases) , [GitHub](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/releases) , [Tencent Micro Cloud](https://share.weiyun.com/5yMO9jB)
+- How to use Sonoma 14 and Sequoia 15
+  - Delete /EFI/OC/Config.plist
+  - Rename the file Config_14_15.plist in the same directory to Config.plist
+  - If Broadcom WiFi fails, please carefully install [OCLP](https://github.com/dortania/OpenCore-Legacy-Patcher/releases) according to the [documentation](https://dortania.github.io/OpenCore-Legacy-Patcher/) to resolve the issue
 - [Hot patch information](HotPatch/ReadMe.md)
 - [Configuration information](Config.md)
 - [Changelog](Changelog.md)

@@ -1,3 +1,12 @@
+# Air13IWL-OC-3.4.0
+
+- 更新 OpenCore 版本至 Releases - 1.0.5
+- 更新部分驱动至最新 Rele本ases 版
+- Sonoma 14 和 Sequoia 15 的使用方法
+  - 删除 /EFI/OC/Config.plist
+  - 把同目录 Config_14_15.plist 更名为 Config.plist
+  - 博通 WiFi 失效 , 自行谨慎按 [文档](https://dortania.github.io/OpenCore-Legacy-Patcher/) 安装 [OCLP](https://github.com/dortania/OpenCore-Legacy-Patcher/releases) 解决  
+
 # Air13IWL-OC-3.3.0
 
 - 更新 OpenCore 版本至 Releases - 1.0.0

@@ -6,7 +6,7 @@
 | 规格     | 详细信息                                                     |
 | -------- | ------------------------------------------------------------ |
 | 电脑型号 | 联想小新 Lenovo Air 13 IWL 笔记本电脑 |
-| 机型系统 | MacBookPro15,4 (Ventura 13 / Monterey 12 / Big Sur 11/ Catalina 10.15) |
+| 机型系统 | MacBookPro15,4 (macOS 15 / 14 / 13 / 12 / 11 / 10.15) |
 | 处理器   | 英特尔 酷睿 i5 - 8265U / i7-8565U |
 | 内存     | 8GB / 16GB LPDDR3 1867MHz |
 | 硬盘     | Nvme SSD 256G / 512G |
@@ -18,6 +18,10 @@
 - 安装教程 : [[**黑果小兵的部落阁**] : 联想小新Air 13安装黑苹果兼macOS Mojave安装教程](https://blog.daliansky.net/Lenovo-Xiaoxin-Air-13-macOS-Mojave-installation-tutorial.html)
 - 镜像下载 : [[**黑果小兵的部落阁**] :【黑果小兵】原版镜像](https://blog.daliansky.net/categories/下载/镜像/)
 - EFI Releases 下载 : [Gitee](https://gitee.com/xlivans/Air13IWL/releases) , [GitHub](https://github.com/daliansky/Lenovo-Air13-IWL-Hackintosh/releases) , [腾讯微云](https://share.weiyun.com/5yMO9jB)
+- Sonoma 14 和 Sequoia 15 的使用方法
+  - 删除 /EFI/OC/Config.plist
+  - 把同目录 Config_14_15.plist 更名为 Config.plist
+  - 博通 WiFi 失效 , 自行谨慎按 [文档](https://dortania.github.io/OpenCore-Legacy-Patcher/) 安装 [OCLP](https://github.com/dortania/OpenCore-Legacy-Patcher/releases) 解决  
 - [热补丁信息](HotPatch/ReadMe.md)
 - [配置信息](Config.md)
 - [更新日志](Changelog.md)
